@@ -1,33 +1,33 @@
 # Tone-Research
+This repo contains functions and files which all work together to request data from an API, use that data to grab text from articles. Score the articles with IBM Tone Analyzer, and then store them into CSV's and class objs where we can analyze and plot the data. The tasks listed are delegated througout the .py files included in the repo. 
 
-These functions and files all work together to request data from an API, use that data to grab text from articles. Score the articles with IBM Tone Analyzer, and then store them into CSV's and class objs where we can analyze and plot the data. 
 
+# Getting Started
 The necessary libraries in total are
-
 ********************************************************
-import json
-import requests
-import pyjq
-from bs4 import BeautifulSoup
-import nltk
-import string
-from nltk.tokenize import word_tokenize
-from nltk.probability import FreqDist
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, RegexpTokenizer
-import csv
-from ibm_watson import ToneAnalyzerV3
-from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
-import matplotlib.pyplot as plt
-import numpy as np
-import matplotlib.ticker as ticker
-import re
-import glob
-from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
-import os
-import pandas as pd
-import statistics as stat
-from natsort import natsorted, ns
+* import json
+* import requests
+* import pyjq
+* from bs4 import BeautifulSoup
+* import nltk
+* import string
+* from nltk.tokenize import word_tokenize
+* from nltk.probability import FreqDist
+* from nltk.corpus import stopwords
+* from nltk.tokenize import word_tokenize, RegexpTokenizer
+* import csv
+* from ibm_watson import ToneAnalyzerV3
+* from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+* import matplotlib.pyplot as plt
+* import numpy as np
+* import matplotlib.ticker as ticker
+* import re
+* import glob
+* from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
+* import os
+* import pandas as pd
+* import statistics as stat
+* from natsort import natsorted, ns
 ***********************************************************
 
 However these are all used by different files/functions, this is just a master list of all libraries used.
