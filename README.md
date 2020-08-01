@@ -36,9 +36,9 @@ There is also a READCSV function which is not included in any of the files, but 
 
 **Overview**
 ***********************************************************
-__NewsAPI.py__ 
-  * This file deals with requesting data from an API, parsing that data and returning useful meta data.
-  * It also uses the meta data extracted to get the actual text from each article and instantiate article class objects. 
+1.__NewsAPI.py__ 
+  1.* This file deals with requesting data from an API, parsing that data and returning useful meta data.
+  1.* It also uses the meta data extracted to get the actual text from each article and instantiate article class objects. 
 __ToneAnalyzer.py__
   * This file contains code that will take text gathered by the API and send it to the IBM Tone Analyzer.
   * It is also used to take the output of the IBM API and add the scores to article class objects. 
