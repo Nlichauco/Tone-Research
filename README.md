@@ -34,7 +34,7 @@ However these are all used by different files/functions, this is just a master l
 
 There is also a READCSV function which is not included in any of the files, but it is in Maine.py, I didn't include this function becuase you need to download the WKWSCI lexicon, and store it in the 'current' directory in order to use it. We could also just not use the lexicon anymore as we are primarily using IBM Tone Analyzer for meaningful data.
 
-**Overview**
+**File Description**
 ***********************************************************
 __NewsAPI.py__ 
   * This file deals with requesting data from an API, parsing that data and returning useful meta data.
