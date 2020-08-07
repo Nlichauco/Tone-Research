@@ -141,3 +141,4 @@ ax.legend()
 #plt.scatter()
 
 plt.show()
+# The plot is shown in the GFex.png file 
