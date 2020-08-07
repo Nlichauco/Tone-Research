@@ -4,7 +4,42 @@ import requests
 from bs4 import BeautifulSoup
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, RegexpTokenizer
+from datetime import timedelta, date
 # Basic functions for querying NYT API, parsing json, insantiating article class objs, and returning texts for Tone Analyzer
+
+
+
+"""Get dates to iterate through for API query.
+
+   endDates gets all of the end dates for weeks from the 1st of Jan to the 29 of July.
+   StartDates does the same thing except, the date of the beginning of the week.
+
+    Args:
+        None
+
+    Returns:
+         A list of dates that can be used as variables in the query"""
+def endDates():
+    def daterange(date1, date2):
+        for n in range(6,int ((date2 - date1).days)+1,7):
+            yield date1 + timedelta(n)
+    e_dates=[]
+    start_dt = date(2020, 1, 1)
+    end_dt = date(2020, 7, 29)
+    for dt in daterange(start_dt, end_dt):
+        e_dates.append(dt.strftime("%m%d"))
+    return e_dates
+
+def StartDates():
+    def daterange(date1, date2):
+        for n in range(0,int ((date2 - date1).days),7):
+            yield date1 + timedelta(n)
+    s_dates=[]
+    start_dt = date(2020, 1, 1)
+    end_dt = date(2020, 7, 29)
+    for dt in daterange(start_dt, end_dt):
+        s_dates.append(dt.strftime("%m%d"))
+    return s_dates
 
 
 """
