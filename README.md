@@ -32,6 +32,11 @@ The necessary libraries in total are
 
 However these are all used by different files/functions, this is just a master list of all libraries used.
 
+# Data Collection
+
+
+![image](https://user-images.githubusercontent.com/48927902/102701691-91ab1c00-4227-11eb-9346-720782ba4069.png)
+
 
 **File Description**
 ***********************************************************
@@ -63,5 +68,8 @@ __GitDemo.py__
 
 All you actually need for data collection, is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is the how I have been grabbing and saving data.
 
-![DataCollection.pdf](https://github.com/Nlichauco/Tone-Research/files/5720271/DataCollection.pdf)
+
+
+
+
 
