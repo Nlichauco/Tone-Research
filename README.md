@@ -63,3 +63,5 @@ __GitDemo.py__
 
 All you actually need for data collection, is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is the how I have been grabbing and saving data.
 
+[DataCollection.pdf](https://github.com/Nlichauco/Tone-Research/files/5720271/DataCollection.pdf)
+
