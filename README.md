@@ -56,7 +56,7 @@ __RoughPlotting.py__
   * Contains the rough code for plotting the type of graph we want (scatter with dotted connected lines).
   * Still need to make this file more variable as it is not a function currently. 
 ************************************  
-__Maine.py__
+__GitDemo.py__
   * This is what all of the above files look like in action working together. 
   * This file effectively calls the API through a give range of dates, and creates CSVs for each response. 
   * Plotting and Week class objects are not currently used here. 
