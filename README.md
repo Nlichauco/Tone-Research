@@ -32,7 +32,6 @@ The necessary libraries in total are
 
 However these are all used by different files/functions, this is just a master list of all libraries used.
 
-There is also a READCSV function which is not included in any of the files, but it is in Maine.py, I didn't include this function becuase you need to download the WKWSCI lexicon, and store it in the 'current' directory in order to use it. We could also just not use the lexicon anymore as we are primarily using IBM Tone Analyzer for meaningful data.
 
 **File Description**
 ***********************************************************
@@ -62,4 +61,5 @@ __GitDemo.py__
   * Plotting and Week class objects are not currently used here. 
 ************************************  
 
+All you actually need for data collection, is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is the how I have been grabbing and saving data.
 
