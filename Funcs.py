@@ -566,3 +566,27 @@ def StartDates():
     for dt in daterange(start_dt, end_dt):
         s_dates.append(dt.strftime("%m-%d"))
     return s_dates
+
+
+
+"""Creates an list of rolling 7 day averages for plotting
+
+    Args:
+        filename: name of csv file you would like to read
+
+    Returns:
+         A list of covid case numbers."""
+
+def RollAvg(filename):
+    avgs=[]
+    with open (filename) as csv_file:
+        csv_reader=csv.reader(csv_file,delimiter=',')
+        line_count=0
+        for row in csv_reader:
+            if line_count==0:
+                line_count+=1
+            else:
+                line_count+=1
+                if line_count%7==0:
+                    avgs.append(int(int(row[1])/line_count))
+    return avgs
