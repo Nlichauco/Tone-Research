@@ -66,7 +66,7 @@ __GitDemo.py__
   * Plotting and Week class objects are not currently used here. 
 ************************************  
 
-All you actually need for data collection, is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is the how I have been grabbing and saving data.
+All you actually need for data collection is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is how I have been grabbing and saving data.
 
 
 
