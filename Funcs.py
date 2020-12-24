@@ -1,31 +1,24 @@
-import json
-import requests
-import pyjq
-from bs4 import BeautifulSoup
-import nltk
-import string
-from nltk.tokenize import word_tokenize
-from nltk.probability import FreqDist
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, RegexpTokenizer
 import csv
-from ibm_watson import ToneAnalyzerV3
-from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
-import matplotlib.pyplot as plt
-import numpy as np
-import matplotlib.ticker as ticker
-import re
-import glob
-from matplotlib.ticker import (AutoMinorLocator, MultipleLocator)
 import os
-import pandas as pd
 import statistics as stat
-from natsort import natsorted, ns
 from datetime import timedelta, date
 
+import nltk
+import pandas as pd
+import pyjq
+import requests
+from bs4 import BeautifulSoup
+from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
+from ibm_watson import ToneAnalyzerV3
+from natsort import natsorted
+from nltk.corpus import stopwords
+from nltk.probability import FreqDist
 
-
-
+# import ssl
+# ssl._create_default_https_context = ssl._create_unverified_context
+# nltk.download('punkt')
+from entity.Article import Article
+from entity.Week import Week
 
 """
 Gets averages of given list of week class objects.
@@ -75,7 +68,7 @@ def CreateCSV(articles,fname,scores):
         for a in articles:
             #writer.writerow([a.source, a.published,a.url,scores[count]," ",%.2f,a.fear,a.joy,a.sadness,a.analytical,a.confidence,a.tentative])
             writer.writerow([a.source, a.published,a.url,scores[rcount]," ",a.anger,a.fear,a.joy,a.sadness,a.analytical,a.confidence,a.tentative])
-            rcount+=1
+            # rcount+=1
 
 
 """
@@ -124,62 +117,18 @@ def ReadSection(path):
 
 
 
-class toneStat:
-    """toneStat class which can grab median, max and avg from a weeks dataset.
 
-    The toneStat class is inside the weeks class, it is used to get stats about the week.
+"""
+Writes data from Weeks class to CSV.
 
-    Attributes:
-        Tone: Each toneStat class obj is responsible for one tone, the 'Tone' attribute holds the label to keep track of tones.
-        Tone_Scores: the array which holds all scores associated with the Tone.
-    """
-    def __init__(self,tonename):
-        self.Tone=tonename
-        self.Tone_scores=[]
-    def add_score(self,score):
-        #add a tone score to the array
-        self.Tone_scores.append(score)
-    def get_mean(self):
-        sum=0
-        count=0
-        for score in self.Tone_scores:
-            if score>.5:
-                sum+=score
-                count+=1
-        if sum!=0:
-            return (sum/count)
-        else:
-            return .5
-    def get_median(self):
-        return stat.median(self.Tone_scores)
-    def get_max(self):
-        return max(self.Tone_scores)
-    def get_perc(self):
-        total=len(self.Tone_scores)
-        if total==0:
-            return 0
-        else:
-            sum=0
-            for num in self.Tone_scores:
-                if num > .5:
-                    sum+=1
-            return (sum/total)
+Creates CSV with week by week data of a the current "section" (i.e. ('sports','science','buisness'))
 
+Args:
+    Weeks: A list of week class objects.
+    Section: The new desk where the data was taken from, this will be the label of the csv.
 
-
-
-
-    """
-    Writes data from Weeks class to CSV.
-
-    Creates CSV with week by week data of a the current "section" (i.e. ('sports','science','buisness'))
-
-    Args:
-        Weeks: A list of week class objects.
-        Section: The new desk where the data was taken from, this will be the label of the csv.
-
-    Returns:
-        Nothing. Writes a 'section'.csv file in the current directory."""
+Returns:
+    Nothing. Writes a 'section'.csv file in the current directory."""
 
 def weekwrite(weeks,section):
     fname=section+".csv"
@@ -210,63 +159,6 @@ def weekwrite(weeks,section):
             Tenta_max=week.Tenta.get_max()
             Tenta_mean=week.Tenta.get_mean()
             writer.writerow([week.weekname, Anger_max,Anger_median,Anger_mean,Sad_max,Sad_median,Sad_mean,Fear_max,Fear_median,Fear_mean,Joy_max,Joy_median,Joy_mean,Analy_max,Analy_median,Analy_mean,Confi_max,Confi_median,Confi_mean,Tenta_max,Tenta_median,Tenta_mean])
-
-
-class Week:
-    """Week class which holds all tone data from a singular week.
-
-    Week class has all tone data for that week.
-
-  Attributes:
-      weekname: weekname is there to be able to identiy different weeks.
-      List_Arts: A list of article class objects.
-     """
-
-    def __init__(self, week_name):
-        self.weekname=week_name
-        self.List_Arts=list()
-        self.Sadness=toneStat("Sadness")
-        self.Anger=toneStat("Anger")
-        self.Tenta=toneStat("Tenta")
-        self.Joy=toneStat("Joy")
-        self.Analy=toneStat("Analy")
-        self.Confi=toneStat("Confi")
-        self.Fear=toneStat("Fear")
-
-    def add_Art(self, art):
-        #Add an article to the week, this function updates all scores for the week with the incoming articles data.
-        self.List_Arts.append(art)
-        self.Analy.add_score(art.analytical)
-        self.Sadness.add_score(art.sadness)
-        self.Confi.add_score(art.confidence)
-        self.Anger.add_score(art.anger)
-        self.Tenta.add_score(art.tentative)
-        self.Fear.add_score(art.fear)
-        self.Joy.add_score(art.joy)
-
-
-"""
-Class Article
--Scores set to .5 by default
-"""
-class Article:
-    def __init__(self, source, date,url):
-        self.source=source
-        self.published=date
-        self.url=url
-        self.analytical=.5
-        self.sadness=.5
-        self.confidence=.5
-        self.anger=.5
-        self.tentative=.5
-        self.fear=.5
-        self.joy=.5
-
-
-
-
-
-
 
 
 """Tokenizes string of text.
@@ -330,8 +222,9 @@ def GetText(urls):
         for p in paragraphs:
             words=p.get_text()
             text=text+" "+words
-        Sentex=tokenize(text)
-        tokenized_text.append(Sentex)
+        # Sentex=tokenize(text)
+        # tokenized_text.append(Sentex)
+        tokenized_text.append('s')
         #print(text, "\n")
         #blob.append(text[200:len(text)-360])
         blob.append(text)

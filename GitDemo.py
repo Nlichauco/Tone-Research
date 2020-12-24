@@ -23,9 +23,10 @@ def StartDates():
     return s_dates
 
 
-newdict=DictCSV("wkwlex.tab",0,2)
+# newdict=DictCSV("wkwlex.tab",0,2)
 s_dates=StartDates()
 e_dates=endDates()
+scores = []
 for i in range(0,len(s_dates)):
     fname="week"+str(i)+".csv"
     que="""https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&page=0&fq=news_desk:("Politics")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020"""+s_dates[i]+"&end_date=2020"+e_dates[i]+"&api-key=d6ZZ3CclPNtLfkZid9iUvs6HpYLEbehl"
@@ -37,8 +38,9 @@ for i in range(0,len(s_dates)):
         continue
     print("made it past")
     texts,token_texts=GetText(urls)
+    scores.append(1)
     #texts for the IBM tone analyzer, token_texts for the lexicon score.
-    scores=GetScore(token_texts,newdict)
+    # scores=GetScore(token_texts,newdict)
     #Get scores from the lexicon, this may or may not be removed, just because we aren't really using it.
     articles=createArts(articles,texts)
     CreateCSV(articles,fname,scores)
