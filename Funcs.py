@@ -222,11 +222,17 @@ def GetText(urls):
         for p in paragraphs:
             words=p.get_text()
             text=text+" "+words
+<<<<<<< HEAD
         # Sentex=tokenize(text)
         # tokenized_text.append(Sentex)
         tokenized_text.append('s')
+=======
+        #Sentex=tokenize(text)
+        #tokenized_text.append(Sentex)
+>>>>>>> 4050db8169f75261419f3a60ef55189031d73aa1
         #print(text, "\n")
         #blob.append(text[200:len(text)-360])
+        tokenized_text.append('s')
         blob.append(text)
         #print(text[200:len(text)-360],"/n")
     return blob, tokenized_text

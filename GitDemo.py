@@ -44,3 +44,4 @@ for i in range(0,len(s_dates)):
     #Get scores from the lexicon, this may or may not be removed, just because we aren't really using it.
     articles=createArts(articles,texts)
     CreateCSV(articles,fname,scores)
+
