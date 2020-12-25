@@ -222,14 +222,14 @@ def GetText(urls):
         for p in paragraphs:
             words=p.get_text()
             text=text+" "+words
-<<<<<<< HEAD
+
         # Sentex=tokenize(text)
         # tokenized_text.append(Sentex)
         tokenized_text.append('s')
-=======
+
         #Sentex=tokenize(text)
         #tokenized_text.append(Sentex)
->>>>>>> 4050db8169f75261419f3a60ef55189031d73aa1
+
         #print(text, "\n")
         #blob.append(text[200:len(text)-360])
         tokenized_text.append('s')
@@ -444,26 +444,32 @@ def createArts(articles,texts):
     Returns:
          A list of dates."""
 
-def endDates():
+def endDates(Source):
     def daterange(date1, date2):
         for n in range(6,int ((date2 - date1).days)+1,7):
             yield date1 + timedelta(n)
     e_dates=[]
-    start_dt = date(2020, 1, 1)
-    end_dt = date(2020, 7, 29)
+    start_dt = date(2020, 3, 1)
+    end_dt = date(2020, 12, 26)
     for dt in daterange(start_dt, end_dt):
-        e_dates.append(dt.strftime("%m-%d"))
+        if Source=="G":
+            e_dates.append(dt.strftime("%m-%d"))
+        elif Source=="NY":
+            e_dates.append(dt.strftime("%m%d"))
     return e_dates
 
-def StartDates():
+def StartDates(Source):
     def daterange(date1, date2):
         for n in range(0,int ((date2 - date1).days),7):
             yield date1 + timedelta(n)
     s_dates=[]
-    start_dt = date(2020, 1, 1)
-    end_dt = date(2020, 7, 29)
+    start_dt = date(2020, 3, 1)
+    end_dt = date(2020, 12, 26)
     for dt in daterange(start_dt, end_dt):
-        s_dates.append(dt.strftime("%m-%d"))
+        if Source=="G":
+            s_dates.append(dt.strftime("%m-%d"))
+        elif Source=="NY":
+            s_dates.append(dt.strftime("%m%d"))
     return s_dates
 
 
