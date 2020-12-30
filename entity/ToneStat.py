@@ -1,4 +1,4 @@
-import stat
+import statistics as stat
 
 
 class toneStat:
