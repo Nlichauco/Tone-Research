@@ -49,7 +49,7 @@ class ToneStat:
             return my_sum / total
      def get_total(self):
         total=0
-        for socre in self.Tone_scores:
+        for score in self.Tone_scores:
             if score>.5:
                 total+=score
         if total==0:
