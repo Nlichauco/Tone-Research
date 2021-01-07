@@ -65,6 +65,11 @@ __GitDemo.py__
   * This file effectively calls the API through a give range of dates, and creates CSVs for each response. 
   * Plotting and Week class objects are not currently used here. 
 ************************************  
+__Compiling__
+  * This is what all of the above files look like in action working together. 
+  * This file effectively calls the API through a give range of dates, and creates CSVs for each response. 
+  * Plotting and Week class objects are not currently used here. 
+************************************  
 
 All you actually need for data collection is the GitDemo file and Funcs.py, Funcs.py includes all of the necesary functions for GitDemo, and GitDemo is how I have been grabbing and saving data.
 
