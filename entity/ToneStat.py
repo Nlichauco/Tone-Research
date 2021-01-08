@@ -47,11 +47,12 @@ class ToneStat:
                 if num > .5:
                     my_sum += 1
             return my_sum / total
-     def get_total(self):
-        total=0
+
+    def get_total(self):
+        total = 0
         for score in self.Tone_scores:
-            if score>.5:
-                total+=score
-        if total==0:
+            if score > .5:
+                total += score
+        if total == 0:
             return .5
-        return total   
+        return total

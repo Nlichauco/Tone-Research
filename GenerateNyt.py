@@ -17,7 +17,7 @@ def fetch_from_nyt(que, file_name):
     if amt < 1:
         # If there are no articles returned skip to the next week.
         return
-    texts, token_texts = get_text(urls)
+    texts = get_text(urls)
     articles = create_arts(articles, texts)
     create_csv(articles, file_name)
 
@@ -133,7 +133,7 @@ def demo():
     for i in range(0, len(s_dates)):
         file_name = s_dates[i][:2] + "." + s_dates[i][2:] + "-" + e_dates[i][:2] + "." + e_dates[i][2:] + ".csv"
         que = """https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&page=0&fq=news_desk:(
-        "Health")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020""" + \
+        "OpEd")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020""" + \
               s_dates[i] + "&end_date=2020" + e_dates[i] + "&api-key=aiPyJZEGATr7l0XfQGsBpQ3loDqzteIC"
         fetch_from_nyt(que, file_name)
 
