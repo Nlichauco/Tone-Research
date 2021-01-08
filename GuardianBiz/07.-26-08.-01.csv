@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-07-31T07:19:56Z,https://www.theguardian.com/business/2020/jul/31/natwest-pushed-to-loss-by-coronavirus-crisis,1, ,0.5,0.5,0.5,0.65714,0.75241,0.5,0.5
+Guardian,2020-07-31T13:07:11Z,https://www.theguardian.com/business/2020/jul/31/eurozone-economy-shrinks-by-record-121-due-to-coronavirus-crisis,1, ,0.5,0.6099,0.5,0.629901,0.54012,0.5,0.54983
+Guardian,2020-07-28T11:40:58Z,https://www.theguardian.com/business/2020/jul/28/coronavirus-pandemic-spurs-sales-surge-for-makers-of-dettol,1, ,0.5,0.5,0.5,0.557841,0.5,0.5,0.5
+Guardian,2020-07-31T16:49:04Z,https://www.theguardian.com/world/2020/jul/31/how-covid-19-has-reshaped-the-jobs-landscape-in-the-uk,1, ,0.5,0.5,0.5,0.511866,0.715447,0.5,0.5
+Guardian,2020-07-27T09:47:40Z,https://www.theguardian.com/business/2020/jul/27/gold-price-record-coronavirus-economy-us-china,1, ,0.5,0.61901,0.5,0.5,0.753134,0.5,0.5
+Guardian,2020-07-30T19:16:47Z,https://www.theguardian.com/business/2020/jul/30/us-gdp-report-four-key-takeaways,1, ,0.5,0.5,0.5,0.591712,0.5,0.5,0.626556
+Guardian,2020-07-26T14:51:18Z,https://www.theguardian.com/business/2020/jul/26/natwest-customers-say-accounts-closed-applied-for-coronavirus-bounce-back-loans,1, ,0.5,0.5,0.5,0.581653,0.620654,0.5,0.5
+Guardian,2020-07-26T16:47:45Z,https://www.theguardian.com/business/2020/jul/26/debenhams-up-for-sale-in-last-ditch-bid-to-avoid-liquidation,1, ,0.5,0.5,0.5,0.557593,0.5,0.5,0.5
+Guardian,2020-07-29T09:58:16Z,https://www.theguardian.com/business/2020/jul/29/aston-martins-losses-soar-to-227m-in-first-half-of-2020,1, ,0.5,0.5,0.5,0.522309,0.786384,0.5,0.5
+Guardian,2020-07-31T16:04:15Z,https://www.theguardian.com/business/2020/jul/31/frustrated-companies-fume-at-boris-johnson-england-coronavirus-lockdown-u-turn,1, ,0.6714,0.5,0.526703,0.55897,0.590302,0.5,0.51689

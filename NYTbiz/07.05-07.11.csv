@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-07-10T09:01:00+0000,https://www.nytimes.com/2020/07/10/business/economy/california-economy-coronavirus.html,1, ,0.5,0.5,0.5,0.577944,0.514402,0.5,0.652583
+The New York Times,2020-07-09T19:59:09+0000,https://www.nytimes.com/2020/07/09/business/economy/unemployment-claims-coronavirus.html,1, ,0.5,0.518297,0.5,0.560599,0.527694,0.5,0.687435
+The New York Times,2020-07-10T17:43:58+0000,https://www.nytimes.com/2020/07/10/business/economy/britain-jobs-plan-layoffs.html,1, ,0.5,0.5,0.513294,0.569052,0.543689,0.5,0.5
+The New York Times,2020-07-10T13:00:10+0000,https://www.nytimes.com/article/2020-tax-day.html,1, ,0.5,0.5,0.5,0.5,0.503164,0.5,0.747478
+The New York Times,2020-07-09T19:29:41+0000,https://www.nytimes.com/2020/07/09/business/economy/federal-reserve-treasury-main-street.html,1, ,0.5,0.5,0.508666,0.553288,0.585086,0.5,0.61873
+The New York Times,2020-07-08T19:07:18+0000,https://www.nytimes.com/2020/07/08/business/britain-workers-pandemic.html,1, ,0.5,0.5,0.510277,0.556721,0.5,0.5,0.5
+The New York Times,2020-07-11T07:00:07+0000,https://www.nytimes.com/2020/07/11/your-money/coronavirus-eviction-prevention-renters-landlord.html,1, ,0.5,0.5,0.5,0.535271,0.631957,0.5,0.89758
+The New York Times,2020-07-10T13:00:12+0000,https://www.nytimes.com/2020/07/10/your-money/auctions-wealth-coronavirus.html,1, ,0.5,0.5,0.60136,0.528668,0.5,0.5,0.576129
+The New York Times,2020-07-08T09:00:35+0000,https://www.nytimes.com/2020/07/08/business/coronavirus-disney-world-reopening.html,1, ,0.5,0.5,0.539687,0.507329,0.547217,0.5,0.503468
+The New York Times,2020-07-07T18:12:40+0000,https://www.nytimes.com/2020/07/07/business/EU-OECD-coronavirus-economic-reports.html,1, ,0.5,0.5,0.5,0.631257,0.5,0.5,0.548366

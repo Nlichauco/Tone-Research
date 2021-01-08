@@ -6,11 +6,7 @@ import pandas as pd
 paths=['/Users/nathaniel/Desktop/Tone-Research/GuardianOped','/Users/nathaniel/Desktop/Tone-Research/GuardianPol','/Users/nathaniel/Desktop/Tone-Research/GuardianSci']
 def bigCSV(paths):
     for path in paths:
-        section=""
-        for i in range(len(path)-1,0,-1):
-            if path[i]=="/":
-                break
-            section=path[i]+section
+        section = path[path.rfind('/') + 1:]
         weeks=ReadSection(path)
         weekwrite(weeks,section)
 
@@ -29,9 +25,14 @@ def GetToneAvgs(filename):
     return Sad_mean,Fear_mean,Anger_mean,Tenta_mean,Joy_mean,Confi_mean,Analy_mean
 
 
-Sad_mean,Fear_mean,Anger_mean,Tenta_mean,Joy_mean,Confi_mean,Analy_mean=GetToneAvgs("GuardianSci")
-
-print(Sad_mean)
+#Sad_mean,Fear_mean,Anger_mean,Tenta_mean,Joy_mean,Confi_mean,Analy_mean=GetToneAvgs("GuardianSci")
+path='/Users/nathaniel/Desktop/Tone-Research/GuardianBiz'
+#section = path[path.rfind('/') + 1:]
+#weeks=ReadSection(path)
+#weekwrite(weeks,section)
+bigCSV(paths)
+#RollAvg("us.csv")
+#print(Sad_mean)
 
 #print(df.keys())
 #print(df.Sad_avg)

@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-09T07:00:23+0000,https://www.nytimes.com/2020/05/09/business/economy/coronavirus-unemployment.html,1, ,0.5,0.5,0.5,0.590174,0.5,0.5,0.61171
+The New York Times,2020-05-05T13:00:09+0000,https://www.nytimes.com/2020/05/05/business/coronavirus-live-leave.html,1, ,0.5,0.5,0.5,0.5,0.680511,0.5,0.528566
+The New York Times,2020-05-04T09:06:52+0000,https://www.nytimes.com/2020/05/04/business/coronavirus-china-vaccine.html,1, ,0.5,0.5,0.530726,0.518448,0.641184,0.5,0.5
+The New York Times,2020-05-07T14:27:49+0000,https://www.nytimes.com/2020/05/07/business/media/advertising-coronavirus-news.html,1, ,0.5,0.567142,0.5,0.556855,0.704891,0.5,0.550006
+The New York Times,2020-05-07T14:04:49+0000,https://www.nytimes.com/2020/05/07/technology/amazon-coronavirus-whistleblowers.html,1, ,0.5,0.5,0.5,0.521556,0.564446,0.5,0.576766
+The New York Times,2020-05-08T22:33:37+0000,https://www.nytimes.com/2020/05/08/business/economy/tesla-coronavirus-factory-alameda.html,1, ,0.5,0.5,0.5,0.5,0.68014,0.5,0.5
+The New York Times,2020-05-08T16:37:05+0000,https://www.nytimes.com/2020/05/08/technology/coronavirus-tv-movie-habits.html,1, ,0.5,0.5,0.550319,0.570116,0.567791,0.5,0.694615
+The New York Times,2020-05-09T18:40:14+0000,https://www.nytimes.com/2020/05/09/business/coronavirus-elon-musk-tesla-california.html,1, ,0.5,0.5,0.551446,0.5,0.59523,0.5,0.618913
+The New York Times,2020-05-08T10:50:07+0000,https://www.nytimes.com/2020/05/08/business/us-china-trade-coronavirus.html,1, ,0.5,0.5,0.530206,0.526242,0.634016,0.5,0.520016
+The New York Times,2020-05-08T18:38:46+0000,https://www.nytimes.com/2020/05/08/technology/coronavirus-work-from-home.html,1, ,0.5,0.5,0.53836,0.5,0.503363,0.5,0.5

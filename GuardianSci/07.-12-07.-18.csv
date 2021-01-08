@@ -1,0 +1,6 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-07-14T09:22:22Z,https://www.theguardian.com/science/2020/jul/14/baby-boy-infected-with-coronavirus-in-womb,1, ,0.5,0.527387,0.541579,0.505659,0.545727,0.5,0.5
+Guardian,2020-07-16T16:11:31Z,https://www.theguardian.com/science/2020/jul/16/coronavirus-vaccine-oxford-team-volunteers-lab-controlled-human-challenge-trial,1, ,0.5,0.5,0.556609,0.5,0.760734,0.5,0.556406
+Guardian,2020-07-13T05:00:03Z,https://www.theguardian.com/science/2020/jul/13/laboratory-mice-cull-coronavirus-researchers-vivisection,1, ,0.5,0.527057,0.55048,0.537167,0.5,0.5,0.709003
+Guardian,2020-07-13T06:01:02Z,https://www.theguardian.com/science/2020/jul/13/heart-scans-of-covid-19-patients-show-range-of-abnormalities,1, ,0.5,0.537424,0.5,0.677032,0.838837,0.5,0.5
+Guardian,2020-07-16T11:37:25Z,https://www.theguardian.com/science/2020/jul/16/covid-19-vaccine-what-have-we-learned-from-oxford-phase-one-trial,1, ,0.5,0.5,0.585665,0.5,0.878952,0.5,0.5

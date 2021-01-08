@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-09-08T17:28:22Z,https://www.theguardian.com/politics/2020/sep/08/uks-public-spending-watchdog-estimates-210bn-coronavirus-bill,1, ,0.5,0.5,0.5,0.5,0.697091,0.5,0.5
+Guardian,2020-09-09T19:00:29Z,https://www.theguardian.com/business/2020/sep/09/goldman-sachs-return-to-work-coronavirus-office,1, ,0.5,0.5,0.5,0.5,0.527937,0.5,0.820919
+Guardian,2020-09-11T07:41:00Z,https://www.theguardian.com/business/2020/sep/11/hopeful-cautious-business-owners-on-uk-recovery-coronavirus,1, ,0.5,0.5,0.519867,0.551084,0.51334,0.5,0.677777
+Guardian,2020-09-07T10:20:01Z,https://www.theguardian.com/business/2020/sep/07/pizza-express-full-list-of-restaurants-to-close,1, ,0.5,0.5,0.549357,0.5,0.5,0.5,0.5
+Guardian,2020-09-09T23:01:27Z,https://www.theguardian.com/business/2020/sep/10/make-jobs-higher-priority-gordon-brown-tells-bank-of-england,1, ,0.5,0.5,0.5,0.629019,0.501128,0.5,0.5
+Guardian,2020-09-08T07:10:05Z,https://www.theguardian.com/business/2020/sep/08/easyjet-cut-flights-uk-covid-quarantine-rules,1, ,0.5,0.5,0.5,0.576912,0.5,0.5,0.523435
+Guardian,2020-09-10T09:15:26Z,https://www.theguardian.com/business/2020/sep/10/oxford-covid-19-vaccine-is-still-possible-this-year-says-astrazeneca-chief,1, ,0.5,0.5,0.5,0.558622,0.781761,0.5,0.5
+Guardian,2020-09-08T18:03:45Z,https://www.theguardian.com/business/2020/sep/08/royal-mail-loss-parcels-covid-crisis-letters,1, ,0.5,0.5,0.5,0.567503,0.507047,0.5,0.5
+Guardian,2020-09-10T15:02:33Z,https://www.theguardian.com/business/2020/sep/10/lloyds-of-london-expects-5bn-in-covid-19-insurance-payouts,1, ,0.5,0.5,0.5,0.573885,0.691119,0.5,0.5
+Guardian,2020-09-09T08:32:31Z,https://www.theguardian.com/business/2020/sep/09/ryanair-cuts-passenger-target-and-writes-off-winter-travel-market-michael-oleary-covid-19,1, ,0.599117,0.5,0.5,0.5,0.556794,0.5,0.508001

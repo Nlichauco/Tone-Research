@@ -134,31 +134,21 @@ def weekwrite(weeks,section):
     fname=section+".csv"
     with open(fname, 'w', newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(["Week","Anger_max", "Anger_med","Anger_avg","Sad_max","Sad_median","Sad_avg","Fear_max","Fear_med","Fear_avg","Joy_max","Joy_med","Joy_avg","Analy_max","Analy_med","Analy_avg","Confi_max","Confi_med","Confi_avg","Tenta_max","Tenta_med","Tenta_avg"])
+        writer.writerow(["Week", "Anger_max", "Anger_med", "Anger_avg", "Anger_total", "Sad_max", "Sad_median", "Sad_avg",  "Sad_total", "Fear_max", "Fear_med",
+             "Fear_avg",  "Fear_total", "Joy_max", "Joy_med", "Joy_avg",  "Joy_total", "Analy_max", "Analy_med", "Analy_avg",  "Analy_total", "Confi_max",
+             "Confi_med", "Confi_avg",  "Confi_total", "Tenta_max", "Tenta_med", "Tenta_avg", "Tenta_total"])
         rcount=0
         for week in weeks:
-            Anger_median=week.Anger.get_median()
-            Anger_max=week.Anger.get_max()
-            Anger_mean=week.Anger.get_mean()
-            Sad_median=week.Sadness.get_median()
-            Sad_max=week.Sadness.get_max()
-            Sad_mean=week.Sadness.get_mean()
-            Fear_median=week.Fear.get_median()
-            Fear_max=week.Fear.get_max()
-            Fear_mean=week.Fear.get_mean()
-            Joy_median=week.Joy.get_median()
-            Joy_max=week.Joy.get_max()
-            Joy_mean=week.Joy.get_mean()
-            Analy_median=week.Analy.get_median()
-            Analy_max=week.Analy.get_max()
-            Analy_mean=week.Analy.get_mean()
-            Confi_median=week.Confi.get_median()
-            Confi_max=week.Confi.get_max()
-            Confi_mean=week.Confi.get_mean()
-            Tenta_median=week.Tenta.get_median()
-            Tenta_max=week.Tenta.get_max()
-            Tenta_mean=week.Tenta.get_mean()
-            writer.writerow([week.weekname, Anger_max,Anger_median,Anger_mean,Sad_max,Sad_median,Sad_mean,Fear_max,Fear_median,Fear_mean,Joy_max,Joy_median,Joy_mean,Analy_max,Analy_median,Analy_mean,Confi_max,Confi_median,Confi_mean,Tenta_max,Tenta_median,Tenta_mean])
+            writer.writerow(
+                [week.weekname, week.Anger.get_max(), week.Anger.get_median(), week.Anger.get_mean(), week.Anger.get_total(),
+                 week.Sadness.get_max(), week.Sadness.get_median(), week.Sadness.get_mean(), week.Sadness.get_total(), week.Fear.get_max(),
+                 week.Fear.get_median(), week.Fear.get_mean(), week.Fear.get_total(), week.Joy.get_max(), week.Joy.get_median(),
+                 week.Joy.get_mean(), week.Joy.get_total(), week.Analy.get_max(), week.Analy.get_median(), week.Analy.get_mean(),week.Analy.get_total(),
+                 week.Confi.get_max(),
+                 week.Confi.get_median(), week.Confi.get_mean(),week.Confi.get_total(), week.Tenta.get_max(), week.Tenta.get_median(),
+                 week.Tenta.get_mean(),week.Tenta.get_total()])
+
+            
 
 
 """Tokenizes string of text.
@@ -336,6 +326,41 @@ def Pull(que):
 #Function name, #What it does, #input/output
 
 
+def Gpull(que):
+
+    response = requests.get(que)
+    data = response.json()
+    #hits=pyjq.all('.hits',data)
+    #copyright=pyjq.all('.copyright',data)
+    dict={}
+    num_docs=pyjq.all('.response | .total',data)[0]
+    resp=num_docs
+    print(num_docs)
+    pquery='.response .results[].fields |  {stuff: .bodyText}'
+    #pquery='.response |  {stuff: .results[]}'
+    #print(hits)
+    query=f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
+    #pquery= f'.response .results [] | {{text: .fields["bodyText"]}}'
+    output=pyjq.all(query,data)
+    another=pyjq.all(pquery,data)
+    print(another)
+    arts=list()
+    urls=[]
+    body=[]
+    for i in range(len(another)):
+        dict=output[i]
+        texts=another[i]
+        source="Guardian"
+        date=dict["pub_date"]
+        url=dict["web_url"]
+        text=texts["stuff"]
+        if text!='':
+            body.append(text)
+            arts.append(Article(source,date,url))
+        #print(url)
+    return body,arts,resp
+
+
 """Use with the IBM tone api, updates article class objs
 
     Args:
@@ -484,7 +509,9 @@ def StartDates(Source):
 
 def RollAvg(filename):
     avgs=[]
-    with open (filename) as csv_file:
+    count=0
+    sum=0
+    with open (filename,'r') as csv_file:
         csv_reader=csv.reader(csv_file,delimiter=',')
         line_count=0
         for row in csv_reader:
@@ -492,6 +519,18 @@ def RollAvg(filename):
                 line_count+=1
             else:
                 line_count+=1
-                if line_count%7==0:
-                    avgs.append(int(int(row[1])/line_count))
-    return avgs
+                count+=1
+                cases=int(row[1])
+                sum+=cases
+                if count==7:
+                    avgs.append(sum/7)
+                    count=0
+                    sum=0
+
+
+    with open("UScovidAVG.csv", 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["cases"])
+        rcount=0
+        for num in avgs:
+            writer.writerow([int(num)])

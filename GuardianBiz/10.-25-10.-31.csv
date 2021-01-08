@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-10-28T20:24:00Z,https://www.theguardian.com/business/economics-blog/2020/oct/28/diversification-and-tech-sector-defend-against-the-october-effect,1, ,0.5,0.644068,0.553272,0.5,0.583092,0.5,0.638733
+Guardian,2020-10-31T11:45:00Z,https://www.theguardian.com/business/2020/oct/31/national-lockdown-devastate-england-hospitality-sector,1, ,0.5,0.5,0.5,0.585055,0.761504,0.5,0.51375
+Guardian,2020-10-29T17:39:21Z,https://www.theguardian.com/business/2020/oct/29/pizza-express-to-axe-1300-jobs-in-latest-cuts,1, ,0.5,0.5,0.5,0.593202,0.564087,0.5,0.5
+Guardian,2020-10-31T09:00:47Z,https://www.theguardian.com/business/2020/oct/31/low-and-no-alcohol-sales-soar-30-in-lockdown-as-uk-drinking-habits-change,1, ,0.5,0.5,0.694266,0.5,0.599315,0.5,0.5
+Guardian,2020-10-27T16:19:18Z,https://www.theguardian.com/business/2020/oct/27/bp-makes-100m-q3-profit-as-oil-markets-begin-to-recover,1, ,0.5,0.5,0.5,0.54689,0.617785,0.5,0.5
+Guardian,2020-10-29T14:40:04Z,https://www.theguardian.com/business/2020/oct/29/boost-public-spending-to-tackle-covid-second-wave-imf-tells-uk,1, ,0.5,0.5,0.563551,0.56752,0.547344,0.5,0.5
+Guardian,2020-10-25T12:12:07Z,https://www.theguardian.com/society/2020/oct/25/sunak-extend-universal-credit-forced-uturn-coronavirus,1, ,0.5,0.526813,0.5,0.546263,0.731623,0.5,0.734352
+Guardian,2020-10-27T08:28:06Z,https://www.theguardian.com/business/2020/oct/27/hsbc-plans-cost-cuts-forecast-beating-results-bank-accounts,1, ,0.5,0.5,0.5,0.511312,0.751497,0.5,0.676384
+Guardian,2020-10-27T10:29:09Z,https://www.theguardian.com/business/2020/oct/27/premier-inn-owner-whitbread-loss-local-lockdowns-bookings-profits-covid-hotel-closures,1, ,0.5,0.5,0.547016,0.58375,0.5,0.5,0.599178
+Guardian,2020-10-30T18:03:43Z,https://www.theguardian.com/business/2020/oct/30/treasury-rejects-theory-eat-out-to-help-out-caused-rise-in-covid,1, ,0.5,0.5,0.5,0.5,0.74979,0.5,0.5

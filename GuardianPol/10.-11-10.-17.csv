@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-10-16T05:00:01Z,https://www.theguardian.com/politics/2020/oct/16/uk-government-spending-on-covid-consultancy-contracts-rises-to-pounds-175m-investigation,1, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+Guardian,2020-10-11T10:00:02Z,https://www.theguardian.com/politics/2020/oct/11/everyone-is-fighting-how-downing-street-lost-its-grip-on-a-divided-nation,1, ,0.5,0.5,0.5,0.532501,0.638393,0.5,0.5
+Guardian,2020-10-12T19:48:45Z,https://www.theguardian.com/politics/2020/oct/12/boris-johnsons-latest-covid-strategy-no-hope-and-no-end-in-sight,1, ,0.5,0.5,0.514596,0.586269,0.610345,0.5,0.559219
+Guardian,2020-10-15T16:55:25Z,https://www.theguardian.com/politics/2020/oct/15/italy-poised-to-be-removed-from-englands-travel-corridor,1, ,0.5,0.5,0.5,0.524599,0.684648,0.5,0.5
+Guardian,2020-10-14T17:28:43Z,https://www.theguardian.com/politics/2020/oct/14/starmer-has-the-intellect-the-economics-the-science-johnson-has-his-apathy,1, ,0.5,0.5,0.546261,0.566,0.750253,0.5,0.683447
+Guardian,2020-10-12T17:18:01Z,https://www.theguardian.com/world/2020/oct/12/mps-hit-out-excluded-local-lockdown-briefings-coronavirus,1, ,0.5,0.5,0.5,0.539112,0.599268,0.5,0.5
+Guardian,2020-10-15T07:13:53Z,https://www.theguardian.com/politics/2020/oct/15/uk-doctors-and-health-experts-back-covid-19-circuit-breaker,1, ,0.5,0.665716,0.5,0.563757,0.548087,0.5,0.718611
+Guardian,2020-10-12T14:24:28Z,https://www.theguardian.com/politics/2020/oct/12/labour-mps-urge-starmer-get-tough-with-government-covid,1, ,0.5,0.5,0.5,0.5,0.581827,0.5,0.625723
+Guardian,2020-10-13T19:18:43Z,https://www.theguardian.com/politics/2020/oct/13/nervy-keir-starmer-offers-alternative-to-tiers-of-a-clown-boris-johnson,1, ,0.5,0.5,0.582642,0.522394,0.534111,0.5,0.534079
+Guardian,2020-10-16T13:13:01Z,https://www.theguardian.com/politics/2020/oct/16/uk-economy-no-deal-brexit-business-cbi-boris-johnson-covid,1, ,0.5,0.5,0.5,0.603473,0.570479,0.5,0.5

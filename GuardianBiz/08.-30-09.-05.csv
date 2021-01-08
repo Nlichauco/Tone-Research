@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-09-02T03:27:04Z,https://www.theguardian.com/business/2020/sep/02/australias-economy-was-already-weak-and-the-coronavirus-pandemic-has-belted-it-into-recession,1, ,0.5,0.5,0.528952,0.527649,0.5,0.5,0.5
+Guardian,2020-09-01T08:26:28Z,https://www.theguardian.com/business/2020/sep/01/astrazeneca-covid-19-vaccine-trials-oxford-biomedica-coronavirus,1, ,0.5,0.5,0.527885,0.5,0.501449,0.5,0.5
+Guardian,2020-09-01T10:33:05Z,https://www.theguardian.com/business/2020/sep/01/uk-mortgage-covid-stamp-duty-bank-of-england-coronavirus-lockdown,1, ,0.5,0.5,0.5,0.541321,0.582152,0.5,0.5
+Guardian,2020-08-30T11:57:19Z,https://www.theguardian.com/business/2020/aug/30/montezuma-chocolates-planning-to-open-four-new-stores-a-year,1, ,0.5,0.5,0.610612,0.5,0.709652,0.5,0.5
+Guardian,2020-09-01T18:20:14Z,https://www.theguardian.com/business/2020/sep/01/bloom-time-morrisons-doubles-in-store-flower-stalls-to-meet-demand-coronavirus,1, ,0.5,0.584444,0.591265,0.588406,0.5,0.5,0.771325
+Guardian,2020-09-02T18:18:57Z,https://www.theguardian.com/business/2020/sep/02/bank-of-england-warns-mass-return-uk-offices-not-possible,1, ,0.5,0.5,0.5,0.525847,0.700129,0.5,0.5
+Guardian,2020-09-01T16:13:19Z,https://www.theguardian.com/business/2020/sep/01/major-tax-rises-needed-to-bring-down-record-debt-levels-sunak-told-recovery-coronavirus,1, ,0.5,0.503836,0.5,0.526982,0.613582,0.5,0.585619
+Guardian,2020-09-02T16:47:37Z,https://www.theguardian.com/business/2020/sep/02/uk-rail-passengers-down-3m-last-year-despite-return-office-plea,1, ,0.5,0.5,0.5,0.574454,0.68143,0.5,0.5
+Guardian,2020-09-01T23:01:38Z,https://www.theguardian.com/business/2020/sep/02/uk-businesses-warn-2bn-youth-jobs-scheme-not-enough-to-beat-covid-recession-coronavirus,1, ,0.5,0.5,0.539599,0.596945,0.501376,0.5,0.5
+Guardian,2020-09-03T23:01:10Z,https://www.theguardian.com/business/2020/sep/04/co-op-1000-jobs-50-new-stores-coronavirus-uk,1, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
