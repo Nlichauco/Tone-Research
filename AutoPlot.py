@@ -1,11 +1,12 @@
 import chart_studio
 import plotly.graph_objects as go
 import pandas as pd
+from plotly.validators.scatter.marker import SymbolValidator
 
-Plotkey = "CSK6m1Klvk4pCPP5EODU"
-Username = "ziran_fei"
-
-chart_studio.tools.set_credentials_file(username=Username, api_key=Plotkey)
+symbols = []
+raw_symbols = SymbolValidator().values
+for i in range(0, len(raw_symbols), 12):
+    symbols.append(raw_symbols[i])
 
 
 def GetCols(filename, col):
@@ -24,7 +25,9 @@ def makePlot(filenames):
         fname = filenames[i]
         data = GetCols(filenames[i], 19)
         traceName = fname[:fname[i].find(".")]
-        fig.add_trace(go.Scatter(x=weeks, y=data, name=traceName, yaxis="y"))
+        fig.add_trace(
+            go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
+
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
     fig.update_yaxes(title_text="Analytical Tone Scores", title_font_size=18, range=[.5, 1])
     # fig = make_subplots(specs=[[{"secondary_y": True}]])
@@ -56,7 +59,12 @@ def makePlot(filenames):
         y=1.02,
         xanchor="right",
         x=1
-    ))
+    ),
+        margin=dict(
+            l=0,
+            r=50,
+
+        ))
 
     # legend_title_side="top"
     # fig.update_layout(legend_orientation="h")
