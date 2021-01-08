@@ -4,9 +4,10 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 import pandas as pd
-Plotkey="dymEazJoXLUsbf5wCGxf"
+Plotkey=""
+Username=""
 
-chart_studio.tools.set_credentials_file(username='NateL777', api_key=Plotkey)
+chart_studio.tools.set_credentials_file(username=Username, api_key=Plotkey)
 
 
 
