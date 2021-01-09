@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import csv
 import os
 import pandas as pd
@@ -99,42 +98,3 @@ def week_write(weeks, section):
 
 
 big_csv(the_paths)
-=======
-from Funcs import *
-
-import pandas as pd
-
-
-paths=['/Users/nathaniel/Desktop/Tone-Research/GuardianOped','/Users/nathaniel/Desktop/Tone-Research/GuardianPol','/Users/nathaniel/Desktop/Tone-Research/GuardianSci']
-def bigCSV(paths):
-    for path in paths:
-        section=""
-        for i in range(len(path)-1,0,-1):
-            if path[i]=="/":
-                break
-            section=path[i]+section
-        weeks=ReadSection(path)
-        weekwrite(weeks,section)
-
-
-def GetToneAvgs(filename):
-    fields=["Anger_avg","Sad_avg","Fear_avg","Joy_avg","Analy_avg","Confi_avg","Tenta_avg"]
-    filename=filename+".csv"
-    df=pd.read_csv(filename,usecols=fields)
-    Sad_mean=df["Sad_avg"]
-    Fear_mean=df["Fear_avg"]
-    Anger_mean=df["Anger_avg"]
-    Tenta_mean=df["Tenta_avg"]
-    Joy_mean=df["Joy_avg"]
-    Confi_mean=df["Confi_avg"]
-    Analy_mean=df["Analy_avg"]
-    return Sad_mean,Fear_mean,Anger_mean,Tenta_mean,Joy_mean,Confi_mean,Analy_mean
-
-
-Sad_mean,Fear_mean,Anger_mean,Tenta_mean,Joy_mean,Confi_mean,Analy_mean=GetToneAvgs("GuardianSci")
-
-print(Sad_mean)
-
-#print(df.keys())
-#print(df.Sad_avg)
->>>>>>> 98a1efe04d672969efd89507e3d650932938d054
