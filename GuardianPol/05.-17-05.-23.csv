@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-05-20T18:50:58Z,https://www.theguardian.com/politics/2020/may/20/coronavirus-test-delays-could-jeopardise-uk-tracing-system,1, ,0.5,0.5,0.527721,0.5,0.741243,0.5,0.5
+Guardian,2020-05-21T06:24:56Z,https://www.theguardian.com/politics/2020/may/21/ministers-overruled-permanent-secretaries-11-times-pandemic,1, ,0.5,0.5,0.5,0.5,0.768691,0.5,0.5
+Guardian,2020-05-18T15:21:23Z,https://www.theguardian.com/politics/2020/may/18/rollout-of-nhs-contact-tracing-app-to-be-delayed-until-june-no-10-test-track-coronavirus,1, ,0.5,0.5,0.5,0.541525,0.5,0.5,0.757741
+Guardian,2020-05-18T06:20:25Z,https://www.theguardian.com/politics/2020/may/17/uk-contact-tracing-applicants-wrongly-told-hiring-paused-in-latest-misstep,1, ,0.5,0.5,0.5,0.5,0.700784,0.5,0.543597
+Guardian,2020-05-21T15:45:29Z,https://www.theguardian.com/politics/2020/may/21/government-will-push-for-green-coronavirus-recovery-says-tory-mp,1, ,0.5,0.5,0.555472,0.579122,0.5,0.5,0.5
+Guardian,2020-05-20T12:37:22Z,https://www.theguardian.com/politics/2020/may/20/boris-johnson-pledges-england-wide-coronavirus-tracing-by-1-june,1, ,0.5,0.5,0.547129,0.524177,0.800224,0.5,0.5
+Guardian,2020-05-17T19:00:07Z,https://www.theguardian.com/politics/2020/may/17/uk-to-publish-draft-treaty-in-effort-to-reboot-brexit-process,1, ,0.5,0.5,0.5,0.574382,0.711595,0.5,0.5
+Guardian,2020-05-21T05:00:46Z,https://www.theguardian.com/politics/2020/may/21/no-deal-brexit-would-overwhelm-local-emergency-teams,1, ,0.5,0.578434,0.5,0.568563,0.608108,0.5,0.5
+Guardian,2020-05-23T12:49:52Z,https://www.theguardian.com/world/2020/may/23/lockdown-rule-breakers-dominic-cummings-what-uk-ministers-said,1, ,0.5,0.5,0.616555,0.5777,0.553515,0.5,0.5
+Guardian,2020-05-22T19:00:32Z,https://www.theguardian.com/politics/2020/may/22/dominic-cummings-durham-trip-coronavirus-lockdown,1, ,0.5,0.5,0.505993,0.527637,0.563031,0.5,0.5

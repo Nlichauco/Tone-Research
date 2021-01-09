@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-12-03T18:30:54Z,https://www.theguardian.com/business/2020/dec/03/sainsburys-hands-back-440m-in-covid-business-rates-relief,1, ,0.5,0.5,0.5,0.53688,0.607839,0.5,0.5
+Guardian,2020-12-02T19:44:19Z,https://www.theguardian.com/business/2020/dec/02/queues-form-as-england-high-streets-reopen-after-lockdown,1, ,0.5,0.5,0.5,0.625098,0.621074,0.5,0.692097
+Guardian,2020-11-30T18:59:54Z,https://www.theguardian.com/business/2020/nov/30/ftse-on-course-for-best-month-on-record-after-covid-vaccine-hopes,1, ,0.5,0.58965,0.576966,0.532544,0.5,0.5,0.5
+Guardian,2020-12-03T16:58:45Z,https://www.theguardian.com/business/2020/dec/03/bill-ackmans-pershing-square-to-join-ftse-100-after-covid-bets-pay-off,1, ,0.5,0.5,0.546853,0.5,0.568131,0.5,0.56349
+Guardian,2020-12-02T10:28:00Z,https://www.theguardian.com/business/2020/dec/02/bonmarche-goes-into-administration-for-second-time-in-a-year,1, ,0.5,0.5,0.519026,0.541408,0.5,0.5,0.5
+Guardian,2020-12-04T13:40:10Z,https://www.theguardian.com/business/2020/dec/04/lloyds-to-move-700-staff-into-full-time-homeworking-roles-covid,1, ,0.5,0.5,0.5,0.5,0.779468,0.5,0.5
+Guardian,2020-12-04T11:01:42Z,https://www.theguardian.com/business/2020/dec/04/primark-reports-phenomenal-trading-since-lockdowns-ended-covid,1, ,0.5,0.5,0.507568,0.5771,0.5,0.5,0.5
+Guardian,2020-12-04T00:01:44Z,https://www.theguardian.com/business/2020/dec/04/uk-food-and-drink-trends-fundamentally-reshaped-by-pandemic,1, ,0.5,0.555888,0.590023,0.5,0.567808,0.5,0.5
+Guardian,2020-12-02T06:00:20Z,https://www.theguardian.com/business/2020/dec/02/christmas-uk-retailers-covid-debenhams-arcadia-sales,1, ,0.5,0.5,0.603127,0.545658,0.524075,0.5,0.5
+Guardian,2020-12-01T13:50:54Z,https://www.theguardian.com/business/2020/dec/01/lastminutecom-refunds-cancelled-holidays-booking-customers-investigation-competition-watchdog,1, ,0.544751,0.5,0.5,0.5,0.618625,0.5,0.5

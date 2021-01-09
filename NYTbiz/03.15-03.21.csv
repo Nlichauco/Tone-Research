@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-03-19T09:00:40+0000,https://www.nytimes.com/2020/03/19/business/coronavirus-photos-economy.html,1, ,0.5,0.5,0.560932,0.5,0.5,0.5,0.682278
+The New York Times,2020-03-18T00:31:47+0000,https://www.nytimes.com/article/coronavirus-money-unemployment.html,1, ,0.5,0.5,0.5,0.535895,0.679831,0.5,0.778671
+The New York Times,2020-03-18T13:39:12+0000,https://www.nytimes.com/2020/03/18/business/coronavirus-ventilator-shortage.html,1, ,0.5,0.5,0.5,0.595981,0.694799,0.5,0.582272
+The New York Times,2020-03-16T14:53:32+0000,https://www.nytimes.com/2020/03/16/business/coronavirus-china-economy.html,1, ,0.5,0.5,0.544023,0.585494,0.675725,0.5,0.713688
+The New York Times,2020-03-19T18:37:43+0000,https://www.nytimes.com/2020/03/19/business/coronavirus-unemployment-states.html,1, ,0.5,0.5,0.517515,0.581694,0.5,0.5,0.599133
+The New York Times,2020-03-17T09:00:24+0000,https://www.nytimes.com/2020/03/17/technology/china-schools-coronavirus.html,1, ,0.5,0.5,0.5,0.561327,0.5,0.5,0.595187
+The New York Times,2020-03-18T13:21:05+0000,https://www.nytimes.com/2020/03/18/business/dealbook/coronavirus-economy-bailout-plan.html,1, ,0.5,0.5,0.5,0.543101,0.647606,0.5,0.665372
+The New York Times,2020-03-21T09:00:19+0000,https://www.nytimes.com/2020/03/21/business/economy/coronavirus-recession.html,1, ,0.5,0.557354,0.5,0.602291,0.5,0.5,0.630945
+The New York Times,2020-03-16T12:43:17+0000,https://www.nytimes.com/2020/03/16/business/china-coronavirus-internet-police.html,1, ,0.5,0.543815,0.503161,0.559152,0.5,0.5,0.5
+The New York Times,2020-03-17T20:54:25+0000,https://www.nytimes.com/2020/03/17/business/retirement/coronavirus-social-security.html,1, ,0.5,0.5,0.5,0.5,0.685975,0.5,0.626735

@@ -1,0 +1,4 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-09-22T07:27:31Z,https://www.theguardian.com/science/2020/sep/22/scientists-disagree-over-targeted-versus-nationwide-measures-to-tackle-covid,1, ,0.5,0.569926,0.50728,0.549514,0.725585,0.5,0.5
+Guardian,2020-09-25T14:10:05Z,https://www.theguardian.com/science/2020/sep/25/not-accounting-for-sex-differences-in-covid-research-can-be-deadly,1, ,0.5,0.5,0.5,0.582361,0.826228,0.5,0.541003
+Guardian,2020-09-26T16:00:20Z,https://www.theguardian.com/science/2020/sep/26/dreading-a-dark-winter-lockdown-think-like-a-norwegian,1, ,0.5,0.522678,0.575093,0.582965,0.803482,0.5,0.760755

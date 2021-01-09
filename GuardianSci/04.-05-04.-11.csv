@@ -1,0 +1,7 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-04-07T18:48:24Z,https://www.theguardian.com/science/2020/apr/07/cancer-research-uk-to-cut-funding-for-research-by-44m,1, ,0.5,0.5,0.5,0.668203,0.64461,0.5,0.5
+Guardian,2020-04-09T16:16:28Z,https://www.theguardian.com/science/2020/apr/09/vets-recruited-to-work-in-hospitals-during-coronavirus-outbreak,1, ,0.5,0.5,0.5,0.536458,0.674049,0.5,0.580943
+Guardian,2020-04-08T16:00:38Z,https://www.theguardian.com/science/2020/apr/08/blood-sample-shortage-holding-up-uk-work-on-antibody-tests,1, ,0.5,0.5,0.5,0.546315,0.662765,0.5,0.5
+Guardian,2020-04-05T16:47:24Z,https://www.theguardian.com/science/2020/apr/05/ex-astronaut-launches-training-kit-for-coping-with-self-isolation,1, ,0.5,0.5,0.573602,0.57053,0.562794,0.5,0.746071
+Guardian,2020-04-06T18:33:37Z,https://www.theguardian.com/science/2020/apr/06/coronavirus-cure-fact-check-hydroxychloroquine-trump,1, ,0.5,0.5,0.5,0.572139,0.693571,0.5,0.701972
+Guardian,2020-04-06T17:02:33Z,https://www.theguardian.com/science/2020/apr/06/lockdown-has-cut-britains-vibrations-seismologists-find,1, ,0.5,0.5,0.5,0.5,0.776048,0.5,0.662248

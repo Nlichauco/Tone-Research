@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-03-11T09:00:24+0000,https://www.nytimes.com/2020/03/11/business/coronavirus-corporate-debt.html,1, ,0.5,0.586661,0.5,0.53075,0.673363,0.5,0.5
+The New York Times,2020-03-11T09:00:16+0000,https://www.nytimes.com/2020/03/11/business/dealbook/coronavirus-bailouts.html,1, ,0.5,0.5,0.5,0.560572,0.708421,0.5,0.69684
+The New York Times,2020-03-12T20:24:09+0000,https://www.nytimes.com/2020/03/12/business/disneyland-coronavirus.html,1, ,0.5,0.5,0.571914,0.518718,0.664182,0.5,0.5
+The New York Times,2020-03-12T11:00:08+0000,https://www.nytimes.com/2020/03/12/business/coronavirus-401k-bonds.html,1, ,0.5,0.5,0.5,0.5,0.677099,0.5,0.784651
+The New York Times,2020-03-11T19:27:51+0000,https://www.nytimes.com/2020/03/11/business/coronavirus-britain-austerity.html,1, ,0.5,0.604088,0.5,0.558398,0.5,0.5,0.5
+The New York Times,2020-03-10T11:17:16+0000,https://www.nytimes.com/2020/03/10/business/europe-carmakers-sales-coronavirus.html,1, ,0.5,0.5,0.526333,0.538378,0.793122,0.5,0.5
+The New York Times,2020-03-09T04:01:06+0000,https://www.nytimes.com/2020/03/09/business/china-coronavirus-disabilities-wealth-gap.html,1, ,0.5,0.5,0.534778,0.58921,0.5,0.5,0.5
+The New York Times,2020-03-10T23:54:46+0000,https://www.nytimes.com/2020/03/10/business/airlines-coronavirus.html,1, ,0.5,0.5,0.5,0.630494,0.5,0.5,0.53038
+The New York Times,2020-03-14T09:00:18+0000,https://www.nytimes.com/2020/03/14/business/media/coronavirus-china-journalists.html,1, ,0.524562,0.5,0.517094,0.575549,0.5,0.5,0.595659
+The New York Times,2020-03-14T02:17:19+0000,https://www.nytimes.com/2020/03/13/business/media/trish-regan-fox-hiatus.html,1, ,0.5,0.5,0.5,0.505519,0.5,0.5,0.5

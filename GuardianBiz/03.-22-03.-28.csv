@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-03-25T17:11:11Z,https://www.theguardian.com/business/2020/mar/25/uk-construction-firms-split-over-coronavirus-shutdown,1, ,0.5,0.5,0.5,0.550212,0.805935,0.5,0.5
+Guardian,2020-03-26T23:04:04Z,https://www.theguardian.com/business/2020/mar/26/housing-market-frozen-by-government-during-coronavirus-lockdown,1, ,0.5,0.5,0.5,0.535601,0.666244,0.5,0.654727
+Guardian,2020-03-26T19:19:06Z,https://www.theguardian.com/business/2020/mar/26/next-stops-online-shopping-amid-uk-coronavirus-restrictions,1, ,0.5,0.5,0.5,0.542748,0.634502,0.5,0.5
+Guardian,2020-03-25T23:01:04Z,https://www.theguardian.com/business/2020/mar/25/banks-warned-against-profiteering-from-uk-coronavirus-crisis,1, ,0.5,0.5,0.5,0.5,0.583219,0.5,0.5
+Guardian,2020-03-24T14:19:06Z,https://www.theguardian.com/business/2020/mar/24/wetherspoons-denies-abandoning-staff-in-coronavirus-crisis,1, ,0.5,0.5,0.5,0.53561,0.697797,0.5,0.5
+Guardian,2020-03-22T07:00:00Z,https://www.theguardian.com/business/2020/mar/22/coronavirus-health-emergency-budget-irrelevant,1, ,0.5,0.613611,0.5,0.55922,0.806996,0.5,0.5
+Guardian,2020-03-28T16:00:30Z,https://www.theguardian.com/business/2020/mar/28/troubled-wework-is-in-no-condition-to-withstand-coronavirus,1, ,0.5,0.5,0.5,0.595198,0.721524,0.5,0.547044
+Guardian,2020-03-23T06:00:27Z,https://www.theguardian.com/business/2020/mar/23/existential-crisis-airline-workers-fear-layoffs-amid-coronavirus-pandemic,1, ,0.5,0.636125,0.5,0.541919,0.656156,0.5,0.5
+Guardian,2020-03-25T19:19:15Z,https://www.theguardian.com/business/2020/mar/25/bill-ackman-claims-firm-made-26bn-betting-on-coronavirus-outbreak,1, ,0.5,0.5,0.591586,0.520435,0.5,0.5,0.5
+Guardian,2020-03-26T15:21:57Z,https://www.theguardian.com/business/2020/mar/26/unemployment-caused-by-coronavirus-will-leave-deep-scars-in-us,1, ,0.5,0.571879,0.5,0.574652,0.684014,0.5,0.5

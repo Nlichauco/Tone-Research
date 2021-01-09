@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-07-20T05:00:10Z,https://www.theguardian.com/politics/2020/jul/20/financial-aid-needed-for-localised-lockdowns-says-labour-shadow-chancellor,1, ,0.5,0.5,0.511726,0.583141,0.778412,0.5,0.5
+Guardian,2020-07-21T17:20:51Z,https://www.theguardian.com/world/2020/jul/21/uk-targets-12-covid-19-vaccines-from-around-the-world,1, ,0.5,0.536025,0.5,0.507761,0.682915,0.5,0.525682
+Guardian,2020-07-21T15:11:12Z,https://www.theguardian.com/world/2020/jul/21/covid-19-test-all-health-and-care-workers-once-or-twice-a-week-says-top-uk-scientist,1, ,0.5,0.5,0.564222,0.60883,0.702165,0.5,0.5
+Guardian,2020-07-19T21:30:00Z,https://www.theguardian.com/politics/2020/jul/19/keir-starmer-accuses-pm-of-placing-parents-in-impossible-position,1, ,0.5,0.5,0.5,0.594501,0.671735,0.5,0.5
+Guardian,2020-07-21T17:02:47Z,https://www.theguardian.com/business/2020/jul/21/uk-borrowing-record-coronavirus-pandemic-economy,1, ,0.5,0.5,0.5,0.615717,0.602767,0.5,0.5
+Guardian,2020-07-20T21:00:24Z,https://www.theguardian.com/politics/2020/jul/20/care-services-must-be-nationalised-post-coronavirus-urges-labours-john-mcdonnell,1, ,0.5,0.5,0.514763,0.648369,0.642605,0.5,0.5
+Guardian,2020-07-22T17:00:19Z,https://www.theguardian.com/world/2020/jul/22/test-and-trace-system-in-england-failing-to-contact-thousands,1, ,0.5,0.5,0.5,0.51896,0.654087,0.5,0.5
+Guardian,2020-07-23T05:00:34Z,https://www.theguardian.com/politics/2020/jul/23/seven-key-moments-boris-johnson-first-year-prime-minister,1, ,0.5,0.5,0.553516,0.5,0.685882,0.5,0.5
+Guardian,2020-07-23T05:00:34Z,https://www.theguardian.com/politics/2020/jul/23/a-year-tories-reflect-prime-minister-boris-johnson-brexit-economy-coronavirus,1, ,0.5,0.5,0.543134,0.505593,0.680111,0.5,0.663829
+Guardian,2020-07-19T06:13:42Z,https://www.theguardian.com/politics/2020/jul/19/plaudits-for-nicola-sturgeon-fuel-talk-of-scottish-independence-drive,1, ,0.5,0.5,0.530672,0.56522,0.786957,0.5,0.5

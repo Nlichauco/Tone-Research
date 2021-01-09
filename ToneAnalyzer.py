@@ -23,9 +23,13 @@ for text in texts:
 """
 
 """Takes a string of raw text and feeds it into the IBM api to receive tones associated with text.
+<<<<<<< HEAD
 
     Sends request to IBM Tone analyzer api, and grabs responses.
 
+=======
+    Sends request to IBM Tone analyzer api, and grabs responses.
+>>>>>>> master
     Args:
         text: A string of text to be sent to the tone analyzer
     Returns:
@@ -62,7 +66,10 @@ def ibm_tone(text):
 
 
 """Use with the IBM tone api, updates article class objs
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
     Args:
         scores: an array of scores for an article
         tones: the tones associated with the array of scores (parallel arrays)

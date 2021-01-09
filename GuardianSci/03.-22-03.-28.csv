@@ -1,0 +1,6 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-03-25T17:53:45Z,https://www.theguardian.com/science/2020/mar/25/coronavirus-exposes-the-problems-and-pitfalls-of-modelling,1, ,0.5,0.5,0.5,0.569083,0.777396,0.5,0.5
+Guardian,2020-03-25T21:30:09Z,https://www.theguardian.com/science/2020/mar/25/nasa-moon-mission-2024-set-back-by-coronavirus-crisis,1, ,0.5,0.5,0.615844,0.5,0.802093,0.5,0.5
+Guardian,2020-03-24T11:51:28Z,https://www.theguardian.com/science/2020/mar/24/uk-app-aims-to-help-researchers-track-spread-of-coronavirus,1, ,0.5,0.5,0.5,0.612449,0.819753,0.5,0.623355
+Guardian,2020-03-22T11:34:39Z,https://www.theguardian.com/science/2020/mar/22/covid-19-restrictions-disrupt-astronauts-preparations-for-iss,1, ,0.5,0.5,0.5,0.555414,0.639355,0.5,0.5
+Guardian,2020-03-25T14:58:10Z,https://www.theguardian.com/science/2020/mar/25/can-chloroquine-really-help-treat-coronavirus-patients,1, ,0.5,0.5,0.5,0.595185,0.771977,0.5,0.777945

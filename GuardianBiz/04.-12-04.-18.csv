@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-04-17T13:33:23Z,https://www.theguardian.com/world/2020/apr/17/china-economy-shrinks-record-wuhan-covid-19-death-toll-rises-50-percent,1, ,0.5,0.504153,0.5,0.57561,0.5,0.5,0.5
+Guardian,2020-04-15T18:01:30Z,https://www.theguardian.com/business/nils-pratley-on-finance/2020/apr/15/uk-coronavirus-bailout-plan-data-business-interruption-loan-scheme,1, ,0.5,0.5,0.5,0.521389,0.677036,0.5,0.789641
+Guardian,2020-04-15T15:56:37Z,https://www.theguardian.com/uk-news/2020/apr/15/watchdog-identifies-sectors-hit-hardest-by-covid-19-in-britain,1, ,0.5,0.5,0.517654,0.526597,0.816353,0.5,0.5
+Guardian,2020-04-16T17:02:55Z,https://www.theguardian.com/business/2020/apr/16/vauxhall-to-restart-car-production-amid-coronavirus-crisis,1, ,0.5,0.5,0.5,0.5,0.83309,0.5,0.5
+Guardian,2020-04-14T05:00:33Z,https://www.theguardian.com/business/2020/apr/14/how-coronavirus-almost-brought-down-the-global-financial-system,1, ,0.5,0.5,0.504741,0.583089,0.573845,0.5,0.5
+Guardian,2020-04-12T11:05:52Z,https://www.theguardian.com/business/2020/apr/12/pressure-grows-for-developing-world-debt-relief-over-coronavirus,1, ,0.5,0.704647,0.5,0.586173,0.5,0.5,0.5
+Guardian,2020-04-14T16:37:29Z,https://www.theguardian.com/world/2020/apr/14/coronavirus-outbreak-could-cost-worlds-airlines-up-to-314bn,1, ,0.5,0.5,0.5,0.5,0.709789,0.5,0.736074
+Guardian,2020-04-15T08:00:39Z,https://www.theguardian.com/business/2020/apr/15/whole-food-protests-coronavirus-working-conditions-sickout,1, ,0.5,0.643071,0.5,0.555843,0.590712,0.5,0.5
+Guardian,2020-04-16T15:15:10Z,https://www.theguardian.com/business/2020/apr/16/easyjet-weighs-up-empty-middle-seats-once-coronavirus-rules-are-eased,1, ,0.5,0.5,0.5,0.588878,0.769438,0.5,0.554132
+Guardian,2020-04-18T08:00:03Z,https://www.theguardian.com/business/2020/apr/18/meat-and-veg-vending-machines-do-roaring-trade-in-coronavirus-crisis,1, ,0.5,0.5,0.602372,0.530381,0.514382,0.5,0.5

@@ -14,10 +14,15 @@ def get_date_nyt_format(q, start, end):
 
 
 """Creates dates to easily go week by week for queries
+<<<<<<< HEAD
 
     Args:
         for now none
 
+=======
+    Args:
+        for now none
+>>>>>>> master
     Returns:
          A list of dates."""
 
