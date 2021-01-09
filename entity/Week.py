@@ -1,4 +1,4 @@
-from entity.ToneStat import toneStat
+from entity.ToneStat import ToneStat
 
 
 class Week:
@@ -12,18 +12,18 @@ class Week:
      """
 
     def __init__(self, week_name):
-        self.weekname=week_name
-        self.List_Arts=list()
-        self.Sadness=toneStat("Sadness")
-        self.Anger=toneStat("Anger")
-        self.Tenta=toneStat("Tenta")
-        self.Joy=toneStat("Joy")
-        self.Analy=toneStat("Analy")
-        self.Confi=toneStat("Confi")
-        self.Fear=toneStat("Fear")
+        self.weekname = week_name
+        self.List_Arts = list()
+        self.Sadness = ToneStat("Sadness")
+        self.Anger = ToneStat("Anger")
+        self.Tenta = ToneStat("Tenta")
+        self.Joy = ToneStat("Joy")
+        self.Analy = ToneStat("Analy")
+        self.Confi = ToneStat("Confi")
+        self.Fear = ToneStat("Fear")
 
     def add_Art(self, art):
-        #Add an article to the week, this function updates all scores for the week with the incoming articles data.
+        # Add an article to the week, this function updates all scores for the week with the incoming articles data.
         self.List_Arts.append(art)
         self.Analy.add_score(art.analytical)
         self.Sadness.add_score(art.sadness)

@@ -6,7 +6,7 @@ from natsort import natsorted
 from entity.Article import Article
 from entity.Week import Week
 
-the_paths = ['/Users/ff/Desktop/nyt/business', '/Users/ff/Desktop/nyt/opinion']
+the_paths = ['/Users/ff/Desktop/nyt/oped']
 
 
 def big_csv(paths):
@@ -77,18 +77,25 @@ def week_write(weeks, section):
     with open(file_name, 'w', newline='') as file:
         writer = csv.writer(file)
         writer.writerow(
-            ["Week", "Anger_max", "Anger_med", "Anger_avg", "Sad_max", "Sad_median", "Sad_avg", "Fear_max", "Fear_med",
-             "Fear_avg", "Joy_max", "Joy_med", "Joy_avg", "Analy_max", "Analy_med", "Analy_avg", "Confi_max",
-             "Confi_med", "Confi_avg", "Tenta_max", "Tenta_med", "Tenta_avg"])
+            ["Week", "Anger_max", "Anger_med", "Anger_avg", "Anger_total", "Sad_max", "Sad_median", "Sad_avg",
+             "Sad_total", "Fear_max", "Fear_med",
+             "Fear_avg", "Fear_total", "Joy_max", "Joy_med", "Joy_avg", "Joy_total", "Analy_max", "Analy_med",
+             "Analy_avg", "Analy_total", "Confi_max",
+             "Confi_med", "Confi_avg", "Confi_total", "Tenta_max", "Tenta_med", "Tenta_avg", "Tenta_total"])
         for week in weeks:
             writer.writerow(
                 [week.weekname, week.Anger.get_max(), week.Anger.get_median(), week.Anger.get_mean(),
-                 week.Sadness.get_max(), week.Sadness.get_median(), week.Sadness.get_mean(), week.Fear.get_max(),
-                 week.Fear.get_median(), week.Fear.get_mean(), week.Joy.get_max(), week.Joy.get_median(),
-                 week.Joy.get_mean(), week.Analy.get_max(), week.Analy.get_median(), week.Analy.get_mean(),
+                 week.Anger.get_total(),
+                 week.Sadness.get_max(), week.Sadness.get_median(), week.Sadness.get_mean(), week.Sadness.get_total(),
+                 week.Fear.get_max(),
+                 week.Fear.get_median(), week.Fear.get_mean(), week.Fear.get_total(), week.Joy.get_max(),
+                 week.Joy.get_median(),
+                 week.Joy.get_mean(), week.Joy.get_total(), week.Analy.get_max(), week.Analy.get_median(),
+                 week.Analy.get_mean(), week.Analy.get_total(),
                  week.Confi.get_max(),
-                 week.Confi.get_median(), week.Confi.get_mean(), week.Tenta.get_max(), week.Tenta.get_median(),
-                 week.Tenta.get_mean()])
+                 week.Confi.get_median(), week.Confi.get_mean(), week.Confi.get_total(), week.Tenta.get_max(),
+                 week.Tenta.get_median(),
+                 week.Tenta.get_mean(), week.Tenta.get_total()])
 
 
 big_csv(the_paths)
