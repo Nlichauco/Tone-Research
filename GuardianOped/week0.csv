@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-03-03T09:00:08Z,https://www.theguardian.com/commentisfree/2020/mar/03/coronavirus-conspiracy-theories-virus-social-media,1, ,0.5,0.578679,0.536728,0.529925,0.746221,0.5,0.675117
+Guardian,2020-03-06T07:00:29Z,https://www.theguardian.com/commentisfree/2020/mar/06/coronavirus-plan-new-york-stockpile,1, ,0.5,0.54024,0.5,0.576716,0.704596,0.5,0.742839
+Guardian,2020-03-06T18:31:22Z,https://www.theguardian.com/commentisfree/2020/mar/06/coronavirus-joe-biden-epidemic-washington-obama,1, ,0.5,0.5,0.546288,0.591321,0.556433,0.5,0.635185
+Guardian,2020-03-04T12:29:43Z,https://www.theguardian.com/commentisfree/2020/mar/04/market-coronavirus-vaccine-us-health-virus-pharmaceutical-business,1, ,0.5,0.5,0.579004,0.515788,0.705954,0.5,0.5
+Guardian,2020-03-06T13:19:02Z,https://www.theguardian.com/commentisfree/2020/mar/06/coronavirus-hype-crisis-predictions-sars-swine-flu-panics,1, ,0.5,0.5,0.524366,0.548963,0.539907,0.5,0.614954
+Guardian,2020-03-03T13:19:09Z,https://www.theguardian.com/commentisfree/2020/mar/03/trump-coronavirus-plan-pence-politics,1, ,0.5,0.5,0.560427,0.5,0.801732,0.5,0.5
+Guardian,2020-03-01T15:33:49Z,https://www.theguardian.com/commentisfree/2020/mar/01/coronavirus-pandemic-boris-johnson,1, ,0.5,0.508369,0.551891,0.565762,0.580083,0.5,0.645565
+Guardian,2020-03-03T18:36:58Z,https://www.theguardian.com/commentisfree/2020/mar/03/the-guardian-view-on-the-uks-coronavirus-plan-sensible-but-belated,1, ,0.5,0.5,0.5,0.547871,0.669817,0.5,0.814413
+Guardian,2020-03-06T14:00:09Z,https://www.theguardian.com/commentisfree/2020/mar/06/flybe-business-coronavirus-travel-sector,1, ,0.5,0.5,0.5,0.551447,0.524536,0.5,0.567508
+Guardian,2020-03-04T01:54:22Z,https://www.theguardian.com/commentisfree/2020/mar/04/coronavirus-is-not-the-villain-australias-economy-was-already-on-a-precipice,1, ,0.5,0.5,0.514644,0.525248,0.534203,0.5,0.5
