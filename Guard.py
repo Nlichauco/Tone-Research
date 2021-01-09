@@ -1,7 +1,7 @@
 from Funcs import *
 
 import pandas as pd
-
+#
 #
 # s_dates=StartDates("G")
 # e_dates=endDates("G")
@@ -27,14 +27,31 @@ import pandas as pd
 #     CreateCSV(articles,fname,scores)
 #     print(i,"/n")
 
+def get_avg_daily_cases(file_name):
+    avg = []
+    count = 0
+    my_sum = 0
+    with open(file_name) as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        is_first = 1
+        for row in csv_reader:
+            if is_first:
+                is_first ^= 1
+            else:
+                count += 1
+                if not row[4].isnumeric():
+                    break
+                my_sum += int(row[4])
+                if count == 7:
+                    avg.append(my_sum / 7)
+                    count = 0
+                    my_sum = 0
+
+    with open("UKcovidAVG.csv", 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(["cases"])
+        for num in avg:
+            writer.writerow([int(num)])
 
 
-def GetCols(filename,col):
-    ToneScores=[]
-    df = pd.read_csv(filename, usecols = [col])
-    list=df.keys()
-    ToneScores=df[list[0]].tolist()
-    return ToneScores
-
-
-print(GetCols("GuardianOped.csv",0))
+get_avg_daily_cases("uk.csv")
