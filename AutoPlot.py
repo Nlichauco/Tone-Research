@@ -10,14 +10,13 @@ for i in range(0, len(raw_symbols), 12):
 
 
 def GetCols(filename, col):
-    ToneScores = []
     df = pd.read_csv(filename, usecols=[col])
     list = df.keys()
     ToneScores = df[list[0]].tolist()
     return ToneScores
 
 
-def makePlot(filenames):
+def makePlot(filenames, country, tone):
     fig = go.Figure()
     weeks = GetCols(filenames[0], 0)
     fig.update_layout(title=dict(text="", ))
@@ -29,12 +28,12 @@ def makePlot(filenames):
             go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
 
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
-    fig.update_yaxes(title_text="Analytical Tone Scores", title_font_size=18, range=[.5, 1])
+    fig.update_yaxes(title_text=tone + " Tone Scores", title_font_size=18, range=[.5, 1])
     # fig = make_subplots(specs=[[{"secondary_y": True}]])
     Covid_Data = GetCols("UKcovidAVG.csv", 0)
 
     fig.update_layout(yaxis2=dict(
-        title="Weekly Average Covid Cases in the UK",
+        title="Weekly Average Covid Cases in the " + country,
         titlefont=dict(
             color="#d62728"
         ),
@@ -44,12 +43,7 @@ def makePlot(filenames):
         side="right"
     ))
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='<b>Covid cases</b>', yaxis='y2', fill='tozeroy'))
-    # fig.update_yaxes(secondary_y=True,range=[0,40000])
 
-    # fig.update_layout(legend_title_text="Weekly Average Analytical Tone Score per Primary Desk")
-    # fig.update_layout(legend_title=dict(
-    # text="Weekly Average Analytical Tone Score per Primary Desk"
-    # ),legend_title_font_size=20,legend_title_side="")
     fig.update_layout(title_text="Weekly Average Analytical Tone Score per Primary Desk")
     fig.update_layout(title_x=.1)
     fig.update_layout(title_font_size=20)
@@ -66,8 +60,6 @@ def makePlot(filenames):
 
         ))
 
-    # legend_title_side="top"
-    # fig.update_layout(legend_orientation="h")
     fig.show()
 
 
