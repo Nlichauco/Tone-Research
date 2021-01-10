@@ -13,16 +13,13 @@ def get_date_nyt_format(q, start, end):
     return end_date
 
 
-"""Creates dates to easily go week by week for queries
-<<<<<<< HEAD
+"""Creates an array of dates to easily go week by week for queries
 
     Args:
-        for now none
+        q: either 6 or 0, if q is 6 the function will return end dates, if 0 then start dates will be returned
+        start: start date given as a date -> date(2020, 4, 19)
+        end:  desired end date -> date(2020, 4, 19)
 
-=======
-    Args:
-        for now none
->>>>>>> master
     Returns:
          A list of dates."""
 

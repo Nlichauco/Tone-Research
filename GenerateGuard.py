@@ -179,21 +179,21 @@ def fetch_from_guardian(que, filename):
 
 
 def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
-    for i in range(0, len(s_dates)):
+    for i in range(9, len(s_dates)):
         fname = s_dates[i][:2] + "." + s_dates[i][3:] + "-" + e_dates[i][:2] + "." + e_dates[i][3:] + ".csv"
         create_template(fname)
-        page = 1
+        page = 2
         que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&edition=uk&from-date=2020-""" + \
               s_dates[i] + "&to-date=2020-" + e_dates[i] + "&show-fields=bodyText&api-key=""" + APIkey
         pages = fetch_from_guardian(que, fname)
-        page += 1
+
         while page <= pages:
             que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&edition=uk&from-date=2020-""" + \
                   s_dates[i] + "&to-date=2020-" + e_dates[i] + "&show-fields=bodyText&page=""" + str(
                 page) + """&api-key=""" + APIkey
-            while page <= pages:
-                page += 1
-                fetch_from_guardian(que, fname)
+            fetch_from_guardian(que, fname)
+            page+=1
+
 
 
 def main():
@@ -242,7 +242,7 @@ def main():
 <<<<<<< HEAD
     keyword = "coronavirus"
     APIkey = "7735070e-6108-49c2-80bc-a6a7898d725b"
-    sectionName = "business"
+    sectionName = "commentisfree"
 
     Guardpull(s_dates, e_dates, keyword, APIkey, sectionName)
 

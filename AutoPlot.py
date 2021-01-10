@@ -1,4 +1,3 @@
-
 import chart_studio
 import plotly.graph_objects as go
 import pandas as pd
@@ -44,13 +43,9 @@ def makePlot(filenames):
         overlaying="y",
         side="right"
     ))
-    fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='<b>Covid cases</b>', yaxis='y2', fill='tozeroy'))
-    # fig.update_yaxes(secondary_y=True,range=[0,40000])
 
-    # fig.update_layout(legend_title_text="Weekly Average Analytical Tone Score per Primary Desk")
-    # fig.update_layout(legend_title=dict(
-    # text="Weekly Average Analytical Tone Score per Primary Desk"
-    # ),legend_title_font_size=20,legend_title_side="")
+    fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='<b>Covid cases</b>', yaxis='y2', fill='tozeroy'))
+
     fig.update_layout(title_text="Weekly Average Analytical Tone Score per Primary Desk")
     fig.update_layout(title_x=.1)
     fig.update_layout(title_font_size=20)
