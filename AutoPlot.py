@@ -42,6 +42,7 @@ def makePlot(filenames, country, tone):
         overlaying="y",
         side="right"
     ))
+
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='<b>Covid cases</b>', yaxis='y2', fill='tozeroy'))
 
     fig.update_layout(title_text="Weekly Average Analytical Tone Score per Primary Desk")

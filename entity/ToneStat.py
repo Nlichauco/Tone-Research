@@ -1,6 +1,5 @@
 import statistics as stat
 
-
 class ToneStat:
     """toneStat class which can grab median, max and avg from a weeks dataset.
 
@@ -45,14 +44,13 @@ class ToneStat:
             my_sum = 0
             for num in self.Tone_scores:
                 if num > .5:
-                    my_sum += 1
-            return my_sum / total
-
+                    sum+=1
+            return (sum/total)
     def get_total(self):
-        total = 0
+        total=0
         for score in self.Tone_scores:
-            if score > .5:
-                total += score
-        if total == 0:
+            if score>.5:
+                total+=score
+        if total==0:
             return .5
         return total
