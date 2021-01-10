@@ -72,7 +72,7 @@ def makePlot(filenames):
 
 
 def main():
-    filenames = ["GuardianSci.csv", "GuardianOped.csv"]
+    filenames = []
     makePlot(filenames)
 
 
