@@ -5,7 +5,7 @@ from natsort import natsorted
 from entity.Article import Article
 from entity.Week import Week
 
-the_paths = ['/Users/nathaniel/Desktop/Tone-Research/Guardian-Business']
+the_paths = ['/Users/nathaniel/Desktop/Tone-Research/Guardian-Opinion']
 
 
 def big_csv(paths):

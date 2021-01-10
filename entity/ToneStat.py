@@ -38,10 +38,10 @@ class ToneStat:
 
     def get_perc(self):
         total = len(self.Tone_scores)
+        sum=0
         if total == 0:
             return 0
         else:
-            my_sum = 0
             for num in self.Tone_scores:
                 if num > .5:
                     sum+=1
