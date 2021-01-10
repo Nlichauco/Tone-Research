@@ -3,23 +3,12 @@ from datetime import date
 
 import pyjq
 import requests
-from bs4 import BeautifulSoup
 
-<<<<<<< HEAD
 # from GetDate import get_date_guardian_format
 from GetDate import get_date_guardian_format
 from ToneAnalyzer import tone_analyze
 from entity.Article import Article
 
-=======
-#from GetDate import get_date_guardian_format
-from ToneAnalyzer import tone_analyze
-from entity.Article import Article
-
-
-
-
->>>>>>> master
 """Creates complete article class objects with tone scores
     Args:
         articles: article class objs each of which associates to a blob of text
@@ -28,10 +17,7 @@ from entity.Article import Article
          A list of article objects which also have tone scores.
          """
 
-<<<<<<< HEAD
 
-=======
->>>>>>> master
 def create_arts(articles, texts):
     count = 0
     for text in texts:
@@ -41,10 +27,6 @@ def create_arts(articles, texts):
     return articles
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 """
 Reads through article class objs and creates CSV for that week.
 
@@ -67,10 +49,6 @@ def create_csv(articles, file_name):
                  a.confidence, a.tentative])
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 """Api request, pulls important metadata.
 
     Pull() grabs the source, publication date and url of the articles returned.
@@ -83,26 +61,18 @@ def create_csv(articles, file_name):
          to check for 0 results"""
 
 
-<<<<<<< HEAD
 def Gpull(que):
     response = requests.get(que)
     data = response.json()
-    # hits=pyjq.all('.hits',data)
-    # copyright=pyjq.all('.copyright',data)
-    dict = {}
     num_docs = pyjq.all('.response | .total', data)[0]
     num_pages = pyjq.all('.response | .pages', data)[0]
 
     pquery = '.response .results[].fields |  {stuff: .bodyText}'
-    # pquery='.response |  {stuff: .results[]}'
-    # print(hits)
     query = f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
-    # pquery= f'.response .results [] | {{text: .fields["bodyText"]}}'
     output = pyjq.all(query, data)
     another = pyjq.all(pquery, data)
     print(another)
     arts = list()
-    urls = []
     body = []
     for i in range(len(another)):
         dict = output[i]
@@ -114,46 +84,8 @@ def Gpull(que):
         if text != '':
             body.append(text)
             arts.append(Article(source, date, url))
-        # print(url)
     return body, arts, num_docs, num_pages
 
-=======
-
-def Gpull(que):
-
-    response = requests.get(que)
-    data = response.json()
-    #hits=pyjq.all('.hits',data)
-    #copyright=pyjq.all('.copyright',data)
-    dict={}
-    num_docs=pyjq.all('.response | .total',data)[0]
-    num_pages=pyjq.all('.response | .pages',data)[0]
-
-
-    pquery='.response .results[].fields |  {stuff: .bodyText}'
-    #pquery='.response |  {stuff: .results[]}'
-    #print(hits)
-    query=f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
-    #pquery= f'.response .results [] | {{text: .fields["bodyText"]}}'
-    output=pyjq.all(query,data)
-    another=pyjq.all(pquery,data)
-    print(another)
-    arts=list()
-    urls=[]
-    body=[]
-    for i in range(len(another)):
-        dict=output[i]
-        texts=another[i]
-        source="Guardian"
-        date=dict["pub_date"]
-        url=dict["web_url"]
-        text=texts["stuff"]
-        if text!='':
-            body.append(text)
-            arts.append(Article(source,date,url))
-        #print(url)
-    return body,arts,num_docs,num_pages
->>>>>>> master
 
 def create_template(file_name):
     with open(file_name, 'w') as file:
@@ -162,16 +94,11 @@ def create_template(file_name):
             ["Source", "Date", "URL", "Score", "   ", "Anger", "Fear", "Joy", "Sad", "Analy", "Confi", "Tenta"])
 
 
-<<<<<<< HEAD
 def fetch_from_guardian(que, filename):
     texts, articles, amt, pages = Gpull(que)
     if amt < 1:
-        # arts=list()
-        # arts.append(Article("source","date","url"))
-        # create_csv(arts,fname)
         # If there are no articles returned skip to the next week.
         return 0
-    # scores=GetScore(token_texts,newdict)
     # Get scores from the lexicon, this may or may not be removed, just because we aren't really using it.
     articles = create_arts(articles, texts)
     create_csv(articles, filename)
@@ -192,54 +119,15 @@ def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
                   s_dates[i] + "&to-date=2020-" + e_dates[i] + "&show-fields=bodyText&page=""" + str(
                 page) + """&api-key=""" + APIkey
             fetch_from_guardian(que, fname)
-            page+=1
-
+            page += 1
 
 
 def main():
     # Assuming desired start date is March 1st 2020, and end date is December 26th
-=======
-
-def fetch_from_guardian(que, filename):
-    texts,articles,amt,pages=Gpull(que)
-    print("For the week of "+ fname+ "there were " +amt +"articles "+"\n")
-    if amt<1:
-        #arts=list()
-        #arts.append(Article("source","date","url"))
-        #create_csv(arts,fname)
-        #If there are no articles returned skip to the next week.
-        return 0
-    # scores=GetScore(token_texts,newdict)
-    #Get scores from the lexicon, this may or may not be removed, just because we aren't really using it.
-    articles=create_arts(articles,texts)
-    create_csv(articles,fname)
-    return pages
-
-
-
-def Guardpull(s_dates,e_dates,keyword,APIkey,sectionName):
-    for i in range(0,len(s_dates)):
-        fname=s_dates[i][:2] + "." + s_dates[i][2:] + "-" + e_dates[i][:2] + "." + e_dates[i][2:] + ".csv"
-        create_template(fname)
-        page=1
-        que="""https://content.guardianapis.com/search?section="""+sectionName+"""&q="""+keyword+"""&type=article&edition=uk&from-date=2020-"""+s_dates[i]+"&to-date=2020-"+e_dates[i]+"&show-fields=bodyText&api-key="""+APIkey
-        pages=fetch_from_guardian(que,fname)
-        page+=1
-        while page<=pages:
-            que="""https://content.guardianapis.com/search?section="""+sectionName+"""&q="""+keyword+"""&type=article&edition=uk&from-date=2020-"""+s_dates[i]+"&to-date=2020-"+e_dates[i]+"&show-fields=bodyText&page="""+str(page)+"""&api-key="""+APIkey
-            while page<=pages:
-                page+=1
-                fetch_from_guardian(que,fname)
-
-
-def main():
-    #Assuming desired start date is March 1st 2020, and end date is December 26th
->>>>>>> master
     s_dates = get_date_guardian_format(0, date(2020, 3, 1), date(2020, 12, 26))
     e_dates = get_date_guardian_format(6, date(2020, 3, 1), date(2020, 12, 26))
 
     # Now we have all the info we need to grab articles.
-<<<<<<< HEAD
     keyword = "coronavirus"
     APIkey = "7735070e-6108-49c2-80bc-a6a7898d725b"
     sectionName = "commentisfree"
@@ -247,11 +135,4 @@ def main():
     Guardpull(s_dates, e_dates, keyword, APIkey, sectionName)
 
 
-=======
-    keyword="coronavirus"
-    APIkey="7735070e-6108-49c2-80bc-a6a7898d725b"
-    sectionName="business"
-
-    Guardpull(s_dates,e_dates,keyword,APIkey,sectionName)
->>>>>>> master
 main()

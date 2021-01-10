@@ -1,4 +1,3 @@
-import chart_studio
 import plotly.graph_objects as go
 import pandas as pd
 from plotly.validators.scatter.marker import SymbolValidator
