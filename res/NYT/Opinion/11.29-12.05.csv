@@ -1,0 +1,24 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-12-01T23:15:03+0000,https://www.nytimes.com/2020/12/01/opinion/coronavirus-vaccine-priority.html,0, ,0.5,0.5,0.509527,0.544477,0.733291,0.5,0.758872
+The New York Times,2020-12-05T19:30:06+0000,https://www.nytimes.com/2020/12/05/opinion/sunday/covid-north-south-dakota.html,0, ,0.5,0.5,0.5,0.595849,0.569723,0.5,0.5
+The New York Times,2020-12-03T10:00:05+0000,https://www.nytimes.com/2020/12/03/opinion/sway-kara-swisher-sahin-tureci.html,0, ,0.5,0.5,0.561508,0.5,0.613512,0.5,0.5
+The New York Times,2020-12-03T19:29:15+0000,https://www.nytimes.com/2020/12/03/opinion/coronavirus-vaccine-jail.html,0, ,0.5,0.5,0.5,0.538912,0.5,0.5,0.585596
+The New York Times,2020-12-02T10:00:12+0000,https://www.nytimes.com/2020/12/02/opinion/flu-vaccine-migrant-children.html,0, ,0.5,0.5,0.5,0.581713,0.5,0.5,0.5
+The New York Times,2020-12-02T10:00:19+0000,https://www.nytimes.com/2020/12/02/opinion/coronavirus-vaccine.html,0, ,0.5,0.581518,0.542293,0.582553,0.650594,0.5,0.744453
+The New York Times,2020-12-04T10:00:21+0000,https://www.nytimes.com/2020/12/04/opinion/covid-holiday-travel.html,0, ,0.602859,0.66957,0.540131,0.553112,0.708988,0.5,0.682154
+The New York Times,2020-12-03T23:30:06+0000,https://www.nytimes.com/2020/12/03/opinion/covid-relief-mitch-mcconnell.html,0, ,0.5,0.5,0.5,0.599971,0.561208,0.5,0.515306
+The New York Times,2020-12-05T20:04:52+0000,https://www.nytimes.com/2020/12/05/opinion/sunday/trump-election-fraud.html,0, ,0.50481,0.5,0.5,0.563602,0.801823,0.5,0.812762
+The New York Times,2020-12-02T06:00:06+0000,https://www.nytimes.com/2020/12/02/opinion/biontech-vaccine-germany-immigration.html,0, ,0.5,0.5,0.590393,0.550936,0.5,0.5,0.5
+The New York Times,2020-12-02T10:00:20+0000,https://www.nytimes.com/2020/12/02/opinion/eviction-moratorium-ending.html,0, ,0.5,0.5,0.506189,0.5,0.624848,0.5,0.521729
+The New York Times,2020-12-01T23:31:54+0000,https://www.nytimes.com/2020/12/01/opinion/supreme-court-Covid-19-religion.html,0, ,0.5,0.5,0.5,0.51636,0.749049,0.5,0.5
+The New York Times,2020-12-03T10:00:13+0000,https://www.nytimes.com/2020/12/03/opinion/amy-coney-barrett-supreme-court-religion.html,0, ,0.5,0.5,0.5,0.535584,0.683293,0.5,0.5
+The New York Times,2020-12-01T01:10:21+0000,https://www.nytimes.com/2020/11/30/opinion/deblasio-covid-schools-reopening.html,0, ,0.5,0.5,0.5,0.572446,0.5,0.5,0.685665
+The New York Times,2020-11-30T23:23:12+0000,https://www.nytimes.com/2020/11/30/opinion/biden-republican-party.html,0, ,0.5,0.5,0.513873,0.5,0.636908,0.5,0.694574
+The New York Times,2020-11-30T10:00:17+0000,https://www.nytimes.com/2020/11/30/opinion/trump-biden-election-2020.html,0, ,0.5,0.5,0.591018,0.5,0.5,0.5,0.809412
+The New York Times,2020-12-02T08:14:09+0000,https://www.nytimes.com/2020/12/02/opinion/hong-kong-biden.html,0, ,0.5,0.5,0.513297,0.5,0.529749,0.5,0.5
+The New York Times,2020-12-04T10:00:23+0000,https://www.nytimes.com/2020/12/04/opinion/international-world/trump-ramos-authoritarianism-media.html,0, ,0.5,0.5,0.5,0.52577,0.67839,0.5,0.5
+The New York Times,2020-12-02T10:00:20+0000,https://www.nytimes.com/2020/12/02/opinion/biden-foreign-policy.html,0, ,0.5,0.5,0.5,0.509201,0.67895,0.5,0.669048
+The New York Times,2020-12-04T00:30:07+0000,https://www.nytimes.com/2020/12/03/opinion/usda-agriculture-secretary-biden.html,0, ,0.5,0.5,0.525814,0.546452,0.5,0.5,0.5
+The New York Times,2020-12-02T10:00:20+0000,https://www.nytimes.com/2020/12/02/opinion/biden-foreign-policy.html,0, ,0.5,0.5,0.5,0.509201,0.67895,0.5,0.669048
+The New York Times,2020-12-05T20:00:07+0000,https://www.nytimes.com/2020/12/05/opinion/sunday/sarah-fuller-vanderbilt-women-college-football.html,0, ,0.5,0.5,0.611597,0.5,0.5,0.5,0.5
+The New York Times,2020-12-03T23:00:03+0000,https://www.nytimes.com/2020/12/03/opinion/trump-biden-prosecute.html,0, ,0.5,0.5,0.5,0.525544,0.763152,0.5,0.5

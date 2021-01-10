@@ -1,0 +1,24 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-12-20T14:44:39+0000,https://www.nytimes.com/2020/12/20/health/coronavirus-britain-variant.html,0, ,0.5,0.633771,0.54109,0.5,0.673668,0.5,0.693757
+The New York Times,2020-12-23T16:54:58+0000,https://www.nytimes.com/2020/12/23/science/covid-mink-animals.html,0, ,0.5,0.56974,0.5,0.551691,0.72787,0.5,0.581079
+The New York Times,2020-12-25T18:59:38+0000,https://www.nytimes.com/2020/12/25/health/Covid-moderna-vaccine-allergies.html,0, ,0.5,0.555931,0.5,0.564223,0.705704,0.5,0.73526
+The New York Times,2020-12-26T14:08:48+0000,https://www.nytimes.com/2020/12/26/health/covid-vaccine-hesitancy.html,0, ,0.5,0.5,0.561092,0.535536,0.689733,0.5,0.775353
+The New York Times,2020-12-25T10:00:18+0000,https://www.nytimes.com/2020/12/25/health/covid-vaccine-polio.html,0, ,0.5,0.566652,0.533775,0.599261,0.534013,0.5,0.524274
+The New York Times,2020-12-23T15:47:33+0000,https://www.nytimes.com/2020/12/23/health/coronavirus-antibody-drugs.html,0, ,0.5,0.562936,0.5,0.5,0.527912,0.5,0.589914
+The New York Times,2020-12-23T15:22:58+0000,https://www.nytimes.com/2020/12/23/health/covid-antibody-treatment.html,0, ,0.5,0.5,0.5,0.601303,0.5,0.5,0.656557
+The New York Times,2020-12-22T08:00:29+0000,https://www.nytimes.com/2020/12/22/health/mexico-coronavirus-birth-pregnancy-midwives.html,0, ,0.5,0.5,0.574191,0.562975,0.504141,0.5,0.5
+The New York Times,2020-12-22T17:43:52+0000,https://www.nytimes.com/2020/12/22/health/oximeters-covid-black-patients.html,0, ,0.5,0.5,0.540086,0.543553,0.636634,0.5,0.5
+The New York Times,2020-12-21T21:48:58+0000,https://www.nytimes.com/2020/12/21/health/covid-nursinghomes-vaccine.html,0, ,0.5,0.5,0.517944,0.526642,0.748211,0.5,0.760818
+The New York Times,2020-12-20T23:22:21+0000,https://www.nytimes.com/2020/12/20/health/covid-ppe-shortages.html,0, ,0.5,0.5,0.5,0.598231,0.563391,0.5,0.5
+The New York Times,2020-12-20T20:40:36+0000,https://www.nytimes.com/2020/12/20/health/covid-vaccine-first-elderly-workers.html,0, ,0.5,0.5,0.5,0.521626,0.721868,0.5,0.5
+The New York Times,2020-12-24T03:22:35+0000,https://www.nytimes.com/2020/12/23/health/coronavirus-uk-variant.html,0, ,0.5,0.5,0.549952,0.55258,0.724217,0.5,0.739102
+The New York Times,2020-12-23T03:41:54+0000,https://www.nytimes.com/2020/12/22/health/coronavirus-blood-thinner-trial.html,0, ,0.5,0.5,0.5,0.582252,0.732692,0.5,0.748422
+The New York Times,2020-12-21T23:26:51+0000,https://www.nytimes.com/2020/12/21/health/new-covid-strain-uk.html,0, ,0.5,0.5,0.569783,0.5,0.707796,0.5,0.797998
+The New York Times,2020-12-25T20:18:19+0000,https://www.nytimes.com/2020/12/25/health/turkey-brazil-sinovac-coronavirus-vaccine.html,0, ,0.5,0.5,0.535953,0.5,0.777119,0.5,0.5
+The New York Times,2020-12-23T19:52:53+0000,https://www.nytimes.com/2020/12/23/science/wildest-animal-news-2020.html,0, ,0.5,0.5,0.576195,0.513092,0.593862,0.5,0.573494
+The New York Times,2020-12-26T10:00:18+0000,https://www.nytimes.com/2020/12/26/health/covid-vaccine-health-workers-families.html,0, ,0.5,0.5,0.55153,0.517184,0.50023,0.5,0.742758
+The New York Times,2020-12-24T10:00:22+0000,https://www.nytimes.com/2020/12/24/health/herd-immunity-covid-coronavirus.html,0, ,0.5,0.5,0.540391,0.558166,0.653421,0.5,0.815953
+The New York Times,2020-12-20T14:52:43+0000,https://www.nytimes.com/2020/12/20/health/virus-vaccine-game-theory.html,0, ,0.5,0.5,0.551951,0.5,0.836912,0.5,0.626948
+The New York Times,2020-12-22T19:00:07+0000,https://www.nytimes.com/2020/12/22/health/memorial-sloan-kettering-cancer-center-doctor-jose-baselga.html,0, ,0.5,0.5,0.5,0.545872,0.651025,0.5,0.5
+The New York Times,2020-12-23T20:14:32+0000,https://www.nytimes.com/interactive/2020/12/23/science/which-animal-best-embodies-2020.html,0, ,0.5,0.5,0.633336,0.608161,0.5,0.5,0.823081
+The New York Times,2020-12-21T16:00:53+0000,https://www.nytimes.com/2020/12/21/science/wolf-puppy-mummy.html,0, ,0.5,0.5,0.565639,0.553478,0.55329,0.5,0.553381

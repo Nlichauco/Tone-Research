@@ -1,0 +1,14 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-27T19:56:46+0000,https://www.nytimes.com/2020/05/27/health/coronavirus-spread-united-states.html,0, ,0.5,0.5,0.534033,0.550216,0.834856,0.5,0.72344
+The New York Times,2020-05-29T19:20:49+0000,https://www.nytimes.com/2020/05/29/health/coronavirus-transmission-dose.html,0, ,0.5,0.5,0.5,0.572482,0.76474,0.5,0.78735
+The New York Times,2020-05-28T21:16:05+0000,https://www.nytimes.com/2020/05/28/health/cdc-coronavirus-offices.html,0, ,0.5,0.5,0.5,0.5,0.717981,0.5,0.630628
+The New York Times,2020-05-29T14:19:52+0000,https://www.nytimes.com/2020/05/29/health/coronavirus-hydroxychloroquine.html,0, ,0.5,0.5,0.542856,0.547437,0.7,0.5,0.555764
+The New York Times,2020-05-29T22:43:25+0000,https://www.nytimes.com/2020/05/29/health/virus-who.html,0, ,0.5,0.5,0.5,0.535305,0.5,0.5,0.5
+The New York Times,2020-05-27T18:38:49+0000,https://www.nytimes.com/2020/05/27/health/spacex-launch-crowds-coronavirus.html,0, ,0.5,0.5,0.5,0.521584,0.537486,0.5,0.52858
+The New York Times,2020-05-25T18:48:50+0000,https://www.nytimes.com/2020/05/25/health/coronavirus-testing-trump.html,0, ,0.5,0.5,0.517164,0.602851,0.696668,0.5,0.5
+The New York Times,2020-05-25T15:15:39+0000,https://www.nytimes.com/2020/05/25/health/coronavirus-cancer-heart-treatment.html,0, ,0.5,0.623943,0.5,0.58505,0.5,0.5,0.582246
+The New York Times,2020-05-26T06:59:09+0000,https://www.nytimes.com/2020/05/26/health/coronavirus-peter-piot.html,0, ,0.5,0.559743,0.5,0.57867,0.5,0.5,0.5
+The New York Times,2020-05-24T14:56:23+0000,https://www.nytimes.com/2020/05/24/health/coronavirus-face-shields.html,0, ,0.5,0.5,0.548062,0.500077,0.719716,0.5,0.86977
+The New York Times,2020-05-27T16:07:31+0000,https://www.nytimes.com/2020/05/27/science/spacex-launch-nasa.html,0, ,0.5,0.5,0.523052,0.547011,0.678454,0.5,0.56406
+The New York Times,2020-05-30T14:05:46+0000,https://www.nytimes.com/2020/05/30/science/spacex-launch-nasa.html,0, ,0.5,0.5,0.562311,0.510465,0.522427,0.5,0.5
+The New York Times,2020-05-30T20:51:49+0000,https://www.nytimes.com/2020/05/30/science/spacex-nasa-astronauts.html,0, ,0.5,0.5,0.579439,0.5,0.536769,0.5,0.5

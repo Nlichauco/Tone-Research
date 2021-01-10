@@ -1,4 +1,3 @@
-import chart_studio
 import plotly.graph_objects as go
 import pandas as pd
 from plotly.validators.scatter.marker import SymbolValidator
@@ -10,14 +9,13 @@ for i in range(0, len(raw_symbols), 12):
 
 
 def GetCols(filename, col):
-    ToneScores = []
     df = pd.read_csv(filename, usecols=[col])
     list = df.keys()
     ToneScores = df[list[0]].tolist()
     return ToneScores
 
 
-def makePlot(filenames):
+def makePlot(filenames, country, tone):
     fig = go.Figure()
     weeks = GetCols(filenames[0], 0)
     fig.update_layout(title=dict(text="", ))
@@ -29,12 +27,12 @@ def makePlot(filenames):
             go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
 
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
-    fig.update_yaxes(title_text="Analytical Tone Scores", title_font_size=18, range=[.5, 1])
+    fig.update_yaxes(title_text=tone + " Tone Scores", title_font_size=18, range=[.5, 1])
     # fig = make_subplots(specs=[[{"secondary_y": True}]])
     Covid_Data = GetCols("UKcovidAVG.csv", 0)
 
     fig.update_layout(yaxis2=dict(
-        title="Weekly Average Covid Cases in the UK",
+        title="Weekly Average Covid Cases in the " + country,
         titlefont=dict(
             color="#d62728"
         ),
@@ -62,8 +60,6 @@ def makePlot(filenames):
 
         ))
 
-    # legend_title_side="top"
-    # fig.update_layout(legend_orientation="h")
     fig.show()
 
 

@@ -1,0 +1,27 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-08-12T09:00:15+0000,https://www.nytimes.com/2020/08/12/opinion/coronavirus-college-reopening.html,0, ,0.5,0.5,0.5,0.539461,0.643403,0.5,0.615483
+The New York Times,2020-08-14T05:00:07+0000,https://www.nytimes.com/2020/08/14/opinion/coronavirus-europe-vacation.html,0, ,0.5,0.5,0.549962,0.538368,0.5,0.5,0.5
+The New York Times,2020-08-13T19:11:16+0000,https://www.nytimes.com/2020/08/13/opinion/covid-school-reopening-student.html,0, ,0.517471,0.506279,0.55367,0.570932,0.5,0.5,0.616324
+The New York Times,2020-08-14T10:25:03+0000,https://www.nytimes.com/2020/08/14/opinion/coronavirus-parenting-education.html,0, ,0.5,0.586886,0.557454,0.598327,0.5,0.5,0.722918
+The New York Times,2020-08-12T09:00:13+0000,https://www.nytimes.com/2020/08/12/opinion/coronavirus-schools-children.html,0, ,0.5,0.5,0.5,0.50526,0.610089,0.5,0.77076
+The New York Times,2020-08-13T09:00:13+0000,https://www.nytimes.com/2020/08/13/opinion/the-argument-coronavirus-catholic-covid.html,0, ,0.5,0.5,0.561138,0.542095,0.618418,0.5,0.779219
+The New York Times,2020-08-14T09:00:13+0000,https://www.nytimes.com/2020/08/14/opinion/kamala-harris-trump.html,0, ,0.5,0.5,0.546926,0.611953,0.5,0.5,0.502894
+The New York Times,2020-08-14T23:00:05+0000,https://www.nytimes.com/2020/08/14/opinion/italy-coronavirus.html,0, ,0.5,0.581783,0.572736,0.565617,0.557724,0.5,0.628299
+The New York Times,2020-08-13T09:00:17+0000,https://www.nytimes.com/2020/08/13/opinion/coronavirus-school-digital.html,0, ,0.5,0.5,0.576681,0.52406,0.764457,0.5,0.5
+The New York Times,2020-08-13T05:00:07+0000,https://www.nytimes.com/2020/08/13/opinion/israel-protests.html,0, ,0.5,0.5,0.553835,0.525472,0.5,0.5,0.669729
+The New York Times,2020-08-15T15:00:04+0000,https://www.nytimes.com/2020/08/15/opinion/fortnite-epic-apple-gaming.html,0, ,0.5,0.5,0.600773,0.5,0.5,0.5,0.695428
+The New York Times,2020-08-10T09:00:05+0000,https://www.nytimes.com/2020/08/10/opinion/coronavirus-doctors-nurses-healthcare.html,0, ,0.5,0.604822,0.520842,0.624991,0.580731,0.5,0.5
+The New York Times,2020-08-10T22:00:07+0000,https://www.nytimes.com/2020/08/10/opinion/trump-coronavirus-social-security.html,0, ,0.5,0.5,0.514304,0.546577,0.709356,0.5,0.736069
+The New York Times,2020-08-11T09:00:13+0000,https://www.nytimes.com/2020/08/11/opinion/bolsonaro-brazil-coronavirus-parenting.html,0, ,0.5,0.5,0.540869,0.564975,0.5,0.5,0.592975
+The New York Times,2020-08-11T09:00:15+0000,https://www.nytimes.com/2020/08/11/opinion/trump-election-day.html,0, ,0.5,0.5,0.5,0.52854,0.718907,0.5,0.778781
+The New York Times,2020-08-12T09:00:18+0000,https://www.nytimes.com/2020/08/12/opinion/census-politics-gerrymandering-redistricting.html,0, ,0.5,0.5,0.52859,0.53747,0.763851,0.5,0.5
+The New York Times,2020-08-10T23:00:07+0000,https://www.nytimes.com/2020/08/10/opinion/coronavirus-school-closures.html,0, ,0.5,0.599798,0.639422,0.609371,0.662876,0.5,0.553302
+The New York Times,2020-08-10T09:12:57+0000,https://www.nytimes.com/2020/08/10/opinion/trump-coronavirus-vp-rice.html,0, ,0.5,0.5,0.500478,0.535877,0.546975,0.5,0.648804
+The New York Times,2020-08-09T15:00:03+0000,https://www.nytimes.com/2020/08/09/opinion/left-politics.html,0, ,0.5,0.5,0.550917,0.52115,0.66286,0.5,0.5
+The New York Times,2020-08-11T22:45:04+0000,https://www.nytimes.com/2020/08/11/opinion/how-to-protect-the-2020-election.html,0, ,0.5,0.503786,0.5,0.568436,0.632993,0.5,0.626327
+The New York Times,2020-08-15T15:00:07+0000,https://www.nytimes.com/2020/08/15/opinion/qanon-marjorie-greene-congress.html,0, ,0.5,0.5,0.529696,0.519993,0.550285,0.5,0.637208
+The New York Times,2020-08-15T18:30:09+0000,https://www.nytimes.com/2020/08/15/opinion/sunday/biden-harris.html,0, ,0.581769,0.5,0.530108,0.5,0.5,0.5,0.616196
+The New York Times,2020-08-09T19:00:23+0000,https://www.nytimes.com/2020/08/09/opinion/trump-beirut-politics.html,0, ,0.5,0.5,0.523696,0.551383,0.727007,0.5,0.611233
+The New York Times,2020-08-13T09:00:17+0000,https://www.nytimes.com/2020/08/13/opinion/trump-corruption.html,0, ,0.5,0.5,0.5,0.570025,0.684195,0.5,0.557789
+The New York Times,2020-08-13T23:25:28+0000,https://www.nytimes.com/2020/08/13/opinion/israel-uae.html,0, ,0.5,0.5,0.554334,0.537689,0.5,0.5,0.5
+The New York Times,2020-08-15T15:00:10+0000,https://www.nytimes.com/2020/08/15/opinion/joe-biden-2020-1988-what-it-takes.html,0, ,0.5,0.5,0.513693,0.527892,0.569934,0.5,0.620363
