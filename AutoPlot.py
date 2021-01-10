@@ -68,7 +68,7 @@ def makePlot(filenames):
 
 
 def main():
-    filenames = []
+    filenames = ['/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/Business/BIGCSV/Guardian-Business.csv','/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/Opinion/BigCSV/Guardian-Opinion.csv']
     makePlot(filenames)
 
 

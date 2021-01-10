@@ -1,25 +1,18 @@
 import csv
 from datetime import date
-
 import pyjq
 import requests
 from bs4 import BeautifulSoup
-
-<<<<<<< HEAD
-# from GetDate import get_date_guardian_format
 from GetDate import get_date_guardian_format
 from ToneAnalyzer import tone_analyze
 from entity.Article import Article
 
-=======
-#from GetDate import get_date_guardian_format
-from ToneAnalyzer import tone_analyze
-from entity.Article import Article
 
 
 
 
->>>>>>> master
+
+
 """Creates complete article class objects with tone scores
     Args:
         articles: article class objs each of which associates to a blob of text
@@ -28,10 +21,6 @@ from entity.Article import Article
          A list of article objects which also have tone scores.
          """
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 def create_arts(articles, texts):
     count = 0
     for text in texts:
@@ -41,10 +30,7 @@ def create_arts(articles, texts):
     return articles
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 """
 Reads through article class objs and creates CSV for that week.
 
@@ -67,10 +53,6 @@ def create_csv(articles, file_name):
                  a.confidence, a.tentative])
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 """Api request, pulls important metadata.
 
     Pull() grabs the source, publication date and url of the articles returned.
@@ -83,7 +65,6 @@ def create_csv(articles, file_name):
          to check for 0 results"""
 
 
-<<<<<<< HEAD
 def Gpull(que):
     response = requests.get(que)
     data = response.json()
@@ -117,43 +98,6 @@ def Gpull(que):
         # print(url)
     return body, arts, num_docs, num_pages
 
-=======
-
-def Gpull(que):
-
-    response = requests.get(que)
-    data = response.json()
-    #hits=pyjq.all('.hits',data)
-    #copyright=pyjq.all('.copyright',data)
-    dict={}
-    num_docs=pyjq.all('.response | .total',data)[0]
-    num_pages=pyjq.all('.response | .pages',data)[0]
-
-
-    pquery='.response .results[].fields |  {stuff: .bodyText}'
-    #pquery='.response |  {stuff: .results[]}'
-    #print(hits)
-    query=f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
-    #pquery= f'.response .results [] | {{text: .fields["bodyText"]}}'
-    output=pyjq.all(query,data)
-    another=pyjq.all(pquery,data)
-    print(another)
-    arts=list()
-    urls=[]
-    body=[]
-    for i in range(len(another)):
-        dict=output[i]
-        texts=another[i]
-        source="Guardian"
-        date=dict["pub_date"]
-        url=dict["web_url"]
-        text=texts["stuff"]
-        if text!='':
-            body.append(text)
-            arts.append(Article(source,date,url))
-        #print(url)
-    return body,arts,num_docs,num_pages
->>>>>>> master
 
 def create_template(file_name):
     with open(file_name, 'w') as file:
@@ -162,7 +106,6 @@ def create_template(file_name):
             ["Source", "Date", "URL", "Score", "   ", "Anger", "Fear", "Joy", "Sad", "Analy", "Confi", "Tenta"])
 
 
-<<<<<<< HEAD
 def fetch_from_guardian(que, filename):
     texts, articles, amt, pages = Gpull(que)
     if amt < 1:
@@ -195,10 +138,6 @@ def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
             page+=1
 
 
-
-def main():
-    # Assuming desired start date is March 1st 2020, and end date is December 26th
-=======
 
 def fetch_from_guardian(que, filename):
     texts,articles,amt,pages=Gpull(que)
@@ -234,24 +173,16 @@ def Guardpull(s_dates,e_dates,keyword,APIkey,sectionName):
 
 def main():
     #Assuming desired start date is March 1st 2020, and end date is December 26th
->>>>>>> master
+
     s_dates = get_date_guardian_format(0, date(2020, 3, 1), date(2020, 12, 26))
     e_dates = get_date_guardian_format(6, date(2020, 3, 1), date(2020, 12, 26))
 
     # Now we have all the info we need to grab articles.
-<<<<<<< HEAD
+
     keyword = "coronavirus"
     APIkey = "7735070e-6108-49c2-80bc-a6a7898d725b"
     sectionName = "commentisfree"
 
     Guardpull(s_dates, e_dates, keyword, APIkey, sectionName)
 
-
-=======
-    keyword="coronavirus"
-    APIkey="7735070e-6108-49c2-80bc-a6a7898d725b"
-    sectionName="business"
-
-    Guardpull(s_dates,e_dates,keyword,APIkey,sectionName)
->>>>>>> master
 main()
