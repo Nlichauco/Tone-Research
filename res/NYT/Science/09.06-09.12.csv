@@ -1,0 +1,17 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-09-09T18:25:10+0000,https://www.nytimes.com/2020/09/09/health/coronavirus-brain.html,0, ,0.5,0.5,0.5,0.573006,0.718801,0.5,0.840961
+The New York Times,2020-09-06T12:00:10+0000,https://www.nytimes.com/2020/09/06/health/coronavirus-rapid-test.html,0, ,0.5,0.5,0.527777,0.543829,0.643339,0.5,0.757456
+The New York Times,2020-09-08T07:00:11+0000,https://www.nytimes.com/2020/09/08/health/covid-aging-immune-system.html,0, ,0.5,0.5,0.527118,0.59634,0.785237,0.5,0.764406
+The New York Times,2020-09-10T10:37:49+0000,https://www.nytimes.com/2020/09/10/health/covid-astrazeneca-vaccine-trans.html,0, ,0.5,0.5,0.5,0.539514,0.877571,0.5,0.745748
+The New York Times,2020-09-08T16:01:19+0000,https://www.nytimes.com/2020/09/08/health/covid-masks-immunity.html,0, ,0.5,0.5,0.523904,0.565849,0.774604,0.5,0.834765
+The New York Times,2020-09-06T20:51:48+0000,https://www.nytimes.com/2020/09/06/health/covid-flu-testing.html,0, ,0.5,0.5,0.5,0.618745,0.728505,0.5,0.844536
+The New York Times,2020-09-10T21:49:24+0000,https://www.nytimes.com/2020/09/10/health/university-illinois-covid.html,0, ,0.5,0.5,0.6006,0.533401,0.560935,0.5,0.610797
+The New York Times,2020-09-08T22:10:27+0000,https://www.nytimes.com/2020/09/08/health/9-drug-companies-pledge-coronavirus-vaccine.html,0, ,0.5,0.5,0.525294,0.526964,0.671998,0.5,0.778916
+The New York Times,2020-09-12T23:02:52+0000,https://www.nytimes.com/2020/09/12/health/astrazeneca-coronavirus-vaccine-trial-resumes.html,0, ,0.5,0.5,0.5,0.551788,0.766078,0.5,0.596471
+The New York Times,2020-09-09T01:32:37+0000,https://www.nytimes.com/2020/09/08/health/coronavirus-astrazeneca-vaccine-safety.html,0, ,0.5,0.5,0.5,0.539235,0.819295,0.5,0.694241
+The New York Times,2020-09-07T14:20:59+0000,https://www.nytimes.com/2020/09/07/health/coronavirus-mental-health-long-hauler.html,0, ,0.5,0.548035,0.5,0.670914,0.725234,0.5,0.656572
+The New York Times,2020-09-09T21:14:54+0000,https://www.nytimes.com/2020/09/09/health/vaping-use-drops-teenagers.html,0, ,0.5,0.5,0.540946,0.631457,0.86833,0.5,0.5
+The New York Times,2020-09-11T10:00:11+0000,https://www.nytimes.com/2020/09/11/health/misinformation-social-media-elderly.html,0, ,0.5,0.5,0.5,0.57851,0.78363,0.5,0.5
+The New York Times,2020-09-12T15:18:25+0000,https://www.nytimes.com/2020/09/12/health/fires-air-california.html,0, ,0.5,0.5,0.535772,0.551529,0.5,0.5,0.677887
+The New York Times,2020-09-11T18:25:43+0000,https://www.nytimes.com/2020/09/11/science/genetic-cancer-research-race.html,0, ,0.5,0.5,0.5,0.656239,0.704917,0.5,0.520991
+The New York Times,2020-09-12T09:00:18+0000,https://www.nytimes.com/2020/09/12/health/ditiu-stoptb-united-nations.html,0, ,0.523304,0.546495,0.5,0.505451,0.5,0.5,0.5

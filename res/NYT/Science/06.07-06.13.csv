@@ -1,0 +1,20 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-06-09T21:48:17+0000,https://www.nytimes.com/2020/06/09/health/coronavirus-asymptomatic-world-health-organization.html,0, ,0.5,0.5,0.559851,0.5,0.5,0.5,0.687854
+The New York Times,2020-06-10T21:08:21+0000,https://www.nytimes.com/2020/06/10/health/coronavirus-testing-churches.html,0, ,0.5,0.5,0.555341,0.572407,0.5,0.5,0.5
+The New York Times,2020-06-09T18:34:12+0000,https://www.nytimes.com/2020/06/09/health/fauci-vaccines-coronavirus.html,0, ,0.5,0.5,0.5,0.545166,0.614362,0.5,0.5
+The New York Times,2020-06-09T09:00:24+0000,https://www.nytimes.com/2020/06/09/health/testing-coronavirus-nursing-homes-workers.html,0, ,0.5,0.5,0.5,0.594817,0.560274,0.5,0.595883
+The New York Times,2020-06-12T21:09:20+0000,https://www.nytimes.com/2020/06/12/health/coronavirus-cdc-masks-gatherings.html,0, ,0.5,0.5,0.5,0.5,0.703025,0.5,0.5
+The New York Times,2020-06-11T11:00:11+0000,https://www.nytimes.com/2020/06/11/health/coronavirus-lung-transplant.html,0, ,0.5,0.5,0.542899,0.581846,0.5,0.5,0.666484
+The New York Times,2020-06-07T22:06:17+0000,https://www.nytimes.com/2020/06/07/science/masks-china-coronavirus.html,0, ,0.524485,0.5,0.515984,0.5,0.5,0.5,0.542316
+The New York Times,2020-06-10T09:01:01+0000,https://www.nytimes.com/interactive/2020/science/coronavirus-vaccine-tracker.html,0, ,0.5,0.5,0.522941,0.5,0.54586,0.5,0.5
+The New York Times,2020-06-11T22:09:41+0000,https://www.nytimes.com/2020/06/11/health/coronavirus-cytokine-storm.html,0, ,0.5,0.547861,0.5,0.590896,0.661731,0.5,0.650784
+The New York Times,2020-06-07T09:00:11+0000,https://www.nytimes.com/2020/06/07/health/doctors-george-floyd-coronavirus.html,0, ,0.5,0.611117,0.5,0.624909,0.530179,0.5,0.523712
+The New York Times,2020-06-12T16:57:24+0000,https://www.nytimes.com/2020/06/12/science/coronavirus-mutation-genetics-spike.html,0, ,0.5,0.5,0.602274,0.5,0.70628,0.5,0.5
+The New York Times,2020-06-09T23:44:54+0000,https://www.nytimes.com/2020/06/09/science/birth-experiences-coronavirus.html,0, ,0.5,0.5,0.547613,0.5,0.5,0.5,0.877926
+The New York Times,2020-06-09T23:15:00+0000,https://www.nytimes.com/2020/06/09/health/carrier-roosevelt-coronavirus.html,0, ,0.5,0.5,0.514886,0.549758,0.624436,0.5,0.683694
+The New York Times,2020-06-09T22:09:44+0000,https://www.nytimes.com/2020/06/09/health/unrest-protests-street-medics.html,0, ,0.5,0.5,0.5,0.564755,0.622284,0.5,0.66217
+The New York Times,2020-06-10T21:45:25+0000,https://www.nytimes.com/2020/06/10/science/vescovo-obrien-challenger-deep-ocean.html,0, ,0.5,0.5,0.5869,0.549352,0.5,0.5,0.5
+The New York Times,2020-06-11T19:11:04+0000,https://www.nytimes.com/2020/06/11/science/migration-red-knot.html,0, ,0.5,0.551541,0.53784,0.501026,0.5,0.5,0.598871
+The New York Times,2020-06-10T17:49:46+0000,https://www.nytimes.com/2020/06/10/science/science-diversity-racism-protests.html,0, ,0.5,0.5,0.583196,0.513384,0.5,0.5,0.5
+The New York Times,2020-06-12T17:18:27+0000,https://www.nytimes.com/2020/06/12/health/protests-rubber-bullets-beanbag.html,0, ,0.5,0.541354,0.5,0.618655,0.556744,0.5,0.656439
+The New York Times,2020-06-08T09:00:19+0000,https://www.nytimes.com/2020/06/08/science/bacteria-library-nctc.html,0, ,0.5,0.5,0.553757,0.551309,0.5,0.5,0.512759

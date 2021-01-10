@@ -1,0 +1,18 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-11-06T10:00:13+0000,https://www.nytimes.com/2020/11/06/opinion/sunday/coronavirus-masks.html,0, ,0.5,0.5,0.5,0.567357,0.874247,0.5,0.80556
+The New York Times,2020-11-06T00:00:05+0000,https://www.nytimes.com/2020/11/05/opinion/joe-biden-senate-mitch-mcconnell.html,0, ,0.5,0.5,0.5,0.512579,0.649741,0.5,0.82513
+The New York Times,2020-11-07T16:51:16+0000,https://www.nytimes.com/2020/11/07/opinion/biden-moderate-agenda.html,0, ,0.5,0.5,0.5,0.515051,0.615821,0.5,0.5
+The New York Times,2020-11-07T16:00:06+0000,https://www.nytimes.com/2020/11/07/opinion/sunday/covid-winter-outdoor-socializing.html,0, ,0.5,0.518917,0.591998,0.585047,0.539017,0.5,0.655728
+The New York Times,2020-11-04T18:36:24+0000,https://www.nytimes.com/2020/11/04/opinion/donald-trump-election-2020.html,0, ,0.5,0.5,0.5,0.5587,0.5,0.5,0.588239
+The New York Times,2020-11-07T16:00:08+0000,https://www.nytimes.com/2020/11/07/opinion/sunday/data-science-limits.html,0, ,0.5,0.544525,0.604926,0.550877,0.692416,0.5,0.551916
+The New York Times,2020-11-02T22:41:01+0000,https://www.nytimes.com/2020/11/02/opinion/trump-election-lies.html,0, ,0.5,0.58679,0.5,0.540263,0.715668,0.5,0.658088
+The New York Times,2020-11-02T10:00:18+0000,https://www.nytimes.com/2020/11/02/opinion/iowa-trump-biden-2020.html,0, ,0.5,0.5,0.528898,0.570131,0.5,0.5,0.629166
+The New York Times,2020-11-05T00:23:17+0000,https://www.nytimes.com/2020/11/04/opinion/montana-greg-gianforte-governor.html,0, ,0.5,0.5,0.5,0.5,0.532958,0.5,0.588719
+The New York Times,2020-11-04T04:53:23+0000,https://www.nytimes.com/2020/11/03/opinion/trump-biden-2020-election.html,0, ,0.5,0.5,0.5,0.563363,0.768944,0.5,0.815662
+The New York Times,2020-11-06T21:28:50+0000,https://www.nytimes.com/2020/11/06/opinion/trump-election-lies.html,0, ,0.5,0.5,0.59008,0.509787,0.555421,0.5,0.581186
+The New York Times,2020-11-06T10:00:17+0000,https://www.nytimes.com/2020/11/06/opinion/how-to-fix-elections.html,0, ,0.5,0.5,0.512954,0.534539,0.5,0.5,0.544687
+The New York Times,2020-11-07T16:05:50+0000,https://www.nytimes.com/2020/11/07/opinion/sunday/trump-election-performance.html,0, ,0.5,0.5,0.5,0.530555,0.603989,0.5,0.665581
+The New York Times,2020-11-05T10:00:12+0000,https://www.nytimes.com/2020/11/05/opinion/supreme-court-amy-coney-barrett.html,0, ,0.5,0.5,0.5,0.5,0.816166,0.5,0.5
+The New York Times,2020-11-04T10:00:13+0000,https://www.nytimes.com/2020/11/04/opinion/election-day-voting.html,0, ,0.5,0.5,0.5,0.548026,0.611351,0.5,0.574279
+The New York Times,2020-11-03T10:00:13+0000,https://www.nytimes.com/2020/11/03/opinion/joe-biden-2020.html,0, ,0.52576,0.5,0.531104,0.564201,0.586331,0.5,0.5
+The New York Times,2020-11-02T10:00:14+0000,https://www.nytimes.com/2020/11/02/opinion/hillary-clinton-biden-trump.html,0, ,0.5,0.513471,0.500161,0.514881,0.508289,0.5,0.541005

@@ -1,0 +1,19 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-10-12T18:10:03+0000,https://www.nytimes.com/2020/10/12/health/coronavirus-monoclonal-antibodies-trump.html,0, ,0.5,0.5,0.557856,0.532561,0.626148,0.5,0.776454
+The New York Times,2020-10-14T22:33:33+0000,https://www.nytimes.com/2020/10/14/health/coronavirus-trump.html,0, ,0.5,0.5,0.53706,0.5,0.799939,0.5,0.664892
+The New York Times,2020-10-13T22:25:29+0000,https://www.nytimes.com/2020/10/13/health/coronavirus-reinfection.html,0, ,0.5,0.564758,0.505089,0.598121,0.839983,0.5,0.798525
+The New York Times,2020-10-15T23:20:50+0000,https://www.nytimes.com/2020/10/15/health/coronavirus-rapid-test-binaxnow.html,0, ,0.5,0.5,0.534275,0.523743,0.541762,0.5,0.5
+The New York Times,2020-10-16T10:16:05+0000,https://www.nytimes.com/2020/10/16/health/covid-vaccine-pfizer.html,0, ,0.5,0.5,0.53476,0.5,0.652582,0.5,0.569481
+The New York Times,2020-10-16T00:39:14+0000,https://www.nytimes.com/2020/10/15/health/coronavirus-remdesivir-who.html,0, ,0.5,0.5,0.5,0.56108,0.571575,0.5,0.579733
+The New York Times,2020-10-14T20:22:19+0000,https://www.nytimes.com/2020/10/14/health/covid-biden-pandemic-plan.html,0, ,0.5,0.5,0.5,0.502867,0.535023,0.5,0.5
+The New York Times,2020-10-13T19:56:32+0000,https://www.nytimes.com/2020/10/13/health/eli-lilly-antibody.html,0, ,0.5,0.5,0.5,0.524117,0.780414,0.5,0.5
+The New York Times,2020-10-14T16:36:18+0000,https://www.nytimes.com/2020/10/14/health/covid-clinical-trials.html,0, ,0.5,0.5,0.5,0.561355,0.7618,0.5,0.766664
+The New York Times,2020-10-12T15:22:32+0000,https://www.nytimes.com/2020/10/12/health/covid-vaccines.html,0, ,0.5,0.5,0.523962,0.515468,0.761972,0.5,0.793444
+The New York Times,2020-10-13T20:13:53+0000,https://www.nytimes.com/2020/10/13/science/sharks-vaccines-covid-squalene.html,0, ,0.5,0.5,0.5,0.507469,0.698436,0.5,0.73683
+The New York Times,2020-10-15T23:15:48+0000,https://www.nytimes.com/2020/10/15/health/coronavirus-testing-negative.html,0, ,0.5,0.5,0.55328,0.535646,0.5,0.5,0.657884
+The New York Times,2020-10-13T16:44:25+0000,https://www.nytimes.com/2020/10/13/technology/another-unfounded-study-on-origins-of-virus-spreads-online.html,0, ,0.5,0.5,0.5,0.505764,0.73875,0.5,0.5
+The New York Times,2020-10-15T09:02:54+0000,https://www.nytimes.com/2020/10/15/health/covid-premature-births-lockdown.html,0, ,0.5,0.5,0.54766,0.558063,0.683122,0.5,0.771329
+The New York Times,2020-10-12T15:27:09+0000,https://www.nytimes.com/2020/10/12/health/coronavirus-pandemic-vaccine-optimism.html,0, ,0.5,0.5,0.528409,0.565323,0.652294,0.5,0.787212
+The New York Times,2020-10-13T06:30:14+0000,https://www.nytimes.com/2020/10/13/health/coronavirus-vaccine-hesitancy-larson.html,0, ,0.5,0.5,0.56966,0.530108,0.642022,0.5,0.5
+The New York Times,2020-10-11T15:24:23+0000,https://www.nytimes.com/2020/10/11/health/covid-survivors.html,0, ,0.5,0.5,0.5,0.632852,0.662989,0.5,0.766128
+The New York Times,2020-10-14T14:31:03+0000,https://www.nytimes.com/2020/10/14/health/election-voting-seniors-dementia.html,0, ,0.5,0.5,0.502281,0.515103,0.666333,0.5,0.768824

@@ -1,0 +1,18 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-07-19T20:53:26+0000,https://www.nytimes.com/2020/07/19/health/coronavirus-testing-viral-spread.html,0, ,0.5,0.5,0.5,0.5,0.586999,0.5,0.855328
+The New York Times,2020-07-21T18:13:46+0000,https://www.nytimes.com/2020/07/21/health/covid-19-vaccine-coronavirus-moderna-pfizer.html,0, ,0.5,0.5,0.5,0.5,0.773338,0.5,0.5
+The New York Times,2020-07-21T20:01:50+0000,https://www.nytimes.com/2020/07/21/health/coronavirus-data-states-cdc.html,0, ,0.5,0.5,0.5,0.542127,0.668615,0.5,0.5
+The New York Times,2020-07-21T15:13:24+0000,https://www.nytimes.com/2020/07/21/health/coronavirus-infections-us.html,0, ,0.5,0.5,0.5,0.537191,0.764464,0.5,0.840153
+The New York Times,2020-07-23T19:42:07+0000,https://www.nytimes.com/2020/07/23/health/coronavirus-vaccine-allocation.html,0, ,0.5,0.5,0.535195,0.5,0.716971,0.5,0.843192
+The New York Times,2020-07-22T20:48:19+0000,https://www.nytimes.com/2020/07/22/health/covid-antibodies-herd-immunity.html,0, ,0.5,0.637275,0.546365,0.582152,0.670403,0.5,0.687198
+The New York Times,2020-07-24T21:23:36+0000,https://www.nytimes.com/2020/07/24/health/cdc-schools-coronavirus.html,0, ,0.5,0.5,0.525388,0.547731,0.682597,0.5,0.5
+The New York Times,2020-07-24T17:11:37+0000,https://www.nytimes.com/2020/07/24/health/coronavirus-nursing-homes-PPE.html,0, ,0.5,0.5,0.5,0.534514,0.626914,0.5,0.5
+The New York Times,2020-07-22T22:10:13+0000,https://www.nytimes.com/2020/07/22/health/coronavirus-isolation-testing.html,0, ,0.5,0.5,0.5,0.60299,0.514381,0.5,0.825234
+The New York Times,2020-07-19T09:00:11+0000,https://www.nytimes.com/2020/07/19/health/coronavirus-premature-birth.html,0, ,0.5,0.5,0.5,0.545379,0.66422,0.5,0.762811
+The New York Times,2020-07-23T14:53:41+0000,https://www.nytimes.com/2020/07/23/health/coronavirus-testing-supply-shortage.html,0, ,0.5,0.5,0.630877,0.5,0.5,0.5,0.646932
+The New York Times,2020-07-23T18:00:10+0000,https://www.nytimes.com/2020/07/23/science/coronavirus-seismic-activity.html,0, ,0.5,0.5,0.577733,0.5,0.682571,0.5,0.5
+The New York Times,2020-07-23T18:00:10+0000,https://www.nytimes.com/2020/07/23/science/smallpox-vikings-genetics.html,0, ,0.5,0.5,0.5,0.603603,0.736077,0.5,0.800713
+The New York Times,2020-07-22T09:00:45+0000,https://www.nytimes.com/2020/07/22/science/vampire-bats-viruses.html,0, ,0.5,0.5,0.550895,0.528291,0.695333,0.5,0.706171
+The New York Times,2020-07-19T18:04:04+0000,https://www.nytimes.com/2020/07/19/science/emirates-mars-mission.html,0, ,0.5,0.5,0.598403,0.528797,0.5,0.5,0.609026
+The New York Times,2020-07-23T01:00:06+0000,https://www.nytimes.com/2020/07/22/science/mars-china-launch.html,0, ,0.5,0.5,0.604334,0.5,0.681014,0.5,0.5
+The New York Times,2020-07-22T16:03:54+0000,https://www.nytimes.com/2020/07/22/science/china-mars-mission.html,0, ,0.5,0.5,0.562629,0.587356,0.615689,0.5,0.5

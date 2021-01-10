@@ -1,0 +1,21 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-11-17T17:20:23+0000,https://www.nytimes.com/2020/11/17/health/coronavirus-immunity.html,0, ,0.5,0.5,0.5,0.567949,0.750759,0.5,0.800656
+The New York Times,2020-11-16T12:00:11+0000,https://www.nytimes.com/2020/11/16/health/Covid-moderna-vaccine.html,0, ,0.5,0.5,0.513607,0.50979,0.682646,0.5,0.618605
+The New York Times,2020-11-18T11:45:07+0000,https://www.nytimes.com/2020/11/18/health/pfizer-covid-vaccine.html,0, ,0.5,0.5,0.541372,0.5,0.733905,0.5,0.68952
+The New York Times,2020-11-20T17:26:17+0000,https://www.nytimes.com/2020/11/20/science/scientists-covid-survey.html,0, ,0.5,0.5,0.590342,0.532432,0.825595,0.5,0.843499
+The New York Times,2020-11-19T23:37:54+0000,https://www.nytimes.com/2020/11/19/health/coronavirus-thanksgiving-cdc.html,0, ,0.5,0.5,0.5,0.561908,0.637933,0.5,0.634115
+The New York Times,2020-11-20T17:00:13+0000,https://www.nytimes.com/2020/11/20/health/covid-vaccine-95-effective.html,0, ,0.5,0.5,0.529694,0.546306,0.814328,0.5,0.715284
+The New York Times,2020-11-20T19:49:44+0000,https://www.nytimes.com/2020/11/20/health/pfizer-covid-vaccine.html,0, ,0.5,0.5,0.5,0.5,0.738785,0.5,0.5
+The New York Times,2020-11-19T13:00:10+0000,https://www.nytimes.com/2020/11/19/health/masks-hospitals.html,0, ,0.5,0.5,0.575902,0.574993,0.5,0.5,0.5
+The New York Times,2020-11-20T00:09:04+0000,https://www.nytimes.com/2020/11/19/health/remdesivir-covid-19.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.624536
+The New York Times,2020-11-18T14:00:11+0000,https://www.nytimes.com/2020/11/18/health/coronavirus-masks-denmark.html,0, ,0.5,0.5,0.539527,0.549698,0.751524,0.5,0.707355
+The New York Times,2020-11-19T01:02:18+0000,https://www.nytimes.com/article/coronavirus-masks.html,0, ,0.5,0.5,0.553841,0.533077,0.734316,0.5,0.645459
+The New York Times,2020-11-16T22:29:54+0000,https://www.nytimes.com/2020/11/16/health/coronavirus-celine-gounder-biden.html,0, ,0.5,0.5,0.5,0.541661,0.633691,0.5,0.5
+The New York Times,2020-11-15T17:56:36+0000,https://www.nytimes.com/2020/11/15/health/Covid-doctors-nurses-quitting.html,0, ,0.5,0.507555,0.5,0.585487,0.664164,0.5,0.76133
+The New York Times,2020-11-18T06:40:27+0000,https://www.nytimes.com/2020/11/18/health/coronavirus-testing-home.html,0, ,0.5,0.5,0.568025,0.564328,0.616001,0.5,0.5
+The New York Times,2020-11-21T10:00:19+0000,https://www.nytimes.com/2020/11/21/science/coronavirus-antibodies-artificial-intelligence.html,0, ,0.5,0.5,0.535532,0.5,0.599206,0.5,0.732379
+The New York Times,2020-11-17T22:01:16+0000,https://www.nytimes.com/2020/11/17/health/coronavirus-vaccine-operation-warp-speed.html,0, ,0.5,0.5,0.524995,0.5,0.66843,0.5,0.5
+The New York Times,2020-11-16T22:19:37+0000,https://www.nytimes.com/2020/11/16/health/moderna-pfizer-vaccine.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-11-20T18:18:40+0000,https://www.nytimes.com/2020/11/20/science/sharks-drones-artificial-intelligence.html,0, ,0.5,0.5,0.574274,0.5,0.669676,0.5,0.654459
+The New York Times,2020-11-20T16:44:15+0000,https://www.nytimes.com/2020/11/20/health/tuberculosis-ai-apps.html,0, ,0.5,0.5,0.5,0.5,0.54558,0.5,0.566513
+The New York Times,2020-11-17T07:30:16+0000,https://www.nytimes.com/2020/11/17/health/suicide-guns-prevention.html,0, ,0.5,0.541269,0.5,0.646976,0.663419,0.5,0.604046
