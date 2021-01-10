@@ -136,8 +136,8 @@ def create_csv(articles, file_name):
 
 
 def demo():
-    s_dates = get_date_nyt_format(0, date(2020, 3, 29), date(2020, 12, 26))
-    e_dates = get_date_nyt_format(6, date(2020, 3, 29), date(2020, 12, 26))
+    s_dates = get_date_nyt_format(0, date(2020, 4, 19), date(2020, 12, 26))
+    e_dates = get_date_nyt_format(6, date(2020, 4, 19), date(2020, 12, 26))
     for i in range(0, len(s_dates)):
         file_name = s_dates[i][:2] + "." + s_dates[i][2:] + "-" + e_dates[i][:2] + "." + e_dates[i][2:] + ".csv"
         page = 0
