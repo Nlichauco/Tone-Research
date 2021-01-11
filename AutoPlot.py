@@ -44,7 +44,7 @@ def makePlot(filenames, country, tone):
     ))
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
     fig.update_layout(title_text="<b>(The Guardian) Weekly Average Analytical Tone Score per Primary Desk</b>")
-    fig.update_layout(title_x=.1,paper_bgcolor='rgba(0,0,0,0)',
+    fig.update_layout(title_x=.01,paper_bgcolor="#FFF",
     plot_bgcolor='rgba(0,0,0,0)')
     fig.update_layout(title_font_size=20,width=900,height=520, autosize=True,margin=dict(
         l=100,
@@ -66,12 +66,12 @@ def makePlot(filenames, country, tone):
         ))
 
     # fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    fig.show()
+    fig.write_image("fig1.png")
+
 
 
 def main():
-    filenames = ['/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/BigCSV/Guardian-Business.csv',
-                 '/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/BigCSV/Guardian-Opinion.csv']
+    filenames = ['res/GuardianCSVs/BigCSV/Business.csv','res/GuardianCSVs/BigCSV/Opinion.csv','res/GuardianCSVs/BigCSV/Politics.csv']
     makePlot(filenames, "UK", "Analytical")
 
 

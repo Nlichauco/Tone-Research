@@ -125,7 +125,7 @@ def main():
     # Now we have all the info we need to grab articles.
     keyword = "coronavirus"
     APIkey = "7735070e-6108-49c2-80bc-a6a7898d725b"
-    sectionName = "politics"
+    sectionName = "society"
 
     Guardpull(s_dates, e_dates, keyword, APIkey, sectionName)
 
