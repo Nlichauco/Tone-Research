@@ -32,7 +32,7 @@ for text in texts:
 
 def ibm_tone(text):
     #apikey = 'EKJ2es4GQg5UrMiW6cY16R06b1yzPH_0aB7yInFi5cgY'
-    apikey='GWJdPEMJKIS8X1C-gyZ1V32LKkuPYPlSSGR8QOvfe70z'
+    apikey='mA_4uqt2kbCe0ulfIL_-w-s6d9QF1-tsC0ZB0_tWmDZu'
     authenticator = IAMAuthenticator(apikey)
     tone_analyzer = ToneAnalyzerV3(
         version='2017-09-21',
@@ -40,7 +40,7 @@ def ibm_tone(text):
     )
 
     tone_analyzer.set_service_url(
-        'https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/262c2e76-6e5a-40f3-91aa-bf9efc6c212e')
+        'https://api.au-syd.tone-analyzer.watson.cloud.ibm.com/instances/a4959905-de76-443d-9f76-3da83ecaa3cf')
     text = text
     tone_analysis = tone_analyzer.tone(
         {'text': text},
