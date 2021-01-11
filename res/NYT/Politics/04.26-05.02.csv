@@ -1,0 +1,21 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-01T11:00:44+0000,https://www.nytimes.com/2020/05/01/us/politics/coronavirus-spending-polls.html,0, ,0.5,0.5,0.5,0.528059,0.672828,0.5,0.608143
+The New York Times,2020-04-29T18:17:02+0000,https://www.nytimes.com/2020/04/29/us/politics/coronavirus-trump-justice-department.html,0, ,0.5,0.5,0.5,0.513447,0.650978,0.5,0.5
+The New York Times,2020-04-29T22:00:19+0000,https://www.nytimes.com/2020/04/29/us/politics/trump-campaign-reelection-polls.html,0, ,0.5,0.5,0.5,0.531608,0.665207,0.5,0.570394
+The New York Times,2020-04-28T10:55:23+0000,https://www.nytimes.com/2020/04/28/us/politics/coronavirus-trump-congress.html,0, ,0.5,0.5,0.5,0.596004,0.753415,0.5,0.5
+The New York Times,2020-04-28T09:00:30+0000,https://www.nytimes.com/2020/04/28/us/politics/Facebook-Acronym-advertising.html,0, ,0.5,0.5,0.559645,0.539156,0.765501,0.5,0.56886
+The New York Times,2020-04-29T11:04:26+0000,https://www.nytimes.com/2020/04/29/us/politics/hillary-clinton-joe-biden.html,0, ,0.5,0.5,0.5,0.540344,0.696046,0.5,0.5
+The New York Times,2020-04-27T10:59:35+0000,https://www.nytimes.com/2020/04/27/us/politics/trump-coronavirus-aid.html,0, ,0.5,0.5,0.5,0.591801,0.776969,0.5,0.5
+The New York Times,2020-04-28T09:00:11+0000,https://www.nytimes.com/2020/04/28/us/politics/mike-dewine-ohio-coronavirus.html,0, ,0.5,0.5,0.541329,0.517616,0.5,0.5,0.5
+The New York Times,2020-04-30T23:43:27+0000,https://www.nytimes.com/2020/04/30/us/politics/josh-hawley-missouri.html,0, ,0.5,0.5,0.521334,0.55022,0.547664,0.5,0.61004
+The New York Times,2020-04-26T21:40:31+0000,https://www.nytimes.com/2020/04/26/us/politics/trump-disinfectant-coronavirus.html,0, ,0.5,0.5,0.530093,0.522776,0.651458,0.5,0.683833
+The New York Times,2020-04-27T16:10:05+0000,https://www.nytimes.com/2020/04/27/us/politics/democratic-primary-canceled-coronavirus.html,0, ,0.5,0.5,0.5,0.520929,0.719615,0.5,0.5
+The New York Times,2020-04-30T11:03:22+0000,https://www.nytimes.com/2020/04/30/us/politics/biden-trump-2020.html,0, ,0.5,0.5,0.512177,0.529431,0.730372,0.5,0.5
+The New York Times,2020-04-29T22:45:41+0000,https://www.nytimes.com/2020/04/29/us/politics/justin-amash.html,0, ,0.5,0.5,0.517431,0.5,0.633718,0.5,0.5
+The New York Times,2020-04-28T22:40:01+0000,https://www.nytimes.com/2020/04/28/us/politics/trump-campaign-acronym.html,0, ,0.5,0.5,0.5149,0.5,0.55179,0.5,0.5
+The New York Times,2020-04-27T23:07:56+0000,https://www.nytimes.com/2020/04/27/us/politics/joe-biden-donald-trump.html,0, ,0.5,0.509868,0.501789,0.564721,0.590009,0.5,0.585586
+The New York Times,2020-04-28T17:05:14+0000,https://www.nytimes.com/2020/04/28/us/politics/hillary-clinton-biden-endorsement.html,0, ,0.5,0.5,0.5,0.560357,0.5665,0.5,0.5
+The New York Times,2020-04-29T00:54:26+0000,https://www.nytimes.com/2020/04/28/us/politics/justin-amash-president.html,0, ,0.5,0.5,0.602415,0.5,0.587862,0.5,0.668541
+The New York Times,2020-04-29T20:59:41+0000,https://www.nytimes.com/2020/04/29/us/politics/tara-reade-joe-biden.html,0, ,0.5,0.5,0.5,0.569688,0.624431,0.5,0.58879
+The New York Times,2020-04-30T20:29:56+0000,https://www.nytimes.com/2020/04/30/us/politics/joe-biden-tara-reade-pelosi.html,0, ,0.5,0.5,0.5,0.5,0.602817,0.5,0.5
+The New York Times,2020-04-26T09:00:15+0000,https://www.nytimes.com/2020/04/26/us/politics/white-house-correspondents-dinner-bipartisan-trump.html,0, ,0.5,0.5,0.580658,0.586072,0.5,0.5,0.504942

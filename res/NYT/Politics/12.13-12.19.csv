@@ -1,0 +1,19 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-12-19T00:23:50+0000,https://www.nytimes.com/2020/12/18/us/politics/pence-coronavirus-vaccine.html,0, ,0.5,0.5,0.534359,0.528276,0.5,0.5,0.521916
+The New York Times,2020-12-17T12:00:22+0000,https://www.nytimes.com/2020/12/17/us/politics/pelosi-mcconnell-stimulus.html,0, ,0.5,0.5,0.5,0.50522,0.634797,0.5,0.559081
+The New York Times,2020-12-18T12:01:24+0000,https://www.nytimes.com/2020/12/18/us/politics/politicians-covid-vaccine.html,0, ,0.5,0.5,0.5,0.5,0.630932,0.5,0.605471
+The New York Times,2020-12-15T21:04:01+0000,https://www.nytimes.com/2020/12/15/obituaries/carlos-araujo-preza-dead-covid.html,0, ,0.5,0.5,0.501598,0.596943,0.5,0.5,0.532477
+The New York Times,2020-12-17T23:08:23+0000,https://www.nytimes.com/2020/12/17/us/one-of-bidens-closest-advisers-cedric-richmond-tests-positive-for-the-virus.html,0, ,0.5,0.5,0.584969,0.5,0.5,0.5,0.5
+The New York Times,2020-12-14T12:00:20+0000,https://www.nytimes.com/2020/12/14/us/politics/biden-trump-vote.html,0, ,0.5,0.5,0.5,0.517211,0.52433,0.5,0.555077
+The New York Times,2020-12-14T14:00:07+0000,https://www.nytimes.com/2020/12/14/us/a-recent-surge-in-border-crossings-will-test-bidens-promise-to-enact-a-more-humane-border-policy.html,0, ,0.5,0.5,0.5,0.6128,0.5,0.5,0.603333
+The New York Times,2020-12-16T12:01:19+0000,https://www.nytimes.com/2020/12/16/us/politics/biden-georgia-senate-races.html,0, ,0.5,0.5,0.5,0.5378,0.5,0.5,0.5
+The New York Times,2020-12-14T21:01:05+0000,https://www.nytimes.com/2020/12/14/us/biden-calls-trumps-attacks-on-voting-unconscionable.html,0, ,0.5,0.5,0.518754,0.533396,0.5,0.5,0.5
+The New York Times,2020-12-14T18:37:00+0000,https://www.nytimes.com/2020/12/14/us/michigan-republican-leaders-affirm-states-electoral-votes-and-reprimand-lawmaker-who-suggested-there-might-be-violence.html,0, ,0.5,0.572005,0.512295,0.5,0.587223,0.5,0.5
+The New York Times,2020-12-15T10:00:23+0000,https://www.nytimes.com/2020/12/15/us/politics/biden-democrats.html,0, ,0.5,0.5,0.5,0.5,0.57262,0.5,0.5
+The New York Times,2020-12-17T10:00:21+0000,https://www.nytimes.com/2020/12/17/us/politics/2020-election-over.html,0, ,0.5,0.5,0.5,0.5,0.597441,0.5,0.689859
+The New York Times,2020-12-14T22:57:25+0000,https://www.nytimes.com/2020/12/14/us/politics/biden-trump-electoral-college-vote.html,0, ,0.5,0.5,0.5,0.5,0.615057,0.5,0.590343
+The New York Times,2020-12-15T12:00:52+0000,https://www.nytimes.com/2020/12/15/us/politics/electoral-college-biden.html,0, ,0.5,0.5,0.5,0.573008,0.572576,0.5,0.5
+The New York Times,2020-12-17T22:40:39+0000,https://www.nytimes.com/2020/12/17/us/politics/georgia-senate-polls.html,0, ,0.5,0.5,0.5,0.580466,0.705282,0.5,0.679562
+The New York Times,2020-12-15T00:13:53+0000,https://www.nytimes.com/2020/12/14/us/politics/electoral-college-vote.html,0, ,0.5,0.5,0.575026,0.5,0.5,0.5,0.5
+The New York Times,2020-12-15T00:23:05+0000,https://www.nytimes.com/2020/12/14/us/politics/biden-electoral-college.html,0, ,0.5,0.5,0.507625,0.502839,0.5,0.5,0.5
+The New York Times,2020-12-14T08:00:15+0000,https://www.nytimes.com/2020/12/14/us/politics/electoral-college-biden-trump.html,0, ,0.5,0.513302,0.541007,0.576741,0.5,0.5,0.672664

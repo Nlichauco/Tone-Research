@@ -1,6 +1,8 @@
 import plotly.graph_objects as go
 import pandas as pd
 from plotly.validators.scatter.marker import SymbolValidator
+from IPython.display import Image
+
 symbols = []
 raw_symbols = SymbolValidator().values
 for i in range(0, len(raw_symbols), 12):
@@ -17,12 +19,12 @@ def GetCols(filename, col):
 def makePlot(filenames, country, tone):
     fig = go.Figure()
     weeks = GetCols(filenames[0], 0)
-    #fig.update_layout(title=dict(bgcolor="#FFF" ))
+    # fig.update_layout(title=dict(bgcolor="#FFF" ))
     for i in range(0, len(filenames)):
         fname = filenames[i]
-        start=fname.rfind("/")
-        end=fname.rfind(".")
-        fname=fname[start+1:end+1]
+        start = fname.rfind("/")
+        end = fname.rfind(".")
+        fname = fname[start + 1:end + 1]
         data = GetCols(filenames[i], 33)
         traceName = fname[:fname[i].find(".")]
         fig.add_trace(
@@ -61,14 +63,16 @@ def makePlot(filenames, country, tone):
         margin=dict(
             l=0,
             r=50,
-    ))
-    #fig.write_image("fig1.png", width=1200, height=600, scale=1)
+        ))
+
+    # fig.write_image("fig1.png", width=1200, height=600, scale=1)
     fig.show()
 
-def main():
-    filenames = ['res/GuardianCSVs/BigCSV/Business.csv','res/GuardianCSVs/BigCSV/Opinion.csv','res/GuardianCSVs/BigCSV/Science.csv','res/GuardianCSVs/BigCSV/Politics.csv']
-    makePlot(filenames,"UK","Analytical")
 
+def main():
+    filenames = ['/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/BigCSV/Guardian-Business.csv',
+                 '/Users/nathaniel/Desktop/Tone-Research/res/GuardianCSVs/BigCSV/Guardian-Opinion.csv']
+    makePlot(filenames, "UK", "Analytical")
 
 
 main()
