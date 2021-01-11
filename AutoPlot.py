@@ -29,7 +29,7 @@ def makePlot(filenames, country, tone):
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
     fig.update_yaxes(title_text=tone + " Tone Scores", title_font_size=18, range=[.5, 1])
     # fig = make_subplots(specs=[[{"secondary_y": True}]])
-    Covid_Data = GetCols("UKcovidAVG.csv", 0)
+    Covid_Data = GetCols("res/GuardianCSVs/Guardian-Business.csv", 0)
 
     fig.update_layout(yaxis2=dict(
         title="Weekly Average Covid Cases in the " + country,

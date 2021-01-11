@@ -1,0 +1,23 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-11-19T23:59:27+0000,https://www.nytimes.com/2020/11/19/us/politics/trump-coronavirus-plan.html,0, ,0.5,0.5,0.5,0.58644,0.5,0.5,0.719541
+The New York Times,2020-11-17T12:01:58+0000,https://www.nytimes.com/2020/11/17/us/politics/biden-coronavirus-economy.html,0, ,0.5,0.5,0.507105,0.521269,0.63715,0.5,0.5
+The New York Times,2020-11-16T13:29:20+0000,https://www.nytimes.com/2020/11/16/us/biden-and-harris-will-speak-about-the-economy-today.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.707568
+The New York Times,2020-11-19T00:35:05+0000,https://www.nytimes.com/2020/11/18/us/politics/trump-giuliani-voter-fraud.html,0, ,0.5,0.5,0.517127,0.577765,0.685832,0.5,0.547713
+The New York Times,2020-11-16T15:56:31+0000,https://www.nytimes.com/2020/11/16/us/speaking-on-the-economy-biden-says-we-can-deliver-immediate-relief-and-calls-on-congress-to-act-quickly.html,0, ,0.537591,0.5,0.506317,0.547209,0.5,0.5,0.5
+The New York Times,2020-11-17T13:33:48+0000,https://www.nytimes.com/2020/11/17/us/trump-has-until-wednesday-to-request-a-recount-in-wisconsin-it-would-cost-him-7-9-million.html,0, ,0.5,0.5,0.5,0.5,0.781701,0.5,0.5
+The New York Times,2020-11-18T14:48:26+0000,https://www.nytimes.com/2020/11/18/us/politics/many-republican-governors-still-wont-state-plainly-that-biden-won.html,0, ,0.5,0.5,0.5,0.5334,0.5,0.5,0.5
+The New York Times,2020-11-20T18:14:40+0000,https://www.nytimes.com/2020/11/20/us/politics/trump-meeting.html,0, ,0.5,0.5,0.542669,0.542613,0.564763,0.5,0.5
+The New York Times,2020-11-19T12:01:46+0000,https://www.nytimes.com/2020/11/19/us/politics/biden-gsa-transition.html,0, ,0.5,0.5,0.5,0.541954,0.5,0.5,0.5
+The New York Times,2020-11-16T14:36:03+0000,https://www.nytimes.com/2020/11/16/us/more-republicans-call-for-a-smooth-transition-as-trump-continues-spreading-baseless-fraud-claims.html,0, ,0.515183,0.5,0.508696,0.5,0.577896,0.5,0.5
+The New York Times,2020-11-17T08:00:09+0000,https://www.nytimes.com/2020/11/17/us/politics/real-clear-politics.html,0, ,0.5,0.5,0.5,0.566726,0.720576,0.5,0.5
+The New York Times,2020-11-17T10:00:28+0000,https://www.nytimes.com/2020/11/17/us/politics/georgia-senate-runoff-voting.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.520219
+The New York Times,2020-11-18T13:36:02+0000,https://www.nytimes.com/2020/11/18/us/politics/democrats-nominate-nancy-pelosi-for-another-term-as-speaker-as-she-suggests-it-could-be-her-last.html,0, ,0.5,0.5,0.58191,0.51843,0.679401,0.5,0.5
+The New York Times,2020-11-17T23:10:15+0000,https://www.nytimes.com/2020/11/17/us/politics/georgia-runoff-ads.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-11-18T11:59:54+0000,https://www.nytimes.com/2020/11/18/us/politics/republicans-election-trump.html,0, ,0.5,0.5,0.5,0.567572,0.667621,0.5,0.5
+The New York Times,2020-11-20T23:26:18+0000,https://www.nytimes.com/2020/11/20/us/politics/Tucker-Carlson-trump.html,0, ,0.549695,0.5,0.523065,0.5,0.502756,0.5,0.5
+The New York Times,2020-11-16T12:02:57+0000,https://www.nytimes.com/2020/11/16/us/politics/trump-biden-election.html,0, ,0.5,0.5,0.512311,0.5,0.610709,0.5,0.5
+The New York Times,2020-11-21T01:20:07+0000,https://www.nytimes.com/2020/11/20/us/politics/georgia-trump-michigan-election.html,0, ,0.5,0.5,0.50959,0.534065,0.611429,0.5,0.5
+The New York Times,2020-11-15T15:47:17+0000,https://www.nytimes.com/2020/11/15/us/politics/trump-concession-books-literature-.html,0, ,0.5,0.5,0.5,0.53555,0.58008,0.5,0.53013
+The New York Times,2020-11-19T00:22:38+0000,https://www.nytimes.com/2020/11/18/us/politics/trump-election.html,0, ,0.5,0.5,0.5,0.558425,0.624403,0.5,0.5
+The New York Times,2020-11-19T10:00:19+0000,https://www.nytimes.com/2020/11/19/us/politics/georgia-senate-races-donations.html,0, ,0.5,0.5,0.5,0.553114,0.5,0.5,0.5
+The New York Times,2020-11-15T10:00:11+0000,https://www.nytimes.com/2020/11/15/us/politics/2020-election-recap-democrats-republicans.html,0, ,0.5,0.5,0.517213,0.516464,0.514788,0.5,0.676499

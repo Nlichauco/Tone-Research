@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-12-04T12:01:27+0000,https://www.nytimes.com/2020/12/04/us/politics/biden-fauci-masks-virus.html,0, ,0.5,0.5,0.509489,0.537376,0.5,0.5,0.541131
+The New York Times,2020-12-02T12:01:32+0000,https://www.nytimes.com/2020/12/02/us/politics/pardon-white-house.html,0, ,0.5,0.5,0.5,0.508942,0.587293,0.5,0.672149
+The New York Times,2020-12-05T00:22:26+0000,https://www.nytimes.com/2020/12/04/us/politics/trump-georgia-senate-obama.html,0, ,0.5,0.5,0.5,0.5,0.533068,0.5,0.50371
+The New York Times,2020-12-05T10:00:14+0000,https://www.nytimes.com/2020/12/05/us/politics/2020-election-turnout.html,0, ,0.5,0.5,0.5,0.555387,0.637667,0.5,0.5
+The New York Times,2020-12-01T12:00:10+0000,https://www.nytimes.com/2020/12/01/us/politics/biden-intelligence-briefings.html,0, ,0.5,0.5,0.5,0.5,0.785267,0.5,0.501117
+The New York Times,2020-12-05T10:00:06+0000,https://www.nytimes.com/2020/12/05/us/politics/biden-blue-collar-voters.html,0, ,0.5,0.5,0.5,0.563095,0.507146,0.5,0.753549
+The New York Times,2020-11-30T12:00:30+0000,https://www.nytimes.com/2020/11/30/us/politics/biden-economic-appointments.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-12-03T12:01:44+0000,https://www.nytimes.com/2020/12/03/us/politics/stimulus-bill.html,0, ,0.5,0.5,0.5,0.5,0.718617,0.5,0.5
+The New York Times,2020-12-02T10:00:26+0000,https://www.nytimes.com/2020/12/02/us/politics/biden-trump-pennsylvania.html,0, ,0.5,0.545658,0.500556,0.515235,0.599799,0.5,0.6257
+The New York Times,2020-12-04T15:47:44+0000,https://www.nytimes.com/2020/12/04/us/politics/georgia-native-american-voters.html,0, ,0.5,0.5,0.5,0.511149,0.557702,0.5,0.565412
