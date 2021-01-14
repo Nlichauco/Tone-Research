@@ -1,0 +1,26 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-09-23T21:00:19+0000,https://www.nytimes.com/2020/09/23/sports/ncaafootball/cal-athletics-schedule.html,0, ,0.5,0.5,0.513127,0.558963,0.5,0.5,0.571226
+The New York Times,2020-09-21T15:43:35+0000,https://www.nytimes.com/2020/09/21/sports/soccer/coronavirus-la-liga.html,0, ,0.5,0.5,0.5,0.5,0.520192,0.5,0.5
+The New York Times,2020-09-26T10:00:10+0000,https://www.nytimes.com/2020/09/26/sports/tennis/coronavirus-french-open.html,0, ,0.5,0.5,0.585353,0.5,0.5,0.5,0.5
+The New York Times,2020-09-26T09:00:32+0000,https://www.nytimes.com/2020/09/26/sports/football/nfl-fans-stadiums-allowed-jacksonville.html,0, ,0.5,0.5,0.607101,0.526441,0.631276,0.5,0.5
+The New York Times,2020-09-25T14:03:07+0000,https://www.nytimes.com/2020/09/25/sports/soccer/fifa-national-teams.html,0, ,0.5,0.5,0.5,0.515326,0.700859,0.5,0.635447
+The New York Times,2020-09-23T09:00:42+0000,https://www.nytimes.com/2020/09/23/sports/baseball/pandemic-obstructed-views.html,0, ,0.5,0.5,0.5,0.500563,0.5,0.5,0.655928
+The New York Times,2020-09-24T07:00:07+0000,https://www.nytimes.com/2020/09/24/sports/basketball/mexico-basketball.html,0, ,0.5,0.5,0.590971,0.505889,0.5,0.5,0.5
+The New York Times,2020-09-25T07:00:07+0000,https://www.nytimes.com/2020/09/25/sports/hockey/nhl-bubble-families.html,0, ,0.5,0.5,0.592312,0.5,0.5,0.5,0.5
+The New York Times,2020-09-24T23:30:33+0000,https://www.nytimes.com/2020/09/24/sports/ncaafootball/coronavirus-pac-12-restart.html,0, ,0.5,0.5,0.554209,0.5,0.596919,0.5,0.5
+The New York Times,2020-09-25T22:21:16+0000,https://www.nytimes.com/2020/09/25/sports/ncaafootball/pac-12-return.html,0, ,0.5,0.5,0.569705,0.5,0.519531,0.5,0.578537
+The New York Times,2020-09-24T18:25:24+0000,https://www.nytimes.com/2020/09/24/sports/tennis/french-open-draw-coronavirus.html,0, ,0.5,0.5,0.588311,0.556388,0.5,0.5,0.5
+The New York Times,2020-09-23T09:00:40+0000,https://www.nytimes.com/2020/09/23/sports/ncaafootball/college-football-death-jamain-stephens.html,0, ,0.5,0.5,0.543031,0.593537,0.5,0.5,0.604305
+The New York Times,2020-09-21T07:00:13+0000,https://www.nytimes.com/2020/09/21/sports/baseball/mariners-kyle-lewis-rookie-year.html,0, ,0.5,0.5,0.567579,0.5,0.5,0.5,0.730029
+The New York Times,2020-09-21T07:00:12+0000,https://www.nytimes.com/2020/09/21/sports/skiing/mikaela-shiffrin-world-cup-ski-racing.html,0, ,0.5,0.5,0.578714,0.589151,0.5,0.5,0.712885
+The New York Times,2020-09-20T17:26:25+0000,https://www.nytimes.com/2020/09/20/sports/cycling/tour-de-france-tadej-pogacar.html,0, ,0.5,0.5,0.624643,0.56533,0.5,0.5,0.5
+The New York Times,2020-09-25T22:54:05+0000,https://www.nytimes.com/2020/09/25/sports/baseball/miami-marlins-postseason.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-09-21T00:45:40+0000,https://www.nytimes.com/2020/09/20/sports/baseball/yankees-clinch-playoffs-postseason.html,0, ,0.5,0.5,0.566629,0.595648,0.5,0.5,0.5
+The New York Times,2020-09-20T17:06:54+0000,https://www.nytimes.com/2020/09/20/sports/golf/us-open-ben-hogan.html,0, ,0.5,0.5,0.636345,0.5,0.5,0.5,0.5
+The New York Times,2020-09-20T00:10:00+0000,https://www.nytimes.com/2020/09/19/sports/golf/us-open-leaderboard-wolff.html,0, ,0.5,0.5,0.579393,0.591858,0.5,0.5,0.5
+The New York Times,2020-09-23T07:00:07+0000,https://www.nytimes.com/2020/09/23/sports/football/nfl-injuries-week-2.html,0, ,0.5,0.5,0.525864,0.602346,0.705603,0.5,0.833524
+The New York Times,2020-09-22T07:00:07+0000,https://www.nytimes.com/2020/09/22/sports/basketball/wnba-crystal-dangerfield-lynx.html,0, ,0.5,0.5,0.603185,0.5,0.5,0.5,0.692584
+The New York Times,2020-09-25T16:37:41+0000,https://www.nytimes.com/2020/09/25/sports/basketball/wnba-sun-aces.html,0, ,0.5,0.5,0.579318,0.543027,0.5,0.5,0.5
+The New York Times,2020-09-23T19:10:20+0000,https://www.nytimes.com/2020/09/23/sports/basketball/nba-referees.html,0, ,0.553514,0.5,0.601127,0.500073,0.621513,0.5,0.595247
+The New York Times,2020-09-23T07:00:06+0000,https://www.nytimes.com/2020/09/23/sports/basketball/wnba-sabrina-ionescu-nba-mvp-lebron.html,0, ,0.5,0.5,0.577897,0.564542,0.586322,0.5,0.564254
+The New York Times,2020-09-26T07:00:09+0000,https://www.nytimes.com/2020/09/26/sports/hockey/miro-heiskanen-stanley-cup-finals.html,0, ,0.5,0.5,0.61499,0.503073,0.548664,0.5,0.5

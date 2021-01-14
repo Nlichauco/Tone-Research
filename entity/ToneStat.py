@@ -31,10 +31,16 @@ class ToneStat:
             return .5
 
     def get_median(self):
-        return stat.median(self.Tone_scores)
+        if not self.Tone_scores:
+            return 0.5
+        else:
+            return stat.median(self.Tone_scores)
 
     def get_max(self):
-        return max(self.Tone_scores)
+        if not self.Tone_scores:
+            return 0.5
+        else:
+            return max(self.Tone_scores)
 
     def get_perc(self):
         total = len(self.Tone_scores)

@@ -33,7 +33,7 @@ def fetch_from_nyt(que, file_name):
         que: An api query
 
     Returns:
-         A list of urls, and a list of article class objects, the number of responses(articles in json) is also returned 
+         A list of urls, and a list of article class objects, the number of responses(articles in json) is also returned
          to check for 0 results"""
 
 
@@ -144,7 +144,7 @@ def demo():
         create_template(file_name)
         while 1:
             que = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=coronavirus&page=" + str(page) + \
-                  '&fq=news_desk:("Business")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020' + \
+                  '&fq=news_desk:("Sports")&source:("The New York Times")&facet=true&sort=relevance&begin_date=2020' + \
                   s_dates[i] + "&end_date=2020" + e_dates[i] + "&api-key=aiPyJZEGATr7l0XfQGsBpQ3loDqzteIC"
             if fetch_from_nyt(que, file_name) != 10:
                 break
