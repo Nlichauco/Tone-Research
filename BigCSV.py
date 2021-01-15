@@ -145,6 +145,10 @@ def write_overall(path, source, desk):
         writer.writerow([sums[0], sums[1], sums[2], sums[3], sums[4], sums[5], sums[6]])
 
 
-for p in the_paths:
-    write_overall(p, "NYT", p[p.rfind("/") + 1:])
-# big_csv(the_paths)
+def main():
+    for p in the_paths:
+        # write_overall(p, "NYT", p[p.rfind("/") + 1:])
+        write_overall(p, "Guardian", p[p.rfind("/") + 1:])
+
+
+main()

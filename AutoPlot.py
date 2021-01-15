@@ -4,9 +4,6 @@ import plotly.graph_objects as go
 import pandas as pd
 from plotly.validators.scatter.marker import SymbolValidator
 
-from BigCSV import sum_total
-import statistics as stat
-
 symbols = []
 raw_symbols = SymbolValidator().values
 for i in range(0, len(raw_symbols), 12):
@@ -51,26 +48,7 @@ def makePlot(filenames, country, tone, tone_col):
     ))
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
     fig.update_layout(title_text="<b>(The Guardian) Weekly Average " + tone + " Tone Score per Primary Desk</b>")
-    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
-                      plot_bgcolor='rgba(0,0,0,0)')
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(
-        l=100,
-        r=10,
-        b=100,
-        t=100,
-        pad=5
-    ))
-    fig.update_layout(legend=dict(
-        orientation="h",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1
-    ),
-        margin=dict(
-            l=0,
-            r=50,
-        ))
+    graph_setup(fig)
 
     # fig.write_image("fig1.png", width=1200, height=600, scale=1)
     fig.write_image("fig1.png")
@@ -111,26 +89,7 @@ def crossPlot(filenames, source_1, source_2, tone, tone_col):
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, range=[-.25, 42.15])
     fig.update_yaxes(title_text=tone + " Tone Scores", title_font_size=18, range=[.5, 1])
     fig.update_layout(title_text="<b>Weekly Average " + tone + " Tone Score (" + source_1 + " Vs " + source_2 + ")</b>")
-    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
-                      plot_bgcolor='rgba(0,0,0,0)')
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(
-        l=100,
-        r=10,
-        b=100,
-        t=100,
-        pad=5
-    ))
-    fig.update_layout(legend=dict(
-        orientation="h",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1
-    ),
-        margin=dict(
-            l=0,
-            r=50,
-        ))
+    graph_setup(fig)
     saveName = tone + ".png"
     fig.write_image(saveName, width=1200, height=600, scale=1)
     # fig.show()
@@ -176,8 +135,7 @@ def PercPlot(filenames, country, tone, tone_col, CovidData):
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, range=[-.25, 42.15])
     fig.update_yaxes(title_text="% of Articles With " + tone, title_font_size=18, range=[0, 100], ticksuffix="%")
     fig.update_layout(title_text="<b>(" + source + ") Weekly % of Articles With " + tone + "</b>")
-    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
-                      plot_bgcolor='rgba(0,0,0,0)')
+    graph_setup(fig)
 
     if CovidData == True:
         if country == "US":
@@ -197,25 +155,6 @@ def PercPlot(filenames, country, tone, tone_col, CovidData):
             side="right"
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
-
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(
-        l=100,
-        r=10,
-        b=100,
-        t=100,
-        pad=5
-    ))
-    fig.update_layout(legend=dict(
-        orientation="h",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1
-    ),
-        margin=dict(
-            l=0,
-            r=50,
-        ))
 
     saveName = tone + "Ratio.png"
     # fig.write_image(saveName, width=1200, height=600, scale=1)
@@ -260,8 +199,7 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData):
     fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, range=[-.25, 42.15])
     fig.update_yaxes(title_text=tone + " Tone Scores", title_font_size=18, range=[0, big + 1])
     fig.update_layout(title_text="<b>Cumulative " + tone + " Tone Score per Week</b>")
-    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
-                      plot_bgcolor='rgba(0,0,0,0)')
+    graph_setup(fig)
 
     if CovidData == True:
         if country == "US":
@@ -281,25 +219,6 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData):
             side="right"
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
-
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(
-        l=100,
-        r=10,
-        b=100,
-        t=100,
-        pad=5
-    ))
-    fig.update_layout(legend=dict(
-        orientation="h",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1
-    ),
-        margin=dict(
-            l=0,
-            r=50,
-        ))
 
     fig.write_image("fig1.png", width=1200, height=600, scale=1)
     # fig.show()
@@ -355,33 +274,22 @@ def MultiTonePlot(file, tones, tone_name, country):
         overlaying="y",
         side="right"
     ))
-
+    graph_setup(fig)
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
     fig.update_layout(title_text="<b> Weekly AVG. Tone Scores (" + source + " " + sectionName + ") </b>")
-    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
-                      plot_bgcolor='rgba(0,0,0,0)')  # 'rgba(0,0,0,0)'229, 236, 246
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(
-        l=100,
-        r=10,
-        b=100,
-        t=100,
-        pad=5
-    ))
-    fig.update_layout(legend=dict(
-        orientation="h",
-        yanchor="bottom",
-        y=1.02,
-        xanchor="right",
-        x=1
-    ),
-        margin=dict(
-            l=0,
-            r=50,
-        ))
-    fig.update_yaxes(gridcolor='black')
     saveName = sectionName + ".png"
     # fig.write_image(saveName, width=1200, height=600, scale=1)
     fig.show()
+
+
+"""
+Get the first data row in a csv file
+Args:
+    filename: the path of the csv
+
+Returns:
+    an int array contains all data in the first row
+    """
 
 
 def get_row(filename):
@@ -396,10 +304,20 @@ def get_row(filename):
     return t
 
 
+"""
+Plot cumulative tone scores comparison between NYT and Guardian for given desk
+Args:
+    desk: Desk name in string
+
+Returns:
+    Nothing, creates a plot.
+    """
+
+
 def overall_graph_cross_compare(desk):
     source = ['New York Times', 'Guardian']
     nyt = get_row("res/NYT/Overall/NYT_" + desk + ".csv")
-    guardian = get_row("res/Guardian/Overall/NYT_" + desk + ".csv")
+    guardian = get_row("res/Guardian/Overall/Guardian_" + desk + ".csv")
     fig = go.Figure(data=[
         go.Bar(name='Anger', x=source, y=[nyt[0], guardian[0]]),
         go.Bar(name='Sad', x=source, y=[nyt[1], guardian[1]]),
@@ -411,10 +329,21 @@ def overall_graph_cross_compare(desk):
     ])
     graph_setup(fig)
     fig.update_xaxes(tickfont=dict(size=18))
+    fig.update_yaxes(range=[0, 1000])
     fig.update_layout(barmode='group',
-                      title_text=desk + " Cumulative Score Comparison " + ",New York Times VS Guardian",
+                      title_text=desk + " Cumulative Score Comparison" + ", New York Times VS Guardian",
                       yaxis_title="Cumulative Tone Scores")
     fig.show()
+
+
+"""
+Plot cumulative tone scores cross desks for a given source
+Args:
+    source: Source name in string
+
+Returns:
+    Nothing, creates a plot.
+    """
 
 
 def overall_graph_single_source(source):
@@ -442,9 +371,19 @@ def overall_graph_single_source(source):
     fig.update_yaxes(range=[0, 1000])
     fig.update_xaxes(tickfont=dict(size=18))
     fig.update_layout(barmode='group',
-                      title_text="Overall Primary Desks Tone Scores For " + source,
+                      title_text="Cumulative Tone Scores Comparison Between Primary Desks Of " + source,
                       yaxis_title="Cumulative Tone Scores")
     fig.show()
+
+
+"""
+Graph set up for 
+Args:
+    source: Source name in string
+
+Returns:
+    Nothing, creates a plot.
+    """
 
 
 def graph_setup(fig):
@@ -466,20 +405,13 @@ def graph_setup(fig):
                           xanchor="right",
                           x=1
                       ))
+    fig.update_yaxes(showgrid=True, gridcolor='black')
+    fig.update_yaxes(zeroline=True, zerolinewidth=1, zerolinecolor='black')
 
 
 def main():
-    filenames = ['res/NYT/Overall/NYT_Business.csv',
-                 'res/NYT/Overall/NYT_Science.csv',
-                 'res/NYT/Overall/NYT_Politics.csv',
-                 'res/NYT/Overall/NYT_Opinion.csv']
-    overall_graph_single_source(filenames, "New York Times")
-    tones = ["Anger", "Sad", "Fear", "Joy", "Analytical", "Confidence", "Tentative"]
-    cols = [3, 8, 13, 18, 23, 28, 33]
-    nytFiles = ['res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
-    GuardFiles = ['res/GuardianCSVs/BigCSV/Opinion.csv', 'res/GuardianCSVs/BigCSV/Politics.csv']
-    MultiTonePlot('res/NYT/Opinion.csv', cols, tones, "US")
+    overall_graph_single_source("NYT")
+    overall_graph_single_source("Guardian")
 
 
 main()
-
