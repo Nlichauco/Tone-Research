@@ -51,7 +51,8 @@ def makePlot(filenames, country, tone, tone_col):
     graph_setup(fig)
 
     # fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    fig.write_image("fig1.png")
+    #fig.write_image("fig1.png")
+    fig.show()
 
 
 """
@@ -220,8 +221,8 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData):
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='Covid cases', yaxis='y2', fill='tozeroy'))
 
-    fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    # fig.show()
+    # fig.write_image("fig1.png", width=1200, height=600, scale=1)
+    fig.show()
 
 
 """
@@ -410,8 +411,8 @@ def graph_setup(fig):
 
 
 def main():
-    overall_graph_single_source("NYT")
-    overall_graph_single_source("Guardian")
+    # makePlot(["res/NYT/Opinion.csv", "res/NYT/Business.csv", "res/NYT/Politics.csv"], "US", "Sad", 8)
+    TotalPlot(["res/Guardian/Opinion.csv", "res/Guardian/Politics.csv"], "UK", "Sad", 9, True)
 
 
 main()
