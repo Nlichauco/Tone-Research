@@ -102,7 +102,7 @@ def fetch_from_guardian(que, filename):
 
 def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
     for i in range(0, len(s_dates)):
-        fname = s_dates[i][:2] + "." + s_dates[i][3:] + "-" + e_dates[i][:2] + "." + e_dates[i][3:] + ".csv"
+        fname = "2020-"+s_dates[i][:2] + "-" + s_dates[i][3:]+ ".csv"
         create_template(fname)
         page = 2
         que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&edition=uk&from-date=2020-""" + \
