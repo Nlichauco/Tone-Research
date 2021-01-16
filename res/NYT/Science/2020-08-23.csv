@@ -1,0 +1,15 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-08-27T09:00:28+0000,https://www.nytimes.com/2020/08/27/health/covid-19-vaccines.html,0, ,0.5,0.5,0.557089,0.5,0.711362,0.5,0.655237
+The New York Times,2020-08-26T09:00:25+0000,https://www.nytimes.com/2020/08/26/health/coronavirus-men-immune.html,0, ,0.5,0.5,0.504447,0.548994,0.816056,0.5,0.746597
+The New York Times,2020-08-24T16:29:42+0000,https://www.nytimes.com/2020/08/24/health/coronavirus-reinfection.html,0, ,0.5,0.5,0.567686,0.553602,0.614792,0.5,0.631876
+The New York Times,2020-08-29T09:00:20+0000,https://www.nytimes.com/2020/08/29/health/coronavirus-testing.html,0, ,0.5,0.5,0.51856,0.518071,0.69897,0.5,0.733111
+The New York Times,2020-08-25T09:00:24+0000,https://www.nytimes.com/2020/08/25/health/coronavirus-flu-testing.html,0, ,0.5,0.5,0.523216,0.570193,0.5,0.5,0.669414
+The New York Times,2020-08-29T09:00:24+0000,https://www.nytimes.com/2020/08/29/health/Covid-obamacare-uninsured.html,0, ,0.5,0.5,0.5,0.569905,0.573962,0.5,0.555926
+The New York Times,2020-08-26T13:37:58+0000,https://www.nytimes.com/2020/08/26/health/covid-19-superspreaders-boston.html,0, ,0.5,0.5,0.542186,0.562377,0.627991,0.5,0.58024
+The New York Times,2020-08-28T16:09:30+0000,https://www.nytimes.com/2020/08/28/health/blood-plasma-fda.html,0, ,0.5,0.5,0.535231,0.520998,0.684535,0.5,0.62426
+The New York Times,2020-08-25T21:52:17+0000,https://www.nytimes.com/2020/08/25/health/covid-19-testing-cdc.html,0, ,0.5,0.5,0.526475,0.59489,0.648179,0.5,0.82144
+The New York Times,2020-08-27T17:21:57+0000,https://www.nytimes.com/2020/08/27/health/covid-schools-legionnaires-disease.html,0, ,0.5,0.53196,0.5,0.501427,0.786833,0.5,0.67841
+The New York Times,2020-08-28T14:00:13+0000,https://www.nytimes.com/2020/08/28/health/coronavirus-retirement-recession.html,0, ,0.5,0.5,0.553615,0.569359,0.586131,0.5,0.5
+The New York Times,2020-08-28T14:00:11+0000,https://www.nytimes.com/2020/08/28/health/virtual-therapy-psychiatry-coronavirus.html,0, ,0.5,0.534148,0.515469,0.595448,0.560082,0.5,0.681267
+The New York Times,2020-08-25T00:07:48+0000,https://www.nytimes.com/2020/08/24/health/fda-blood-plasma.html,0, ,0.5,0.5,0.5,0.512198,0.670845,0.5,0.5
+The New York Times,2020-08-27T15:00:12+0000,https://www.nytimes.com/2020/08/27/science/dinosaur-face-fossil.html,0, ,0.5,0.5,0.609864,0.5,0.5,0.5,0.831478

@@ -1,0 +1,18 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-07-06T18:04:15+0000,https://www.nytimes.com/2020/07/06/health/fast-coronavirus-tests.html,0, ,0.5,0.5,0.548403,0.556372,0.598691,0.5,0.668082
+The New York Times,2020-07-07T20:21:00+0000,https://www.nytimes.com/2020/07/07/health/coronavirus-aerosols-who.html,0, ,0.5,0.5,0.549739,0.5,0.5,0.5,0.5
+The New York Times,2020-07-09T18:54:14+0000,https://www.nytimes.com/2020/07/09/health/virus-aerosols-who.html,0, ,0.5,0.5,0.515759,0.5,0.5,0.5,0.802626
+The New York Times,2020-07-06T20:55:47+0000,https://www.nytimes.com/2020/07/06/health/coronavirus-airborne-aerosols.html,0, ,0.5,0.5,0.546914,0.501042,0.568104,0.5,0.759639
+The New York Times,2020-07-11T14:08:21+0000,https://www.nytimes.com/2020/07/11/health/coronavirus-schools-reopen.html,0, ,0.5,0.5,0.531516,0.545433,0.722298,0.5,0.726742
+The New York Times,2020-07-10T14:23:17+0000,https://www.nytimes.com/2020/07/10/health/coronavirus-sutter-california-hospitals.html,0, ,0.5,0.5,0.5,0.5,0.699531,0.5,0.5
+The New York Times,2020-07-08T19:24:22+0000,https://www.nytimes.com/2020/07/08/health/coronavirus-masks-ppe-doc.html,0, ,0.5,0.621561,0.5,0.605244,0.602589,0.5,0.5
+The New York Times,2020-07-06T21:51:10+0000,https://www.nytimes.com/2020/07/06/health/coronavirus-nick-cordero-underlying-conditions.html,0, ,0.5,0.505703,0.5,0.628132,0.610311,0.5,0.697199
+The New York Times,2020-07-10T22:39:42+0000,https://www.nytimes.com/2020/07/10/health/coronavirus-race-pregnancy.html,0, ,0.5,0.5,0.5,0.560269,0.707198,0.5,0.573704
+The New York Times,2020-07-07T10:00:13+0000,https://www.nytimes.com/2020/07/07/health/novavax-coronavirus-vaccine-warp-speed.html,0, ,0.5,0.5,0.5,0.5,0.627525,0.5,0.717623
+The New York Times,2020-07-08T21:54:23+0000,https://www.nytimes.com/2020/07/08/health/coronavirus-risk-factors.html,0, ,0.5,0.5,0.507141,0.627751,0.765035,0.5,0.611674
+The New York Times,2020-07-09T16:50:47+0000,https://www.nytimes.com/2020/07/09/health/regeneron-monoclonal-antibodies.html,0, ,0.5,0.59899,0.53715,0.561836,0.522218,0.5,0.626596
+The New York Times,2020-07-08T14:40:04+0000,https://www.nytimes.com/2020/07/08/health/coronavirus-origin-china-lucey.html,0, ,0.5,0.5,0.614242,0.5,0.654144,0.5,0.588115
+The New York Times,2020-07-07T06:59:27+0000,https://www.nytimes.com/2020/07/07/health/rare-diseases.html,0, ,0.5,0.5,0.565405,0.574742,0.653897,0.5,0.5
+The New York Times,2020-07-07T13:00:10+0000,https://www.nytimes.com/2020/07/07/health/hiv-shot-prep.html,0, ,0.5,0.5,0.506244,0.542517,0.624213,0.5,0.5
+The New York Times,2020-07-07T13:00:08+0000,https://www.nytimes.com/2020/07/07/health/hiv-remission-brazil.html,0, ,0.5,0.5,0.51174,0.522131,0.70331,0.5,0.5
+The New York Times,2020-07-09T19:29:21+0000,https://www.nytimes.com/2020/07/09/health/antibiotics-pharma-drug-resistance.html,0, ,0.5,0.53326,0.519704,0.592409,0.519859,0.5,0.5

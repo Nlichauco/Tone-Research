@@ -1,0 +1,5 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-10-03T09:38:43Z,https://www.theguardian.com/world/2020/oct/03/uk-hospitals-already-using-trump-antibody-drug-says-expert,0, ,0.5,0.5,0.624064,0.59502,0.566537,0.5,0.5
+Guardian,2020-10-03T17:21:02Z,https://www.theguardian.com/science/2020/oct/03/anti-covid-treatments-being-given-to-trump-are-still-unproven-say-experts,0, ,0.5,0.5,0.545739,0.589716,0.857456,0.5,0.651057
+Guardian,2020-09-30T17:17:30Z,https://www.theguardian.com/science/2020/sep/30/neanderthal-genes-increase-risk-of-serious-covid-19-study-claims,0, ,0.5,0.5,0.5,0.58308,0.781553,0.5,0.735978
+Guardian,2020-10-01T20:30:03Z,https://www.theguardian.com/science/2020/oct/01/nasas-dragonfly-mission-to-saturns-titan-moon-delayed-covid-life-earth,0, ,0.5,0.5,0.5657,0.602899,0.758071,0.5,0.702394

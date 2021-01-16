@@ -1,0 +1,14 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-09-04T18:18:53+0000,https://www.nytimes.com/2020/09/04/health/russia-covid-vaccine.html,0, ,0.5,0.5,0.532529,0.560629,0.788597,0.5,0.558447
+The New York Times,2020-09-01T07:00:11+0000,https://www.nytimes.com/2020/09/01/science/covid-19-vaccine-diy.html,0, ,0.5,0.5,0.557107,0.5,0.722873,0.5,0.700832
+The New York Times,2020-09-01T19:32:10+0000,https://www.nytimes.com/2020/09/01/health/coronavirus-bus-china.html,0, ,0.5,0.5,0.508638,0.5,0.593916,0.5,0.5
+The New York Times,2020-09-01T15:25:15+0000,https://www.nytimes.com/2020/09/01/health/coronavirus-children-minorities.html,0, ,0.5,0.5,0.504106,0.611361,0.5,0.5,0.625139
+The New York Times,2020-09-04T19:35:33+0000,https://www.nytimes.com/2020/09/04/health/covid-vaping-smoking.html,0, ,0.5,0.542956,0.5,0.57511,0.5,0.5,0.729137
+The New York Times,2020-09-02T21:16:43+0000,https://www.nytimes.com/2020/09/02/health/trump-world-health-organization-funding-coronavirus.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-09-02T14:00:13+0000,https://www.nytimes.com/2020/09/02/health/coronavirus-steroids.html,0, ,0.5,0.5,0.503231,0.616564,0.701131,0.5,0.5
+The New York Times,2020-09-02T22:46:28+0000,https://www.nytimes.com/article/covid-vaccine-a-b.html,0, ,0.5,0.5,0.512633,0.5,0.784375,0.5,0.783629
+The New York Times,2020-09-01T13:00:12+0000,https://www.nytimes.com/2020/09/01/health/coronavirus-parents-schools.html,0, ,0.5,0.5,0.524956,0.572499,0.702404,0.5,0.7234
+The New York Times,2020-09-02T18:34:27+0000,https://www.nytimes.com/2020/09/02/health/covid-19-vaccine-cdc-plans.html,0, ,0.5,0.5,0.5,0.5,0.65036,0.5,0.5
+The New York Times,2020-08-30T13:48:53+0000,https://www.nytimes.com/2020/08/30/health/predict-pandemic-usaid.html,0, ,0.5,0.554949,0.5,0.511936,0.5,0.5,0.5
+The New York Times,2020-08-30T09:00:26+0000,https://www.nytimes.com/2020/08/30/health/skin-diseases-black-hispanic.html,0, ,0.5,0.5,0.522129,0.54498,0.632674,0.5,0.586281
+The New York Times,2020-09-05T01:44:51+0000,https://www.nytimes.com/2020/09/04/science/covid-vaccine-pharma-pledge.html,0, ,0.5,0.5,0.517523,0.5,0.579055,0.5,0.636084

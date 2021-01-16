@@ -1,0 +1,22 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-12-01T10:00:29+0000,https://www.nytimes.com/2020/12/01/health/covid-vaccine-distribution-first.html,0, ,0.5,0.5,0.5,0.528735,0.778692,0.5,0.721965
+The New York Times,2020-11-30T12:00:09+0000,https://www.nytimes.com/2020/11/30/health/covid-vaccine-moderna.html,0, ,0.5,0.5,0.5,0.537023,0.669149,0.5,0.584436
+The New York Times,2020-12-02T19:13:23+0000,https://www.nytimes.com/2020/12/02/health/Covid-Moderna-vaccine-children.html,0, ,0.5,0.5,0.5,0.535839,0.645648,0.5,0.74781
+The New York Times,2020-12-05T15:41:58+0000,https://www.nytimes.com/2020/12/05/health/covid-vaccine-first.html,0, ,0.5,0.5,0.5,0.54136,0.737052,0.5,0.5
+The New York Times,2020-12-04T17:06:14+0000,https://www.nytimes.com/2020/12/04/health/covid-long-term-symptoms.html,0, ,0.5,0.5,0.5,0.696576,0.648757,0.5,0.572637
+The New York Times,2020-12-04T10:00:15+0000,https://www.nytimes.com/2020/12/04/health/covid-vaccine-blood-test.html,0, ,0.5,0.5,0.533619,0.5,0.802763,0.5,0.801668
+The New York Times,2020-12-04T18:25:40+0000,https://www.nytimes.com/2020/12/04/health/covid-drug-baricitinib.html,0, ,0.5,0.5,0.5,0.570884,0.619837,0.5,0.708363
+The New York Times,2020-12-05T13:00:08+0000,https://www.nytimes.com/2020/12/05/health/covid-natural-immunity.html,0, ,0.5,0.5,0.50208,0.557085,0.810117,0.5,0.754622
+The New York Times,2020-12-02T22:03:45+0000,https://www.nytimes.com/2020/12/02/health/coronavirus-quarantine-period.html,0, ,0.5,0.5,0.5,0.56485,0.656619,0.5,0.747888
+The New York Times,2020-12-01T21:20:27+0000,https://www.nytimes.com/2020/12/01/health/coronavirus-december-arrival.html,0, ,0.5,0.5,0.5,0.5,0.710901,0.5,0.696193
+The New York Times,2020-12-02T22:00:10+0000,https://www.nytimes.com/2020/12/02/health/covid-vaccine-placebo-group.html,0, ,0.5,0.5,0.562857,0.539947,0.734791,0.5,0.754471
+The New York Times,2020-12-01T23:03:22+0000,https://www.nytimes.com/2020/12/01/health/covid-vaccine-distribution-cdc.html,0, ,0.5,0.5,0.516653,0.500064,0.69032,0.5,0.642875
+The New York Times,2020-11-30T19:40:25+0000,https://www.nytimes.com/2020/11/30/health/coronavirus-vaccine-prisons.html,0, ,0.5,0.5,0.5,0.59735,0.665021,0.5,0.689333
+The New York Times,2020-11-29T19:02:14+0000,https://www.nytimes.com/2020/11/29/health/should-covid-19-isolation-periods-be-shorter.html,0, ,0.5,0.527733,0.526082,0.540909,0.778661,0.5,0.805769
+The New York Times,2020-12-04T23:34:25+0000,https://www.nytimes.com/2020/12/04/health/coronavirus-cdc-recommendations.html,0, ,0.5,0.5,0.5,0.5,0.639607,0.5,0.5
+The New York Times,2020-12-03T10:00:25+0000,https://www.nytimes.com/2020/12/03/health/coronavirus-testing-labs-workers.html,0, ,0.5,0.5,0.568092,0.594251,0.5,0.5,0.5
+The New York Times,2020-12-05T10:00:17+0000,https://www.nytimes.com/2020/12/05/health/coronavirus-swiss-cheese-infection-mackay.html,0, ,0.5,0.5,0.541483,0.5,0.731004,0.5,0.781658
+The New York Times,2020-12-01T21:45:22+0000,https://www.nytimes.com/2020/12/01/health/coronavirus-testing-children.html,0, ,0.5,0.5,0.5,0.5,0.631918,0.5,0.789622
+The New York Times,2020-11-30T20:29:33+0000,https://www.nytimes.com/2020/11/30/health/coronavirus-vaccines-treatments.html,0, ,0.5,0.5,0.5,0.541448,0.643414,0.5,0.744756
+The New York Times,2020-12-01T10:29:58+0000,https://www.nytimes.com/2020/12/01/world/vaccines-are-coming-but-pandemic-experts-expect-a-horrible-winter.html,0, ,0.5,0.5,0.5,0.569988,0.5,0.5,0.81409
+The New York Times,2020-12-03T10:06:19+0000,https://www.nytimes.com/2020/12/03/us/a-pandemics-other-toll-the-lab-techs-who-struggle-to-process-all-those-tests.html,0, ,0.5,0.5,0.558083,0.5,0.5,0.5,0.837014

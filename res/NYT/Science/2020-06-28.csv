@@ -1,0 +1,16 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-07-01T19:05:03+0000,https://www.nytimes.com/2020/07/01/health/coronavirus-vaccine-trials.html,0, ,0.5,0.5,0.512738,0.52518,0.779875,0.5,0.761028
+The New York Times,2020-07-04T15:12:34+0000,https://www.nytimes.com/2020/07/04/health/coronavirus-death-rate.html,0, ,0.5,0.585753,0.5,0.591409,0.578766,0.5,0.643395
+The New York Times,2020-06-29T21:47:58+0000,https://www.nytimes.com/2020/06/29/health/coronavirus-remdesivir-gilead.html,0, ,0.5,0.5,0.5,0.513043,0.565925,0.5,0.5
+The New York Times,2020-06-30T22:21:09+0000,https://www.nytimes.com/2020/06/30/health/coronavirus-ny.html,0, ,0.5,0.5,0.512258,0.578969,0.617092,0.5,0.631162
+The New York Times,2020-07-04T23:44:01+0000,https://www.nytimes.com/2020/07/04/health/239-experts-with-one-big-claim-the-coronavirus-is-airborne.html,0, ,0.5,0.5,0.542005,0.5,0.5,0.5,0.581998
+The New York Times,2020-07-02T09:00:28+0000,https://www.nytimes.com/2020/07/02/technology/coronavirus-infrared-cameras-temperature-sensors.html,0, ,0.5,0.5,0.537812,0.5,0.660601,0.5,0.731947
+The New York Times,2020-07-01T20:53:04+0000,https://www.nytimes.com/2020/07/01/health/coronavirus-pooled-testing.html,0, ,0.5,0.5,0.520803,0.526395,0.585391,0.5,0.530388
+The New York Times,2020-07-01T19:42:53+0000,https://www.nytimes.com/2020/07/01/health/coronavirus-recovery-survivors.html,0, ,0.5,0.516922,0.5,0.67193,0.5,0.5,0.854537
+The New York Times,2020-06-28T19:47:08+0000,https://www.nytimes.com/2020/06/28/health/coronavirus-delirium-hallucinations.html,0, ,0.5,0.629172,0.5,0.617571,0.522965,0.5,0.656448
+The New York Times,2020-06-29T16:36:13+0000,https://www.nytimes.com/2020/06/29/health/coronavirus-doctors-office.html,0, ,0.5,0.56955,0.506454,0.573428,0.5,0.5,0.833139
+The New York Times,2020-07-03T19:06:13+0000,https://www.nytimes.com/2020/07/03/health/coronavirus-mortality-testing.html,0, ,0.5,0.5,0.5,0.622927,0.552394,0.5,0.769693
+The New York Times,2020-07-02T15:11:57+0000,https://www.nytimes.com/2020/07/02/health/coronavirus-korber-mutation.html,0, ,0.5,0.5,0.640552,0.5,0.741254,0.5,0.533878
+The New York Times,2020-06-30T04:01:28+0000,https://www.nytimes.com/2020/06/30/science/how-coronavirus-spreads.html,0, ,0.5,0.5,0.538123,0.546709,0.704868,0.5,0.826133
+The New York Times,2020-07-04T23:43:53+0000,https://www.nytimes.com/2020/07/04/health/coronavirus-neanderthals.html,0, ,0.5,0.5,0.546135,0.557213,0.673099,0.5,0.774547
+The New York Times,2020-07-02T23:00:12+0000,https://www.nytimes.com/2020/07/02/health/santillana-coronavirus-model-forecast.html,0, ,0.5,0.5,0.550831,0.518699,0.831222,0.5,0.580916

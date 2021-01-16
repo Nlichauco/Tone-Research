@@ -12,8 +12,15 @@ def change(path):
         os.rename(path + "/" + fn, path + "/" + "2020" + "-" + mm + "-" + dd + ".csv")
 
 
-change("res/Guardian/Sport")
+change("res/NYT/Sports")
 change("res/NYT/Opinion")
 change("res/NYT/Politics")
 change("res/NYT/Science")
 change("res/NYT/Business")
+
+change("res/Guardian/Sport")
+change("res/Guardian/Opinion")
+change("res/Guardian/Politics")
+change("res/Guardian/Science")
+change("res/Guardian/Business")
+

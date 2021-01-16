@@ -1,0 +1,4 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-04-30T16:50:55Z,https://www.theguardian.com/science/2020/apr/30/promising-drug-against-covid-19-unlikely-to-be-available-in-uk-soon,0, ,0.5,0.5,0.506895,0.622667,0.519939,0.5,0.5
+Guardian,2020-04-29T12:52:51Z,https://www.theguardian.com/science/2020/apr/29/government-rushes-out-request-for-experts-bolster-sage-panel,0, ,0.5,0.5,0.545315,0.5,0.712312,0.5,0.5
+Guardian,2020-04-26T08:00:09Z,https://www.theguardian.com/science/2020/apr/26/what-if-covid-19-isnt-our-biggest-threat,0, ,0.5,0.563602,0.535641,0.5,0.851416,0.5,0.702674

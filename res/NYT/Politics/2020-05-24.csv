@@ -1,0 +1,27 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-05-29T11:10:59+0000,https://www.nytimes.com/2020/05/29/us/politics/trump-coronavirus-polls.html,0, ,0.5,0.5,0.570205,0.582681,0.561466,0.5,0.5
+The New York Times,2020-05-25T07:00:12+0000,https://www.nytimes.com/2020/05/25/us/politics/coronavirus-red-blue-states.html,0, ,0.5,0.554685,0.5,0.5,0.5,0.5,0.519284
+The New York Times,2020-05-28T07:00:10+0000,https://www.nytimes.com/2020/05/28/us/politics/michigan-coronavirus-help.html,0, ,0.5,0.5,0.5,0.553423,0.529742,0.5,0.57123
+The New York Times,2020-05-26T23:33:50+0000,https://www.nytimes.com/2020/05/26/us/politics/joe-biden-facemasks-trump-coronavirus.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-05-29T18:33:31+0000,https://www.nytimes.com/2020/05/29/us/politics/south-carolina-coronavirus-republicans.html,0, ,0.5,0.5,0.5,0.54696,0.5,0.5,0.5
+The New York Times,2020-05-29T01:12:53+0000,https://www.nytimes.com/2020/05/28/us/politics/republican-convention-trump-north-carolina.html,0, ,0.5,0.5,0.5,0.5,0.653577,0.5,0.5
+The New York Times,2020-05-28T16:14:10+0000,https://www.nytimes.com/2020/05/28/us/politics/andrew-lewis-brian-sims-pa-house-coronavirus.html,0, ,0.5,0.5,0.5,0.5,0.594738,0.5,0.5
+The New York Times,2020-05-28T23:01:48+0000,https://www.nytimes.com/2020/05/28/us/politics/coronavirus-100000-trump-biden.html,0, ,0.5,0.5,0.542418,0.615764,0.560482,0.5,0.560122
+The New York Times,2020-05-26T20:48:08+0000,https://www.nytimes.com/2020/05/26/us/politics/republican-convention-trump.html,0, ,0.5,0.5,0.509571,0.5,0.599536,0.5,0.511556
+The New York Times,2020-05-28T09:00:31+0000,https://www.nytimes.com/2020/05/28/us/politics/coronavirus-republicans-trump.html,0, ,0.5,0.543131,0.504272,0.559855,0.608175,0.5,0.769526
+The New York Times,2020-05-25T14:43:23+0000,https://www.nytimes.com/2020/05/25/us/politics/trump-rnc-north-carolina.html,0, ,0.5,0.5,0.5,0.5,0.73135,0.5,0.600597
+The New York Times,2020-05-25T16:14:28+0000,https://www.nytimes.com/2020/05/25/us/politics/joe-biden-memorial-day.html,0, ,0.5,0.5,0.546937,0.599989,0.50411,0.5,0.5
+The New York Times,2020-05-26T07:00:11+0000,https://www.nytimes.com/2020/05/26/us/politics/obama-mccain-biden-trump-coronavirus.html,0, ,0.5,0.512348,0.5,0.618015,0.5,0.5,0.5
+The New York Times,2020-05-24T08:35:39+0000,https://www.nytimes.com/2020/05/24/us/politics/trump-2020-election-voting-rights.html,0, ,0.5,0.580401,0.5,0.517728,0.532861,0.5,0.671285
+The New York Times,2020-05-28T11:02:48+0000,https://www.nytimes.com/2020/05/28/us/politics/trump-pompeo-hong-kong-china.html,0, ,0.5,0.5,0.5,0.536884,0.5,0.5,0.5
+The New York Times,2020-05-26T15:19:02+0000,https://www.nytimes.com/2020/05/26/us/politics/klausutis-letter-jack-dorsey.html,0, ,0.513184,0.5,0.5,0.620681,0.569632,0.5,0.653412
+The New York Times,2020-05-26T14:52:44+0000,https://www.nytimes.com/2020/05/26/us/politics/trump-campaign-bill-stepien.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-05-27T11:00:10+0000,https://www.nytimes.com/2020/05/27/us/politics/trump-scarborough-twitter.html,0, ,0.5,0.5,0.507245,0.516825,0.538757,0.5,0.516338
+The New York Times,2020-05-28T09:00:21+0000,https://www.nytimes.com/2020/05/28/us/politics/republican-voters-against-trump.html,0, ,0.5,0.5,0.530813,0.521476,0.517921,0.5,0.562649
+The New York Times,2020-05-26T11:03:36+0000,https://www.nytimes.com/2020/05/26/us/politics/biden-trump-masks.html,0, ,0.5,0.5,0.570025,0.515749,0.679858,0.5,0.5
+The New York Times,2020-05-26T09:00:17+0000,https://www.nytimes.com/2020/05/26/us/politics/trump-biden-black-voters.html,0, ,0.5,0.5,0.508944,0.519759,0.5,0.5,0.720047
+The New York Times,2020-05-27T09:00:19+0000,https://www.nytimes.com/2020/05/27/us/politics/steve-king-iowa-primary.html,0, ,0.5,0.5,0.5,0.537389,0.665171,0.5,0.5
+The New York Times,2020-05-29T23:03:18+0000,https://www.nytimes.com/2020/05/29/us/politics/joe-biden-george-floyd.html,0, ,0.5,0.5,0.51886,0.583726,0.5,0.5,0.5
+The New York Times,2020-05-30T15:08:29+0000,https://www.nytimes.com/2020/05/30/us/politics/george-floyd-tucker-carlson-rush-limbaugh.html,0, ,0.5,0.5,0.5,0.529201,0.5,0.5,0.567545
+The New York Times,2020-05-30T09:00:14+0000,https://www.nytimes.com/2020/05/30/us/politics/kansas-senate-kobach.html,0, ,0.5,0.5,0.5,0.536618,0.5,0.5,0.606936
+The New York Times,2020-05-29T13:51:25+0000,https://www.nytimes.com/2020/05/29/us/politics/trump-looting-shooting.html,0, ,0.505541,0.5,0.5,0.506528,0.548662,0.5,0.5

@@ -1,0 +1,26 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-06-18T22:18:58+0000,https://www.nytimes.com/2020/06/18/us/politics/trump-presidential-debates-2020.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-06-20T20:47:28+0000,https://www.nytimes.com/2020/06/20/us/politics/tulsa-trump-rally.html,0, ,0.5,0.5,0.530363,0.5,0.5,0.5,0.590749
+The New York Times,2020-06-19T14:51:39+0000,https://www.nytimes.com/2020/06/19/us/politics/trump-tweet-tulsa-protests.html,0, ,0.5,0.5,0.507784,0.514966,0.5,0.5,0.5
+The New York Times,2020-06-20T15:07:33+0000,https://www.nytimes.com/2020/06/20/us/politics/waiting-for-trump-hats-flags-little-fear-of-the-virus.html,0, ,0.5,0.568902,0.500816,0.5,0.511875,0.5,0.526527
+The New York Times,2020-06-20T04:01:11+0000,https://www.nytimes.com/2020/06/20/us/politics/what-time-is-trump-rally.html,0, ,0.5,0.5,0.5,0.521848,0.500251,0.5,0.621449
+The New York Times,2020-06-19T15:21:02+0000,https://www.nytimes.com/2020/06/19/us/politics/nyc-vote-by-mail.html,0, ,0.5,0.5,0.5,0.55709,0.584995,0.5,0.576939
+The New York Times,2020-06-17T20:55:20+0000,https://www.nytimes.com/2020/06/17/us/politics/tulsa-rally-trump.html,0, ,0.5,0.5,0.549196,0.5,0.5,0.5,0.5
+The New York Times,2020-06-20T07:00:10+0000,https://www.nytimes.com/2020/06/20/us/politics/trump-campaign-rally-tulsa.html,0, ,0.5,0.5,0.5,0.542796,0.591882,0.5,0.738044
+The New York Times,2020-06-18T09:00:24+0000,https://www.nytimes.com/2020/06/18/us/politics/trump-rally-tulsa-juneteenth.html,0, ,0.5,0.5,0.5,0.508005,0.5,0.5,0.523449
+The New York Times,2020-06-17T09:00:21+0000,https://www.nytimes.com/2020/06/17/us/politics/trump-bill-de-blasio-new-york.html,0, ,0.5,0.5,0.5,0.509948,0.617158,0.5,0.5
+The New York Times,2020-06-17T23:40:02+0000,https://www.nytimes.com/2020/06/17/us/politics/joe-biden-campaign-event.html,0, ,0.5,0.5,0.536601,0.536852,0.5,0.5,0.663483
+The New York Times,2020-06-15T23:45:05+0000,https://www.nytimes.com/2020/06/15/us/politics/americans-proud.html,0, ,0.5,0.5,0.5,0.530873,0.5,0.5,0.5
+The New York Times,2020-06-17T11:00:31+0000,https://www.nytimes.com/2020/06/17/us/politics/police-reform-congress-trump.html,0, ,0.5,0.5,0.513259,0.5,0.660656,0.5,0.5
+The New York Times,2020-06-18T11:15:09+0000,https://www.nytimes.com/2020/06/18/us/politics/joe-biden-ads-trump.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+The New York Times,2020-06-17T20:59:57+0000,https://www.nytimes.com/2020/06/17/us/politics/trump-2020-election.html,0, ,0.5,0.5,0.5,0.548967,0.512576,0.5,0.582534
+The New York Times,2020-06-16T11:01:59+0000,https://www.nytimes.com/2020/06/16/us/politics/supreme-court-lgbt-rights.html,0, ,0.5,0.5,0.523108,0.565073,0.569443,0.5,0.5
+The New York Times,2020-06-15T21:00:08+0000,https://www.nytimes.com/2020/06/15/us/politics/hillary-clinton-eliot-engel.html,0, ,0.5,0.5,0.5,0.513771,0.5,0.5,0.5
+The New York Times,2020-06-19T07:00:16+0000,https://www.nytimes.com/2020/06/19/us/politics/bernie-sanders-protests.html,0, ,0.5,0.5,0.5,0.503227,0.611211,0.5,0.502298
+The New York Times,2020-06-16T23:17:28+0000,https://www.nytimes.com/2020/06/16/us/politics/democrats-voter-tracking.html,0, ,0.5,0.5,0.5,0.504092,0.522168,0.5,0.5
+The New York Times,2020-06-19T17:20:22+0000,https://www.nytimes.com/2020/06/19/us/politics/donald-trump-joe-biden-coronavirus.html,0, ,0.5,0.5,0.5,0.524481,0.5,0.5,0.61353
+The New York Times,2020-06-18T11:01:11+0000,https://www.nytimes.com/2020/06/18/us/politics/john-bolton-trump-china.html,0, ,0.5,0.5,0.5,0.5,0.598214,0.5,0.5
+The New York Times,2020-06-20T09:00:24+0000,https://www.nytimes.com/2020/06/20/us/politics/iowa-polls-trump-biden-ernst-greenfield.html,0, ,0.5,0.5,0.5,0.537531,0.5,0.5,0.5
+The New York Times,2020-06-20T09:00:24+0000,https://www.nytimes.com/2020/06/20/us/politics/evangelical-church-trump-alabama.html,0, ,0.5,0.5,0.557799,0.52702,0.509079,0.5,0.5
+The New York Times,2020-06-19T16:31:45+0000,https://www.nytimes.com/2020/06/19/us/politics/juneteenth-tulsa-trump-rally.html,0, ,0.5,0.5,0.548266,0.544859,0.560326,0.5,0.5
+The New York Times,2020-06-20T09:00:26+0000,https://www.nytimes.com/2020/06/20/us/politics/amy-mcgrath-charles-booker-kentucky-senate.html,0, ,0.5,0.5,0.517756,0.5,0.569445,0.5,0.650092

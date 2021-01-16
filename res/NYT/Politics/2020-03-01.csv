@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+The New York Times,2020-03-03T08:00:11+0000,https://www.nytimes.com/2020/03/03/us/politics/michael-bloomberg-2020-campaign.html,0, ,0.5,0.5,0.5,0.5,0.5,0.5,0.509236
+The New York Times,2020-03-04T00:05:53+0000,https://www.nytimes.com/2020/03/03/us/politics/bernie-sanders-vermont-super-tuesday.html,0, ,0.505928,0.5,0.522118,0.535413,0.513971,0.5,0.740346
+The New York Times,2020-03-03T11:59:59+0000,https://www.nytimes.com/2020/03/03/us/politics/on-politics-super-tuesday-preview.html,0, ,0.5,0.5,0.528,0.524689,0.607905,0.5,0.5
+The New York Times,2020-03-05T23:32:36+0000,https://www.nytimes.com/2020/03/05/us/politics/amy-klobuchar-exit-interview.html,0, ,0.5,0.5,0.609579,0.5,0.626115,0.5,0.759519
+The New York Times,2020-03-01T20:05:32+0000,https://www.nytimes.com/2020/03/01/us/politics/michael-bloomberg-campaign-super-tuesday.html,0, ,0.5,0.5,0.576574,0.530935,0.574438,0.5,0.632972
+The New York Times,2020-03-01T10:00:10+0000,https://www.nytimes.com/2020/03/01/us/politics/sc-primary-biden.html,0, ,0.5,0.5,0.541102,0.506384,0.5,0.5,0.5
+The New York Times,2020-03-02T11:58:19+0000,https://www.nytimes.com/2020/03/02/us/politics/on-politics-biden-buttigieg.html,0, ,0.5,0.5,0.56481,0.554855,0.5,0.5,0.694247
+The New York Times,2020-03-03T08:00:11+0000,https://www.nytimes.com/2020/03/03/us/politics/elizabeth-warren-super-tuesday.html,0, ,0.5,0.5,0.5,0.564583,0.503459,0.5,0.5
+The New York Times,2020-03-01T00:06:07+0000,https://www.nytimes.com/2020/02/29/us/politics/joe-biden-south-carolina-primary.html,0, ,0.5,0.5,0.581917,0.509249,0.5,0.5,0.507128
+The New York Times,2020-03-02T01:11:12+0000,https://www.nytimes.com/2020/03/01/us/politics/super-tuesday-primaries.html,0, ,0.5,0.5,0.54496,0.503282,0.604104,0.5,0.54083
