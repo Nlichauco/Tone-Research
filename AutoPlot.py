@@ -401,21 +401,12 @@ def graph_setup(fig):
 
 
 def main():
-    # filenames = ['res/NYT/Overall/NYT_Business.csv',
-    #              'res/NYT/Overall/NYT_Science.csv',
-    #              'res/NYT/Overall/NYT_Politics.csv',
-    #              'res/NYT/Overall/NYT_Opinion.csv']
-    # overall_graph_single_source(filenames, "New York Times")
-    tones = ["Anger", "Sad", "Fear", "Joy", "Analytical", "Confidence", "Tentative"]
-    cols = [3, 8, 13, 18, 23, 28, 33]
-    nytFiles = ['res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
-    GuardFiles = ['res/GuardianCSVs/Business.csv','res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv']
-    filenames=['res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv','res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
-    #MultiTonePlot('res/NYT/Opinion.csv', cols, tones, "US")
-    #PercPlot(GuardFiles, "UK", "Sad", 10, True)
-    makePlot(GuardFiles, "UK", "Analytical", 23)
-    #crossPlot(filenames, "NYT", "GRD", "Tentative", 33)
-    #TotalPlot(GuardFiles,"UK","Sad",9,True,"GRD")
+    overall_graph_cross_compare("Business")
+    overall_graph_cross_compare("Science")
+    overall_graph_cross_compare("Politics")
+    overall_graph_cross_compare("Opinion")
+
+    overall_graph_single_source("Guardian")
 
 
 main()
