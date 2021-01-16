@@ -57,7 +57,8 @@ def makePlot(filenames, country, tone, tone_col):
     Covid_Data = GetCovData(country)
     FormatFig(Covid_Data,fig,tone,country,weeks)
     # fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    fig.write_image("fig1.png")
+    #fig.write_image("fig1.png")
+    fig.show()
 
 
 """
@@ -219,8 +220,9 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData,source):
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='COVID-19 cases', yaxis='y2', fill='tozeroy'))
 
-    fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    #fig.show()
+    # fig.write_image("fig1.png", width=1200, height=600, scale=1)
+    fig.show()
+
 
 
 """
