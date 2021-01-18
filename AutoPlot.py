@@ -415,8 +415,11 @@ def main():
     nytFiles = ['res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
     GuardFiles = ['res/GuardianCSVs/Business.csv','res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv']
     filenames=['res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv','res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
+    makePlot(['res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv'],"UK","Analytical",23)
+
     #MultiTonePlot(file, tones, tone_name, country):
     #PercPlot(filenames, country, tone, tone_col, CovidData)
+
     #makePlot(filenames, country, tone, tone_col)
     #crossPlot(filenames, source_1, source_2, tone, tone_col):
     #TotalPlot(filenames, country, tone, tone_col, CovidData,source)
