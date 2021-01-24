@@ -146,9 +146,10 @@ def write_overall(path, source, desk):
 
 
 def main():
-    for p in the_paths:
-        # write_overall(p, "NYT", p[p.rfind("/") + 1:])
-        write_overall(p, "Guardian", p[p.rfind("/") + 1:])
+    paths=['res/Guardian/Opinion','res/Guardian/business','res/Guardian/sport','res/Guardian/politics']
+    big_csv(paths)
+
+
 
 
 main()

@@ -1,0 +1,11 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-02-06T18:47:28Z,https://www.theguardian.com/business/2020/feb/06/fiat-coronavirus-closure-european-plant-outbreak,0, ,0.5,0.5,0.5,0.5,0.708607,0.5,0.708147
+Guardian,2020-02-07T12:26:53Z,https://www.theguardian.com/business/2020/feb/07/burberry-impact-coronavirus-hong-kong-china,0, ,0.5,0.5,0.546703,0.596244,0.692989,0.5,0.5
+Guardian,2020-02-03T20:00:59Z,https://www.theguardian.com/business/nils-pratley-on-finance/2020/feb/03/guessing-how-markets-will-react-to-coronavirus-is-a-fools-errand,0, ,0.5,0.605963,0.508405,0.559346,0.575542,0.5,0.62509
+Guardian,2020-02-02T15:20:44Z,https://www.theguardian.com/business/2020/feb/02/12tn-yuan-to-be-injected-into-chinese-economy-to-fight-coronavirus-slump,0, ,0.5,0.702695,0.5,0.604961,0.5,0.5,0.5
+Guardian,2020-02-03T17:37:22Z,https://www.theguardian.com/business/2020/feb/03/global-markets-rally-after-biggest-chinese-fall-in-five-years,0, ,0.5,0.590549,0.513433,0.623675,0.594681,0.5,0.5
+Guardian,2020-02-02T07:06:36Z,https://www.theguardian.com/business/2020/feb/02/eu-states-in-poor-health-to-withstand-global-crisis,0, ,0.5,0.5,0.526723,0.5,0.755705,0.5,0.5
+Guardian,2020-02-04T17:50:43Z,https://www.theguardian.com/business/2020/feb/04/bp-profits-fall-oil-gas-prices-bob-dudley-dividend,0, ,0.5,0.570969,0.5,0.5,0.695972,0.5,0.5
+Guardian,2020-02-05T11:45:25Z,https://www.theguardian.com/business/2020/feb/05/uk-economy-rebounds-as-services-sector-hits-16-month-high,0, ,0.5,0.5,0.567805,0.5,0.801509,0.5,0.5
+Guardian,2020-02-03T12:26:00Z,https://www.theguardian.com/business/2020/feb/03/uk-factory-output-begins-to-stabilise-after-eight-month-slump,0, ,0.5,0.5,0.57403,0.584499,0.673826,0.5,0.547588
+Guardian,2020-02-02T12:09:44Z,https://www.theguardian.com/business/2020/feb/02/car-industry-could-see-price-war-on-hybrid-vehicles-in-2020-emissions-fines,0, ,0.5,0.5,0.5,0.518197,0.804264,0.5,0.5

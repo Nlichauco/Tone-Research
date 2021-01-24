@@ -140,7 +140,7 @@ def demo():
     e_dates = get_date_nyt_format(6, date(2020, 9, 27), date(2020, 12, 26))
     for i in range(0, len(s_dates)):
         file_name = "2020-"+s_dates[i][:2] + "-" + s_dates[i][3:]+ ".csv"
-        
+
         page = 0
         create_template(file_name)
         while 1:

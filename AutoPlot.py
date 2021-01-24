@@ -34,7 +34,7 @@ def FormatFig(Covid_Data,fig,tone,country,weeks):
     fig.update_layout(title_text="<b>" + source + "</b>")
     fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
                       plot_bgcolor='rgba(0,0,0,0)')
-    fig.update_layout(title_font_size=20, width=900, height=520, autosize=True, margin=dict(l=100,r=10,b=100,t=100,pad=5))
+    fig.update_layout(title_font_size=20, width=1200, height=600, autosize=True, margin=dict(l=100,r=10,b=100,t=100,pad=5))
     fig.update_layout(legend=dict(orientation="h",yanchor="bottom",y=1.02,xanchor="right",x=1),margin=dict(l=0,r=50,))
     fig.update_yaxes(gridcolor='black')
     return fig
@@ -52,11 +52,12 @@ def makePlot(filenames, country, tone, tone_col):
         traceName = fname[:fname[i].find(".")]
         fig.add_trace(
             go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
-    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, showgrid=False, range=[-.25, 42.15])
+    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, showgrid=False)
     fig.update_yaxes(title_text="Weekly Avg. "+ tone + " Tone Scores", title_font_size=18, range=[.5, 1], showgrid=False)
     Covid_Data = GetCovData(country)
     FormatFig(Covid_Data,fig,tone,country,weeks)
-    # fig.write_image("fig1.png", width=1200, height=600, scale=1)
+    saveName=tone+".eps"
+    #fig.write_image(saveName, width=1200, height=600, scale=1)
     #fig.write_image("fig1.png")
     fig.show()
 
@@ -132,13 +133,12 @@ def PercPlot(filenames, country, tone, tone_col, CovidData):
             traceName = fname[:fname[i].find(".")]
             source = "NYT"
         data = GetCols(filenames[i], tone_col)
-        newdata = []
-        for num in data:
-            newdata.append(num * 100)
+
+
         fig.add_trace(
-            go.Scatter(x=weeks, y=newdata, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
-    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, range=[-.25, 42.15])
-    fig.update_yaxes(title_text="% Of Articles With a " + tone + "Tone", title_font_size=18, range=[0, 100], ticksuffix="%")
+            go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
+    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
+    fig.update_yaxes(title_text="% Of Articles With a " + tone + " Tone", title_font_size=18, range=[0, 100], ticksuffix="%")
     fig.update_layout(title_text="<b>" + source + "</b>")
     graph_setup(fig)
 
@@ -160,7 +160,8 @@ def PercPlot(filenames, country, tone, tone_col, CovidData):
             side="right"
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='COVID-19 Cases', yaxis='y2', fill='tozeroy'))
-
+    fig.update_layout(title_x=.01, paper_bgcolor="#FFF",
+                      plot_bgcolor='rgba(0,0,0,0)')
     saveName = tone + "Ratio.png"
     fig.update_yaxes(gridcolor='black')
     fig.write_image(saveName, width=1200, height=600, scale=1)
@@ -195,7 +196,7 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData,source):
             go.Scatter(x=weeks, y=data, name=traceName, yaxis="y", mode='lines+markers', marker_symbol=symbols[i]))
         if big < max(data):
             big = max(data)
-    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90, range=[-.25, 42.15])
+    fig.update_xaxes(title_text="Weeks", title_font_size=18, tickangle=90)
     fig.update_yaxes(title_text="Weekly Cumulative " + tone + " Tone Scores", title_font_size=18, range=[0, big + 1])
 
     fig.update_layout(title_text="<b>"+source+ "</b>")
@@ -219,9 +220,9 @@ def TotalPlot(filenames, country, tone, tone_col, CovidData,source):
             side="right"
         ))
         fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='COVID-19 cases', yaxis='y2', fill='tozeroy'))
-
-    # fig.write_image("fig1.png", width=1200, height=600, scale=1)
-    fig.show()
+    saveName=tone +".eps"
+    fig.write_image(saveName, width=1200, height=600, scale=1)
+    #fig.show()
 
 
 
@@ -273,8 +274,8 @@ def MultiTonePlot(file, tones, tone_name, country):
     graph_setup(fig)
     fig.add_trace(go.Scatter(x=weeks, y=Covid_Data, name='COVID-19 Cases', yaxis='y2', fill='tozeroy'))
     fig.update_layout(title_text="<b>" + source + " " + sectionName + "</b>")
-    saveName = sectionName + ".png"
-    #fig.write_image(saveName, width=1200, height=600, scale=1)
+    saveName = sectionName + ".eps"
+    fig.write_image(saveName, width=1200, height=600, scale=1)
     fig.show()
 
 
@@ -410,12 +411,61 @@ def main():
     #              'res/NYT/Overall/NYT_Politics.csv',
     #              'res/NYT/Overall/NYT_Opinion.csv']
     # overall_graph_single_source(filenames, "New York Times")
+    Anger_avg=3
+    Anger_cum=4
+    Anger_perc=5
+    Sad_avg=8
+    Sad_cum=9
+    Sad_perc=10
+    Fear_avg=13
+    Fear_cum=14
+    Fear_perc=15
+    Joy_avg=18
+    Joy_cum=19
+    Joy_perc=20
+    Analy_avg=23
+    Analy_cum=24
+    Analy_perc=25
+    Confi_avg=28
+    Confi_cum=29
+    Confi_perc=30
+    Tenta_avg=33
+    Tenta_cum=34
+    Tenta_perc=35
     tones = ["Anger", "Sad", "Fear", "Joy", "Analytical", "Confidence", "Tentative"]
     cols = [3, 8, 13, 18, 23, 28, 33]
     nytFiles = ['res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
     GuardFiles = ['res/GuardianCSVs/Business.csv','res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv']
-    filenames=['res/GuardianCSVs/Politics.csv','res/GuardianCSVs/Opinion.csv','res/NYT/Opinion.csv', 'res/NYT/Politics.csv']
-    makePlot(['res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv'],"UK","Analytical",23)
+    #'res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv',
+    filenames=['res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv']
+    otherFiles=['res/Guardian/Sport.csv','res/Guardian/Science.csv']
+    #theFiles=['res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv']
+    #makePlot(['res/Guardian/Business.csv','res/Guardian/Politics.csv','res/Guardian/Opinion.csv'],"UK","Analytical",23)
+
+    filenames=['res/Guardian/Politics.csv','res/Guardian/Opinion.csv','res/Guardian/Business.csv']
+    # tones=[13,23,33]
+    # tone_names=["Fear","Analytical","Tentative"]
+    # for i in range(0,len(filenames)):
+    #     MultiTonePlot(filenames[i],tones,tone_names,"UK")
+
+
+
+    # otherFiles=['res/Guardian/Sport.csv','res/Guardian/Science.csv']
+    # code for doing many  percentage plot
+    tones=["Fear","Analytical","Tentative","Sad"]
+    tone_cols=[15,25,35,10]
+    # for j in range(0,len(tones)):
+    #     PercPlot(filenames,"UK",tones[j],tone_cols[j],True)
+
+    tones=[Fear_cum,Analy_cum,Tenta_cum]
+    # tones=[Anger_avg,Sad_avg]
+    # tone_names=["Anger","Sad"]
+    tone_names=["Fear","Analytical","Tentative"]
+    for z in range(0,len(tones)):
+        TotalPlot(filenames,"UK",tone_names[z],tones[z],True,"GRD")
+
+    # for i in range(0,len(tones)):
+    #     makePlot(filenames,"UK",tone_names[i],tones[i])
 
     #MultiTonePlot(file, tones, tone_name, country):
     #PercPlot(filenames, country, tone, tone_col, CovidData)

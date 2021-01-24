@@ -59,6 +59,20 @@ def create_csv(articles, file_name):
 def Gpull(que):
     response = requests.get(que)
     data = response.json()
+    # jdata=json.loads(data)
+    # num_docs=jdata["response"]["total"]
+    # num_pages=jdata["response"]["pages"]
+    # arts = list()
+    # body = []
+    # for article in jdata["response"]["results"]:
+    #     source="Guardian"
+    #     date=article["webPublicationDate"]
+    #     url=article["webUrl"]
+    #     text=article["fields"]["bodyText"]
+    #     if text != '':
+    #         body.append(text)
+    #         arts.append(Article(source, date, url))
+
     num_docs = pyjq.all('.response | .total', data)[0]
     num_pages = pyjq.all('.response | .pages', data)[0]
 
@@ -102,16 +116,17 @@ def fetch_from_guardian(que, filename):
 
 def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
     for i in range(0, len(s_dates)):
-        fname = "2020-"+s_dates[i][:2] + "-" + s_dates[i][3:]+ ".csv"
+        print(s_dates[i])
+        fname = "2020-"+s_dates[i][:2]  + s_dates[i][2:]+ ".csv"
         create_template(fname)
         page = 2
-        que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&edition=uk&from-date=2020-""" + \
-              s_dates[i] + "&to-date=2020-" + e_dates[i] + "&show-fields=bodyText&api-key=""" + APIkey
+        que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&production-office=UK&from-date=2020-""" + \
+              s_dates[i] + "&to-date=2021-" + e_dates[i] + "&show-fields=bodyText&api-key=""" + APIkey
         pages = fetch_from_guardian(que, fname)
 
         while page <= pages:
-            que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&edition=uk&from-date=2020-""" + \
-                  s_dates[i] + "&to-date=2020-" + e_dates[i] + "&show-fields=bodyText&page=""" + str(
+            que = """https://content.guardianapis.com/search?section=""" + sectionName + """&q=""" + keyword + """&type=article&production-office=UK&from-date=2020-""" + \
+                  s_dates[i] + "&to-date=2021-" + e_dates[i] + "&show-fields=bodyText&page=""" + str(
                 page) + """&api-key=""" + APIkey
             fetch_from_guardian(que, fname)
             page += 1
@@ -119,13 +134,15 @@ def Guardpull(s_dates, e_dates, keyword, APIkey, sectionName):
 
 def main():
     # Assuming desired start date is March 1st 2020, and end date is December 26th
-    s_dates = get_date_guardian_format(0, date(2020, 3, 1), date(2020, 12, 26))
-    e_dates = get_date_guardian_format(6, date(2020, 3, 1), date(2020, 12, 26))
+
+    s_dates = get_date_guardian_format(0, date(2020, 12, 27), date(2021, 1, 3))
+    e_dates = get_date_guardian_format(6, date(2020, 12, 27), date(2021, 1, 3))
+    print(s_dates)
 
     # Now we have all the info we need to grab articles.
     keyword = "coronavirus"
     APIkey = "7735070e-6108-49c2-80bc-a6a7898d725b"
-    sectionName = "society"
+    sectionName = "commentisfree"
 
     Guardpull(s_dates, e_dates, keyword, APIkey, sectionName)
 

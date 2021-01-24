@@ -1,0 +1,5 @@
+Source,Date,URL,Score,   ,Anger,Fear,Joy,Sad,Analy,Confi,Tenta
+Guardian,2020-01-23T18:57:47Z,https://www.theguardian.com/business/2020/jan/23/financial-markets-china-coronavirus-outbreak-economy,0, ,0.5,0.587762,0.544927,0.5,0.629046,0.5,0.6902
+Guardian,2020-01-21T18:23:35Z,https://www.theguardian.com/money/2020/jan/21/european-shares-dip-as-chinese-coronavirus-concerns-deepen,0, ,0.5,0.5,0.621382,0.57232,0.751024,0.5,0.555836
+Guardian,2020-01-24T13:54:34Z,https://www.theguardian.com/business/2020/jan/24/us-and-europe-clash-over-climate-crisis-threat-on-last-davos-day,0, ,0.5,0.578051,0.507208,0.523471,0.747071,0.5,0.5
+Guardian,2020-01-24T15:45:52Z,https://www.theguardian.com/business/2020/jan/24/what-did-we-learn-from-davos-2020,0, ,0.5,0.52429,0.53516,0.51842,0.5,0.5,0.516989

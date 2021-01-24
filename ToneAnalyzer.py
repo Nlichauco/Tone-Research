@@ -1,7 +1,7 @@
 import pyjq
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson import ToneAnalyzerV3
-
+import json
 
 def tone_analyze(article, text):
     # Iterate through each article class, each 'text', corresponds to a single article
@@ -32,7 +32,7 @@ for text in texts:
 
 def ibm_tone(text):
     #apikey = 'EKJ2es4GQg5UrMiW6cY16R06b1yzPH_0aB7yInFi5cgY'
-    apikey='mA_4uqt2kbCe0ulfIL_-w-s6d9QF1-tsC0ZB0_tWmDZu'
+    apikey='RtDHITBYzlmcTNMO16UZzB3NPFyflG1n_mv2hoqNVSqp'
     authenticator = IAMAuthenticator(apikey)
     tone_analyzer = ToneAnalyzerV3(
         version='2017-09-21',
@@ -40,13 +40,21 @@ def ibm_tone(text):
     )
 
     tone_analyzer.set_service_url(
-        'https://api.au-syd.tone-analyzer.watson.cloud.ibm.com/instances/a4959905-de76-443d-9f76-3da83ecaa3cf')
+        'https://api.us-south.tone-analyzer.watson.cloud.ibm.com/instances/6670aaeb-be07-443d-8a51-21c777b78549')
     text = text
     tone_analysis = tone_analyzer.tone(
         {'text': text},
         content_type='application/json'
     ).get_result()
     query = f'.document_tone .tones[] | {{score: .score, tone_name: .tone_name}}'
+    # output=json.loads(tone_analysis)
+    # scores = []
+    # names = []
+    # for tone in output["document_tone"]["tones"]:
+    #     scores.append(tone["score"])
+    #     names.append(tone["tone_name"])
+
+
     output = pyjq.all(query, tone_analysis)
     scores = []
     tones = []
