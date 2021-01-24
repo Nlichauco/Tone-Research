@@ -406,6 +406,7 @@ def graph_setup(fig):
 
 
 def main():
+<<<<<<< HEAD
     # filenames = ['res/NYT/Overall/NYT_Business.csv',
     #              'res/NYT/Overall/NYT_Science.csv',
     #              'res/NYT/Overall/NYT_Politics.csv',
@@ -473,5 +474,14 @@ def main():
     #makePlot(filenames, country, tone, tone_col)
     #crossPlot(filenames, source_1, source_2, tone, tone_col):
     #TotalPlot(filenames, country, tone, tone_col, CovidData,source)
+=======
+    overall_graph_cross_compare("Business")
+    overall_graph_cross_compare("Science")
+    overall_graph_cross_compare("Politics")
+    overall_graph_cross_compare("Opinion")
+
+    overall_graph_single_source("Guardian")
+
+>>>>>>> 44c04d27a37efc28261880620dc1338d43de39c6
 
 main()
