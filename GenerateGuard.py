@@ -1,7 +1,7 @@
 import csv
 from datetime import date
 
-import pyjq
+
 import requests
 
 # from GetDate import get_date_guardian_format
@@ -58,41 +58,41 @@ def create_csv(articles, file_name):
 
 def Gpull(que):
     response = requests.get(que)
-    data = response.json()
-    # jdata=json.loads(data)
-    # num_docs=jdata["response"]["total"]
-    # num_pages=jdata["response"]["pages"]
-    # arts = list()
-    # body = []
-    # for article in jdata["response"]["results"]:
-    #     source="Guardian"
-    #     date=article["webPublicationDate"]
-    #     url=article["webUrl"]
-    #     text=article["fields"]["bodyText"]
-    #     if text != '':
-    #         body.append(text)
-    #         arts.append(Article(source, date, url))
-
-    num_docs = pyjq.all('.response | .total', data)[0]
-    num_pages = pyjq.all('.response | .pages', data)[0]
-
-    pquery = '.response .results[].fields |  {stuff: .bodyText}'
-    query = f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
-    output = pyjq.all(query, data)
-    another = pyjq.all(pquery, data)
-    print(another)
+    jdata = response.json()
+    #jdata=json.loads(data)
+    num_docs=jdata["response"]["total"]
+    num_pages=jdata["response"]["pages"]
     arts = list()
     body = []
-    for i in range(len(another)):
-        dict = output[i]
-        texts = another[i]
-        source = "Guardian"
-        date = dict["pub_date"]
-        url = dict["web_url"]
-        text = texts["stuff"]
+    for article in jdata["response"]["results"]:
+        source="Guardian"
+        date=article["webPublicationDate"]
+        url=article["webUrl"]
+        text=article["fields"]["bodyText"]
         if text != '':
             body.append(text)
             arts.append(Article(source, date, url))
+
+    #num_docs = pyjq.all('.response | .total', data)[0]
+    #num_pages = pyjq.all('.response | .pages', data)[0]
+
+    #pquery = '.response .results[].fields |  {stuff: .bodyText}'
+    #query = f'.response .results [] | {{web_url: .webUrl, pub_date: .webPublicationDate}}'
+    #output = pyjq.all(query, data)
+    #another = pyjq.all(pquery, data)
+    #print(another)
+    #arts = list()
+    #body = []
+    #for i in range(len(another)):
+        #dict = output[i]
+        #texts = another[i]
+        #source = "Guardian"
+        #date = dict["pub_date"]
+        #url = dict["web_url"]
+        #text = texts["stuff"]
+        #if text != '':
+            #body.append(text)
+            #arts.append(Article(source, date, url))
     return body, arts, num_docs, num_pages
 
 
